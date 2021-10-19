@@ -13,16 +13,33 @@
 //Includes
 #include <iostream>
 
+//Functions for assignment.
+
+//Filled rectangle
+
+//Unfilled rectangle
+
+//Filled triangle
+
+//Unfilled triangle
+
 int main(void)
 {
-	int num;
-	int nextnum = 0;
+	int height;
+	int width = 0;
 	std::cout << "Hello world. \n";
 	std::cout << "Gimme two integers or else! :) ";
-	std::cin >> num >> nextnum;
-	;
-	std::cout << "\nNum is " << num << " and nextnum is " << nextnum;
-
+	std::cin >> height >> width;
+	
+	std::cout << "\nNum is " << height << " and nextnum is " << width << "\n";
+	for (int h = 0; h < height; h++)
+	{
+		for (int w = 0; w < width; w++)
+		{
+			std::cout << "*";
+		}
+		std::cout << "\n";
+	}
 
 
 	//Rectangle tests

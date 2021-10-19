@@ -1,2 +1,4 @@
 C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\PRG CPP IO and Iteration\Project1\Debug\IOTest.exe
 C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\PRG CPP IO and Iteration\Project1\Debug\IOTest.pdb
+C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\Debug\IOTest.exe
+C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\Debug\IOTest.pdb
