@@ -16,16 +16,35 @@
 //Functions for assignment.
 
 //Filled rectangle
-
-//Unfilled rectangle
-
-//Filled triangle
-
-//Unfilled triangle
-
-int main(int argc, char* argv[])
+void drawFilledRectangle(int Height, int Width)
 {
-	std::cout << argv[0] << "\n"; //This is still a work in progress
+
+}
+//Unfilled rectangle
+void drawUnfilledRectangle(int Height, int Width)
+{
+
+}
+//Filled triangle
+void drawFilledTriangle(int Height)
+{
+
+}
+//Unfilled triangle
+void drawUnfilledTriangle(int Height)
+{
+
+}
+int main(void)
+{
+	int drawChoice;
+	std::cout << "What would you like to draw? \n"
+		<< "1 - A Filled Rectangle \n"
+		<< "2 - A Non Filled Rectangle \n"
+		<< "3 - A Filled Triangle \n"
+		<< "4 - A Non Filled Triangle"
+		<< "Any Other Number - Exit \n";
+	
 	int height;
 	int width = 0;
 	
@@ -42,7 +61,7 @@ int main(int argc, char* argv[])
 		}
 		std::cout << "\n";
 	}
-	std::cout << atoi (argv[1]) << "\n";
+	
 
 
 	//Rectangle tests
