@@ -18,7 +18,14 @@
 //Filled rectangle
 void drawFilledRectangle(int Height, int Width)
 {
-
+	for (int h = 0; h < Height; h++)
+	{
+		for (int w = 0; w < Width; w++)
+		{
+			std::cout << "*";
+		}
+		std::cout << "\n";
+	}
 }
 //Unfilled rectangle
 void drawUnfilledRectangle(int Height, int Width)
@@ -37,6 +44,8 @@ void drawUnfilledTriangle(int Height)
 }
 int main(void)
 {
+	int height;
+	int width;
 	bool loopCheck = true;
 	int drawChoice;
 	while (loopCheck)
@@ -54,20 +63,23 @@ int main(void)
 		{
 		case 1:
 			//Filled rectangle
-			std::cout << "This confirms the case can be read.\n";
-			std::cout << "";
+			std::cout << "Enter this rectangle's height and width values: ";
+			std::cin >> height >> width;
+			drawFilledRectangle(height, width);
+			
 			break;
 		case 2:
 			//Un filled rectangle
-			std::cout << "This confirms the case can be read.\n";
+			std::cout << "Enter this rectangle's height and width values: ";
+			std::cin >> height >> width;
 			break;
 		case 3:
 			//Filled triangle
-			std::cout << "This confirms the case can be read.\n";
+			std::cout << "Enter the triangle's height value: ";
 			break;
 		case 4:
 			//Un filled triangle
-			std::cout << "This confirms the case can be read.\n";
+			std::cout << "Enter the triangle's height value: ";
 			break;
 
 		default:
@@ -76,22 +88,13 @@ int main(void)
 		}
 	}
 	
-	int height;
-	int width = 0;
 	
 	
-	std::cout << "Gimme two integers or else! :) ";
-	std::cin >> height >> width;
 	
-	std::cout << "\nNum is " << height << " and nextnum is " << width << "\n";
-	for (int h = 0; h < height; h++)
-	{
-		for (int w = 0; w < width; w++)
-		{
-			std::cout << "*";
-		}
-		std::cout << "\n";
-	}
+	
+	
+	
+	
 	
 
 
