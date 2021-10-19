@@ -37,40 +37,45 @@ void drawUnfilledTriangle(int Height)
 }
 int main(void)
 {
+	bool loopCheck = true;
 	int drawChoice;
-	//Make sure to loop this since the expectation is that the question will keep on being asked until the user exits or picks a different number
-	std::cout << "What would you like to draw? \n"
-		<< "1 - A Filled Rectangle \n"
-		<< "2 - A Non Filled Rectangle \n"
-		<< "3 - A Filled Triangle \n"
-		<< "4 - A Non Filled Triangle"
-		<< "Any Other Number - Exit \n";
-	std::cin >> drawChoice;
-
-	switch (drawChoice) 
+	while (loopCheck)
 	{
-	case 1:
-		//Filled rectangle
-		std::cout << "This confirms the case can be read.\n";
-		std::cout << ""
-		break;
-	case 2:
-		//Un filled rectangle
-		std::cout << "This confirms the case can be read.\n";
-		break;
-	case 3:
-		//Filled triangle
-		std::cout << "This confirms the case can be read.\n";
-		break;
-	case 4:
-		//Un filled triangle
-		std::cout << "This confirms the case can be read.\n";
-		break;
+		//Make sure to loop this since the expectation is that the question will keep on being asked until the user exits or picks a different number
+		std::cout << "What would you like to draw? \n"
+			<< "1 - A Filled Rectangle \n"
+			<< "2 - A Non Filled Rectangle \n"
+			<< "3 - A Filled Triangle \n"
+			<< "4 - A Non Filled Triangle"
+			<< "Any Other Number - Exit \n";
+		std::cin >> drawChoice;
 
-	default:
-		std::cout << "Thank you for using our application!\n";
-		return 0;
+		switch (drawChoice)
+		{
+		case 1:
+			//Filled rectangle
+			std::cout << "This confirms the case can be read.\n";
+			std::cout << "";
+			break;
+		case 2:
+			//Un filled rectangle
+			std::cout << "This confirms the case can be read.\n";
+			break;
+		case 3:
+			//Filled triangle
+			std::cout << "This confirms the case can be read.\n";
+			break;
+		case 4:
+			//Un filled triangle
+			std::cout << "This confirms the case can be read.\n";
+			break;
+
+		default:
+			std::cout << "Thank you for using our application!\n";
+			return 0;
+		}
 	}
+	
 	int height;
 	int width = 0;
 	
