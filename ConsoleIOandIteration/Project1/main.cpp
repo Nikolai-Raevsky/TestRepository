@@ -30,7 +30,31 @@ void drawFilledRectangle(int Height, int Width)
 //Unfilled rectangle
 void drawUnfilledRectangle(int Height, int Width)
 {
-
+	for (int h = 0; h < Height; h++)
+	{
+		for (int w = 0; w < Width; w++)
+		{
+			//Fill top and bottom rows with asterisks
+			if (h == 0 || h == Height - 1)
+				std::cout << "*";
+			//Mid row asterisk generation
+			else
+			{
+				if (w == 0 || w == Width - 1)
+				{
+					std::cout << "*";
+				}
+					
+				else
+				{
+					std::cout << " ";
+				}
+					
+			}
+		}
+		
+		std::cout << "\n";
+	}
 }
 //Filled triangle
 void drawFilledTriangle(int Height)
@@ -72,6 +96,7 @@ int main(void)
 			//Un filled rectangle
 			std::cout << "Enter this rectangle's height and width values: ";
 			std::cin >> height >> width;
+			drawUnfilledRectangle(height, width);
 			break;
 		case 3:
 			//Filled triangle
