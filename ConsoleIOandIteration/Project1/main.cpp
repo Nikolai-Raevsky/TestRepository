@@ -23,11 +23,13 @@
 
 //Unfilled triangle
 
-int main(void)
+int main(int argc, char* argv[])
 {
+	std::cout << argv[0] << "\n"; //This is still a work in progress
 	int height;
 	int width = 0;
-	std::cout << "Hello world. \n";
+	
+	
 	std::cout << "Gimme two integers or else! :) ";
 	std::cin >> height >> width;
 	
@@ -40,6 +42,7 @@ int main(void)
 		}
 		std::cout << "\n";
 	}
+	std::cout << atoi (argv[1]) << "\n";
 
 
 	//Rectangle tests
