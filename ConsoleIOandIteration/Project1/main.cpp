@@ -7,6 +7,9 @@
 //Copyright © 2021 DigiPen (USA) Corporation.
 //
 //
+
+//IMPORTANT COMMENTS:
+//Tomorrow work on getting the top vertex of the unfilled triangle centered with the base, filling out the bottom row, and tests. In particular, (if I get to testing) make sure that the functions send an error message if the user doesn't send any height or width for the shapes.
 //-------------------------------------------------------------------------------------------------------------------
 
 
