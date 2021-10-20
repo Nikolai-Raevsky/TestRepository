@@ -30,6 +30,17 @@ void drawFilledRectangle(int Height, int Width)
 //Unfilled rectangle
 void drawUnfilledRectangle(int Height, int Width)
 {
+	if (Height == 0)
+	{
+		std::cout << "The rectangleheight has to be at least 1 \n";
+		return;
+	}
+
+	if (Width == 0)
+	{
+		std::cout << "The rectangle width has to be at least 1\n";
+		return;
+	}
 	for (int h = 0; h < Height; h++)
 	{
 		for (int w = 0; w < Width; w++)
@@ -59,7 +70,29 @@ void drawUnfilledRectangle(int Height, int Width)
 //Filled triangle
 void drawFilledTriangle(int Height)
 {
-
+	if (Height == 0)
+	{
+		std::cout << "The triangle height has to at least be 1.\n";
+		return;
+	}
+	int spaces = Height - 1;
+		  int asterisks = 1;
+		  for (int h = 0; h < Height; h++)
+			  {
+		
+				   for (int space = 0; space < spaces; space++)
+				   {
+				    std::cout << " ";
+				   }
+		
+				   for (int asterisk = 0; asterisk < asterisks; asterisk++)
+				   {
+						std::cout << "*";
+				   }
+					spaces -= 1;
+					asterisks += 2;
+					std::cout << "\n";
+			  }
 }
 //Unfilled triangle
 void drawUnfilledTriangle(int Height)
@@ -101,10 +134,13 @@ int main(void)
 		case 3:
 			//Filled triangle
 			std::cout << "Enter the triangle's height value: ";
+			std::cin >> height;
+			drawFilledTriangle(height);
 			break;
 		case 4:
 			//Un filled triangle
 			std::cout << "Enter the triangle's height value: ";
+			
 			break;
 
 		default:
