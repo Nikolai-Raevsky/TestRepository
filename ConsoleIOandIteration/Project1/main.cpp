@@ -93,21 +93,26 @@ void drawFilledTriangle(int Height)
 //Unfilled triangle
 void drawUnfilledTriangle(int Height)
 {
-	int spaces = Height - 1;
+	int extspaces = Height - 1;
+	int intspaces = 0;
 	int asterisks = 1;
 	for (int h = 0; h < Height; h++)
 	{
 
-		for (int space = 0; space < spaces; space++)
+		for (int space = 0; space < extspaces; space++)
 		{
 			std::cout << " ";
 		}
 
-		for (int asterisk = 0; asterisk < asterisks; asterisk++)
+		std::cout << "*";
+
+		for (int space = 0; space < intspaces; space++)
 		{
-			std::cout << "*";
+			std::cout << " ";
 		}
-		spaces -= 1;
+		std::cout << "*";
+		extspaces -= 1;
+		intspaces += 2;
 		asterisks += 2;
 		std::cout << "\n";
 	}
@@ -158,7 +163,8 @@ int main(void)
 		case 4:
 			//Un filled triangle
 			std::cout << "Enter the triangle's height value: ";
-			
+			std::cin >> height;
+			drawUnfilledTriangle(height);
 			break;
 
 		default:
