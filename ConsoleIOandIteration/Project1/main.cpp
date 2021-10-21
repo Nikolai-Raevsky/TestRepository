@@ -15,12 +15,25 @@
 
 //Includes
 #include <iostream>
-
+#define RECTANGLEHEIGHTERROR "The rectangle height has to be at least 1 \n \n"
+#define RECTANGLEWIDTHERROR "The rectangle width has to be at least 1 \n \n"
+#define TRIANGLEHEIGHTERROR "The triangle height has to be at least 1 \n \n"
 //Functions for assignment.
 
 //Filled rectangle
 void drawFilledRectangle(int Height, int Width)
 {
+	if (Height == 0)
+	{
+		std::cout << RECTANGLEHEIGHTERROR;
+		return;
+	}
+
+	if (Width == 0)
+	{
+		std::cout << RECTANGLEWIDTHERROR;
+		return;
+	}
 	for (int h = 0; h < Height; h++)
 	{
 		for (int w = 0; w < Width; w++)
@@ -33,11 +46,15 @@ void drawFilledRectangle(int Height, int Width)
 //Unfilled rectangle
 void drawUnfilledRectangle(int Height, int Width)
 {
-	
+	if (Height == 0)
+	{
+		std::cout << RECTANGLEHEIGHTERROR;
+		return;
+	}
 
 	if (Width == 0)
 	{
-		std::cout << "The rectangle width has to be at least 1\n";
+		std::cout << RECTANGLEWIDTHERROR;
 		return;
 	}
 	for (int h = 0; h < Height; h++)
@@ -71,7 +88,7 @@ void drawFilledTriangle(int Height)
 {
 	if (Height == 0)
 	{
-		std::cout << "The triangle height has to at least be 1.\n";
+		std::cout << TRIANGLEHEIGHTERROR;
 		return;
 	}
 	int spaces = Height - 1;
@@ -96,10 +113,15 @@ void drawFilledTriangle(int Height)
 //Unfilled triangle
 void drawUnfilledTriangle(int Height)
 {
+	if (Height == 0)
+	{
+		std::cout << TRIANGLEHEIGHTERROR;
+		return;
+	}
 	int extspaces = Height - 1;
 	int intspaces = 0;
 	int asterisks = 1;
-	for (int h = 0; h < Height; h++)
+	for (int h = 0; h < Height - 1; h++)
 	{
 
 		for (int space = 0; space < extspaces; space++)
@@ -113,12 +135,31 @@ void drawUnfilledTriangle(int Height)
 		{
 			std::cout << " ";
 		}
-		std::cout << "*";
+		if (h != 0)
+		{
+			std::cout << "*";
+		}
+		
 		extspaces -= 1;
-		intspaces += 2;
+		if (h == 0)
+		{
+			intspaces += 1;
+		}
+
+		else
+		{
+			intspaces += 2;
+		}
+		
 		asterisks += 2;
 		std::cout << "\n";
 	}
+
+	for (int asterisk = 0; asterisk < asterisks; asterisk++)
+	{
+		std::cout << "*";
+	}
+	std::cout << "\n";
 }
 int main(void)
 {
@@ -133,7 +174,7 @@ int main(void)
 			<< "1 - A Filled Rectangle \n"
 			<< "2 - A Non Filled Rectangle \n"
 			<< "3 - A Filled Triangle \n"
-			<< "4 - A Non Filled Triangle"
+			<< "4 - A Non Filled Triangle\n"
 			<< "Any Other Number - Exit \n";
 		std::cin >> drawChoice;
 
@@ -143,11 +184,9 @@ int main(void)
 			//Filled rectangle
 			std::cout << "Enter this rectangle's height and width values: ";
 			std::cin >> height >> width;
-			if (height == 0)
-			{
-				std::cout << "The rectangle height has to be at least 1 \n";
-				break;
-			}
+			
+			
+			
 			drawFilledRectangle(height, width);
 			
 			break;
