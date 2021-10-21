@@ -7,16 +7,8 @@ Any Other Number - Exit
 
 Your choice is: 1
 Enter the rectangle's width and height values: 
-***
-***
-***
-***
-***
-***
-***
-***
-***
-***
+The rectangle height has to be at least 1
+
 What would you like to draw?
 1 - A Filled Rectangle
 2 - A Non Filled Rectangle

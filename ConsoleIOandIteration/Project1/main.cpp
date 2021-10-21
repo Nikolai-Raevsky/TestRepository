@@ -15,21 +15,21 @@
 
 //Includes
 #include <iostream>
-#define RECTANGLEHEIGHTERROR "The rectangle height has to be at least 1 \n \n"
-#define RECTANGLEWIDTHERROR "The rectangle width has to be at least 1 \n \n"
-#define TRIANGLEHEIGHTERROR "The triangle height has to be at least 1 \n \n"
+#define RECTANGLEHEIGHTERROR "The rectangle height has to be at least 1\n\n"
+#define RECTANGLEWIDTHERROR "The rectangle width has to be at least 1\n\n"
+#define TRIANGLEHEIGHTERROR "The triangle height has to be at least 1\n\n"
 //Functions for assignment.
 
 //Filled rectangle
 void drawFilledRectangle(int Height, int Width)
 {
-	if (Height == 0)
+	if (Height <= 0)
 	{
 		std::cout << RECTANGLEHEIGHTERROR;
 		return;
 	}
 
-	if (Width == 0)
+	if (Width <= 0)
 	{
 		std::cout << RECTANGLEWIDTHERROR;
 		return;
@@ -46,13 +46,13 @@ void drawFilledRectangle(int Height, int Width)
 //Unfilled rectangle
 void drawUnfilledRectangle(int Height, int Width)
 {
-	if (Height == 0)
+	if (Height <= 0)
 	{
 		std::cout << RECTANGLEHEIGHTERROR;
 		return;
 	}
 
-	if (Width == 0)
+	if (Width <= 0)
 	{
 		std::cout << RECTANGLEWIDTHERROR;
 		return;
@@ -86,7 +86,7 @@ void drawUnfilledRectangle(int Height, int Width)
 //Filled triangle
 void drawFilledTriangle(int Height)
 {
-	if (Height == 0)
+	if (Height <= 0)
 	{
 		std::cout << TRIANGLEHEIGHTERROR;
 		return;
