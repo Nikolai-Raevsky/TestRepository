@@ -170,20 +170,21 @@ int main(void)
 	while (loopCheck)
 	{
 		//Make sure to loop this since the expectation is that the question will keep on being asked until the user exits or picks a different number
-		std::cout << "What would you like to draw? \n"
-			<< "1 - A Filled Rectangle \n"
-			<< "2 - A Non Filled Rectangle \n"
-			<< "3 - A Filled Triangle \n"
+		std::cout << "What would you like to draw?\n"
+			<< "1 - A Filled Rectangle\n"
+			<< "2 - A Non Filled Rectangle\n"
+			<< "3 - A Filled Triangle\n"
 			<< "4 - A Non Filled Triangle\n"
-			<< "Any Other Number - Exit \n";
+			<< "Any Other Number - Exit\n\n";
 		std::cin >> drawChoice;
 
+		std::cout << "Your choice is: " << drawChoice << "\n";
 		switch (drawChoice)
 		{
 		case 1:
 			//Filled rectangle
-			std::cout << "Enter this rectangle's height and width values: ";
-			std::cin >> height >> width;
+			std::cout << "Enter the rectangle's width and height values: \n";
+			std::cin >> width >> height;
 			
 			
 			
@@ -192,25 +193,25 @@ int main(void)
 			break;
 		case 2:
 			//Un filled rectangle
-			std::cout << "Enter this rectangle's height and width values: ";
-			std::cin >> height >> width;
+			std::cout << "Enter the rectangle's width and height values:\n";
+			std::cin >> width >> height;
 			drawUnfilledRectangle(height, width);
 			break;
 		case 3:
 			//Filled triangle
-			std::cout << "Enter the triangle's height value: ";
+			std::cout << "Enter the triangle's height value: \n";
 			std::cin >> height;
 			drawFilledTriangle(height);
 			break;
 		case 4:
 			//Un filled triangle
-			std::cout << "Enter the triangle's height value: ";
+			std::cout << "Enter the triangle's height value: \n";
 			std::cin >> height;
 			drawUnfilledTriangle(height);
 			break;
 
 		default:
-			std::cout << "Thank you for using our application!\n";
+			std::cout << "Thank you for using our application!";
 			return 0;
 		}
 	}
