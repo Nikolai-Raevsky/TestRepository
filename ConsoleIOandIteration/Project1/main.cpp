@@ -7,9 +7,9 @@
 //Copyright © 2021 DigiPen (USA) Corporation.
 //
 //
-
-//IMPORTANT COMMENTS:
-//Tomorrow work on getting the top vertex of the unfilled triangle centered with the base, filling out the bottom row, and tests. In particular, (if I get to testing) make sure that the functions send an error message if the user doesn't send any height or width for the shapes.
+//
+//
+//
 //-------------------------------------------------------------------------------------------------------------------
 
 
@@ -18,9 +18,9 @@
 #define RECTANGLEHEIGHTERROR "The rectangle height has to be at least 1\n\n"
 #define RECTANGLEWIDTHERROR "The rectangle width has to be at least 1\n\n"
 #define TRIANGLEHEIGHTERROR "The triangle's height has to be at least 1\n\n"
-//Functions for assignment.
 
-//Filled rectangle
+
+
 void drawFilledRectangle(int Height, int Width)
 {
 	if (Height <= 0)
@@ -44,7 +44,7 @@ void drawFilledRectangle(int Height, int Width)
 	}
 	std::cout << "\n";
 }
-//Unfilled rectangle
+
 void drawUnfilledRectangle(int Height, int Width)
 {
 	if (Height <= 0)
@@ -85,7 +85,7 @@ void drawUnfilledRectangle(int Height, int Width)
 	}
 	std::cout << "\n";
 }
-//Filled triangle
+
 void drawFilledTriangle(int Height)
 {
 	if (Height <= 0)
@@ -121,20 +121,20 @@ void drawUnfilledTriangle(int Height)
 		std::cout << TRIANGLEHEIGHTERROR;
 		return;
 	}
-	int extspaces = Height - 1;
-	int intspaces = 0;
+	int externalspaces = Height - 1;
+	int internalspaces = 0;
 	int asterisks = 1;
 	for (int h = 0; h < Height - 1; h++)
 	{
 
-		for (int space = 0; space < extspaces; space++)
+		for (int space = 0; space < externalspaces; space++)
 		{
 			std::cout << " ";
 		}
 
 		std::cout << "*";
 
-		for (int space = 0; space < intspaces; space++)
+		for (int space = 0; space < internalspaces; space++)
 		{
 			std::cout << " ";
 		}
@@ -143,21 +143,22 @@ void drawUnfilledTriangle(int Height)
 			std::cout << "*";
 		}
 		
-		extspaces -= 1;
+		externalspaces -= 1;
 		if (h == 0)
 		{
-			intspaces += 1;
+			internalspaces += 1;
 		}
 
 		else
 		{
-			intspaces += 2;
+			internalspaces += 2;
 		}
 		
 		asterisks += 2;
 		std::cout << "\n";
 	}
 
+	//Bottom-most row
 	for (int asterisk = 0; asterisk < asterisks; asterisk++)
 	{
 		std::cout << "*";
@@ -172,7 +173,7 @@ int main(void)
 	int drawChoice;
 	while (loopCheck)
 	{
-		//Make sure to loop this since the expectation is that the question will keep on being asked until the user exits or picks a different number
+		
 		std::cout << "What would you like to draw?\n"
 			<< "1 - A Filled Rectangle\n"
 			<< "2 - A Non Filled Rectangle\n"
@@ -185,7 +186,7 @@ int main(void)
 		switch (drawChoice)
 		{
 		case 1:
-			//Filled rectangle
+			
 			std::cout << "Enter the rectangle's width and height values: \n";
 			std::cin >> width >> height;
 			
@@ -195,19 +196,17 @@ int main(void)
 			
 			break;
 		case 2:
-			//Un filled rectangle
+			
 			std::cout << "Enter the rectangle's width and height values:\n";
 			std::cin >> width >> height;
 			drawUnfilledRectangle(height, width);
 			break;
 		case 3:
-			//Filled triangle
 			std::cout << "Enter the triangle's height value: \n";
 			std::cin >> height;
 			drawFilledTriangle(height);
 			break;
 		case 4:
-			//Un filled triangle
 			std::cout << "Enter the triangle's height value: \n";
 			std::cin >> height;
 			drawUnfilledTriangle(height);

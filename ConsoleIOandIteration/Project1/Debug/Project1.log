@@ -1,37 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.cpp
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(119,13): error C2146: syntax error: missing ')' before identifier 'M'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(119,13): error C2065: 'M': undeclared identifier
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(119,17): error C2059: syntax error: ')'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(121,35): error C2059: syntax error: ';'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(124,18): error C2065: 'Height': undeclared identifier
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,2): error C2059: syntax error: 'for'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,2): error C2143: syntax error: missing ')' before ';'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,20): error C2143: syntax error: missing ';' before '<'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,35): error C2143: syntax error: missing ';' before '++'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,34): error C2086: 'int h': redefinition
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127): message : see declaration of 'h'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(127,37): error C2059: syntax error: ')'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(128,2): error C2143: syntax error: missing ';' before '{'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(128,2): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,2): error C2059: syntax error: 'for'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,2): error C2143: syntax error: missing ')' before ';'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,34): error C2143: syntax error: missing ';' before '<'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,55): error C2143: syntax error: missing ';' before '++'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,47): error C2086: 'int asterisk': redefinition
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161): message : see declaration of 'asterisk'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(161,57): error C2059: syntax error: ')'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(162,2): error C2143: syntax error: missing ';' before '{'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(162,2): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(165,12): error C2143: syntax error: missing ';' before '<<'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(165,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(165,7): error C2371: 'std::cout': redefinition; different basic types
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iostream(41): message : see declaration of 'std::cout'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(166,1): error C2059: syntax error: '}'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(166,1): error C2143: syntax error: missing ';' before '}'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(168,1): error C2143: syntax error: missing ';' before '{'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\main.cpp(168,1): error C2447: '{': missing function header (old-style formal list?)
+  Project1.vcxproj -> C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\ConsoleIOandIteration\Project1\Debug\IOTest.exe

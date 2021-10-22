@@ -5,9 +5,53 @@ What would you like to draw?
 4 - A Non Filled Triangle
 Any Other Number - Exit
 
+Your choice is: 1
+Enter the rectangle's width and height values: 
+**********
+**********
+**********
+**********
+**********
+
+What would you like to draw?
+1 - A Filled Rectangle
+2 - A Non Filled Rectangle
+3 - A Filled Triangle
+4 - A Non Filled Triangle
+Any Other Number - Exit
+
+Your choice is: 3
+Enter the triangle's height value: 
+      *
+     ***
+    *****
+   *******
+  *********
+ ***********
+*************
+
+What would you like to draw?
+1 - A Filled Rectangle
+2 - A Non Filled Rectangle
+3 - A Filled Triangle
+4 - A Non Filled Triangle
+Any Other Number - Exit
+
 Your choice is: 4
 Enter the triangle's height value: 
-*
+ *
+***
+
+What would you like to draw?
+1 - A Filled Rectangle
+2 - A Non Filled Rectangle
+3 - A Filled Triangle
+4 - A Non Filled Triangle
+Any Other Number - Exit
+
+Your choice is: 3
+Enter the triangle's height value: 
+The triangle's height has to be at least 1
 
 What would you like to draw?
 1 - A Filled Rectangle
