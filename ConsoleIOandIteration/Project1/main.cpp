@@ -116,7 +116,7 @@ void drawFilledTriangle(int Height)
 //Unfilled triangle
 void drawUnfilledTriangle(int Height)
 {
-	if (Height M= 0)
+	if (Height <= 0)
 	{
 		std::cout << TRIANGLEHEIGHTERROR;
 		return;
