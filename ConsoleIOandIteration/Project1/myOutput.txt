@@ -5,9 +5,9 @@ What would you like to draw?
 4 - A Non Filled Triangle
 Any Other Number - Exit
 
-Your choice is: 3
+Your choice is: 4
 Enter the triangle's height value: 
-The triangle height has to be at least 1
+*
 
 What would you like to draw?
 1 - A Filled Rectangle
