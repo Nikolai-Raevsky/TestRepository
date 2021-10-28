@@ -27,12 +27,18 @@ namespace CS170
 
 	void BoardFree(Board*& theBoard)
 	{
-
+		//MAKE SURE THAT THE POINTER ISN'T POINTING TO A DEALLOCATED MEMORY SPOT
+		delete theBoard;
 	}
 
 	void BoardDisplay(const Board& board)
 	{
+		//All the printing will be handled through here
+		//Read about dynamic memory allocation guidelines to make sure you don't have any pointers to deallocated memory or memory leaks
+		
+		
 
+		
 	}
 
 	PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value)
