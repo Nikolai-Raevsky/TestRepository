@@ -1,0 +1,7 @@
+﻿  Board.cpp
+  Main.cpp
+  PRNG.cpp
+  Generating Code...
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(40): error C4716: 'CS170::BoardPlaceToken': must return a value
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(50): error C4716: 'CS170::BoardGetState': must return a value
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(25): error C4716: 'CS170::BoardCreate': must return a value
