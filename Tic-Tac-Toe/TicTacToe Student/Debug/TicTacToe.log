@@ -1,12 +1,2 @@
 ﻿  Board.cpp
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(33,33): error C2220: the following warning is treated as an error
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(33,33): warning C4100: 'board': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(38,85): warning C4100: 'value': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(38,67): warning C4100: 'column': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(38,53): warning C4100: 'row': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(38,37): warning C4100: 'board': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(43,25): warning C4100: 'board': unreferenced formal parameter
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(48,40): warning C4100: 'board': unreferenced formal parameter
-  Main.cpp
-  PRNG.cpp
-  Generating Code...
+  TicTacToe.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Debug\TicTacToe.exe

@@ -22,37 +22,72 @@ namespace CS170
 	Board* BoardCreate()
 	{
 		Board* board = new Board;
+		
 		return board;
+		
+		
 	}
 
 	void BoardFree(Board*& theBoard)
 	{
 		//MAKE SURE THAT THE POINTER ISN'T POINTING TO A DEALLOCATED MEMORY SPOT
 		delete theBoard;
+		theBoard = nullptr;
 	}
 
 	void BoardDisplay(const Board& board)
 	{
 		//All the printing will be handled through here
-		//Read about dynamic memory allocation guidelines to make sure you don't have any pointers to deallocated memory or memory leaks
-		
-		
+		//Double check tilestate documentation to make sure you understand how to access the board's tilestates. If I remember, I think that the structure contains a tilestate array.
+		for (int row = 0; row < boardLength; row++)
+		{
+			for (int hash = 0; hash < 13; hash++)
+			{
+				std::cout << "-";
+			}
+			std::cout << std::endl;
+			for (int cell = 0; cell < boardLength; cell++)
+			{
+				std::cout << "|";
+				std::cout << " ";
+				if (board.data[row][cell] == tsPLAYER_ONE)
+				{
+					std::cout << "O";
+				}
+
+				else if (board.data[row][cell] == tsPLAYER_TWO)
+				{
+					std::cout << "X";
+				}
+
+				else
+					std::cout << " ";
+				//std::cout << "|";
+				std::cout << " ";
+
+			}
+			std::cout << std::endl;
+		}
+		for (int hash = 0; hash < 13; hash++)
+		{
+			std::cout << "-";
+		}
 
 		
 	}
 
-	PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value)
-	{
-		
-	}
+	//PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value) //Ask teach about this thing
+	//{
+	//	
+	//}
 
-	void BoardReset(Board& board)
-	{
+	//void BoardReset(Board& board)
+	//{
 
-	}
+	//}
 
-	BoardState BoardGetState(const Board& board)
-	{
+	//BoardState BoardGetState(const Board& board)
+	//{
 
-	}
+	//}
 }
