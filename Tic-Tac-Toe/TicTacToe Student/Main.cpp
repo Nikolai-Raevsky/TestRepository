@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 	TestFunction tests[] = {
 		TestCreateFree, // Test 1
 		TestDisplay,    // Test 2
-		//TestPlaceToken, // Test 3
+		TestPlaceToken, // Test 3
 		//TestClear,      // Test 4
 		//TestGetState,   // Test 5
 		//TestRandom,     // Test 6
@@ -114,75 +114,75 @@ bool TestDisplay()
 	return true;
 }
 //
-//bool TestPlaceToken()
-//{
-//	// Setup phase
-//	CS170::Board* theBoard = CS170::BoardCreate();
-//
-//	// Testing valid placements
-//	CS170::PlaceResult result;
-//	std::cout << "Testing valid placements." << std::endl;
-//	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
-//	{
-//		result = CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)(i % 2 + 1));
-//		if (result != CS170::prACCEPTED)
-//		{
-//			CS170::BoardFree(theBoard);
-//			return false;
-//		}
-//	}
-//	std::cout << "Board after valid placements: " << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//
-//	// Testing invalid placements
-//	std::cout << "Testing out of bounds placements." << std::endl;
-//	result = CS170::BoardPlaceToken(*theBoard, 3, 0, CS170::tsPLAYER_ONE);
-//	if (result != CS170::prREJECTED_OUTOFBOUNDS)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	result = CS170::BoardPlaceToken(*theBoard, 0, 4, CS170::tsPLAYER_ONE);
-//	if (result != CS170::prREJECTED_OUTOFBOUNDS)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	result = CS170::BoardPlaceToken(*theBoard, 5, 5, CS170::tsPLAYER_TWO);
-//	if (result != CS170::prREJECTED_OUTOFBOUNDS)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	result = CS170::BoardPlaceToken(*theBoard, (unsigned)-1, (unsigned)-1, CS170::tsPLAYER_TWO);
-//	if (result != CS170::prREJECTED_OUTOFBOUNDS)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//
-//	std::cout << "Board after out-of-bounds placements: " << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//
-//	// More invalid placement testing
-//	std::cout << "Testing occupied placement." << std::endl;
-//	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
-//	{
-//		result = CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)((i + 1) % 2 + 1));
-//		if (result != CS170::prREJECTED_OCCUPIED)
-//		{
-//			CS170::BoardFree(theBoard);
-//			return false;
-//		}
-//	}
-//
-//	std::cout << "Board after occupied placements: " << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//
-//	// Free memory
-//	CS170::BoardFree(theBoard);
-//	return true;
-//}
+bool TestPlaceToken()
+{
+	// Setup phase
+	CS170::Board* theBoard = CS170::BoardCreate();
+
+	// Testing valid placements
+	CS170::PlaceResult result;
+	std::cout << "Testing valid placements." << std::endl;
+	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
+	{
+		result = CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)(i % 2 + 1));
+		if (result != CS170::prACCEPTED)
+		{
+			CS170::BoardFree(theBoard);
+			return false;
+		}
+	}
+	std::cout << "Board after valid placements: " << std::endl;
+	CS170::BoardDisplay(*theBoard);
+
+	// Testing invalid placements
+	std::cout << "Testing out of bounds placements." << std::endl;
+	result = CS170::BoardPlaceToken(*theBoard, 3, 0, CS170::tsPLAYER_ONE);
+	if (result != CS170::prREJECTED_OUTOFBOUNDS)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	result = CS170::BoardPlaceToken(*theBoard, 0, 4, CS170::tsPLAYER_ONE);
+	if (result != CS170::prREJECTED_OUTOFBOUNDS)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	result = CS170::BoardPlaceToken(*theBoard, 5, 5, CS170::tsPLAYER_TWO);
+	if (result != CS170::prREJECTED_OUTOFBOUNDS)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	result = CS170::BoardPlaceToken(*theBoard, (unsigned)-1, (unsigned)-1, CS170::tsPLAYER_TWO);
+	if (result != CS170::prREJECTED_OUTOFBOUNDS)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+
+	std::cout << "Board after out-of-bounds placements: " << std::endl;
+	CS170::BoardDisplay(*theBoard);
+
+	// More invalid placement testing
+	std::cout << "Testing occupied placement." << std::endl;
+	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
+	{
+		result = CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)((i + 1) % 2 + 1));
+		if (result != CS170::prREJECTED_OCCUPIED)
+		{
+			CS170::BoardFree(theBoard);
+			return false;
+		}
+	}
+
+	std::cout << "Board after occupied placements: " << std::endl;
+	CS170::BoardDisplay(*theBoard);
+
+	// Free memory
+	CS170::BoardFree(theBoard);
+	return true;
+}
 //
 //bool TestClear()
 //{

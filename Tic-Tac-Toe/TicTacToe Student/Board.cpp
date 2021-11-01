@@ -5,6 +5,8 @@
 *	Project: PRG 5.5.6 CORE Assignment - Tic-Tac-Toe
 *	Course: WANIC VGP2
 *	Copyright © DigiPen (USA) Corporation. 
+* 
+* Note for Thursday: Do diffing tests with current boards before moving onto the last two functions
 * ********************************************/
 
 //Includes
@@ -22,7 +24,13 @@ namespace CS170
 	Board* BoardCreate()
 	{
 		Board* board = new Board;
-		
+		for (int row = 0; row < boardLength; row++)
+		{
+			for (int cell = 0; cell < boardLength; cell++)
+			{
+				board->data[row][cell] = tsEMPTY;
+			}
+		}
 		return board;
 		
 		
@@ -66,20 +74,36 @@ namespace CS170
 				std::cout << " ";
 
 			}
-			std::cout << std::endl;
+			std::cout << "|" << std::endl;
 		}
 		for (int hash = 0; hash < 13; hash++)
 		{
 			std::cout << "-";
 		}
+		std::cout << std::endl;
 
 		
 	}
 
-	//PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value) //Ask teach about this thing
-	//{
-	//	
-	//}
+	PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value) //Ask teach about this thing
+	{
+		//If space is not on board
+		if (row >= boardLength || column >= boardLength || row < 0 || column < 0)
+		{
+			return prREJECTED_OUTOFBOUNDS;
+		}
+		//If space is occupied
+		if (board.data[row][column] != tsEMPTY)
+		{
+			return prREJECTED_OCCUPIED;
+		}
+
+		else
+		{
+			board.data[row][column] = value;
+			return prACCEPTED;
+		}
+	}
 
 	//void BoardReset(Board& board)
 	//{
