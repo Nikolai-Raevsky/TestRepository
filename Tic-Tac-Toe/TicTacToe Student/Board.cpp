@@ -6,7 +6,7 @@
 *	Course: WANIC VGP2
 *	Copyright © DigiPen (USA) Corporation. 
 * 
-* Note for Thursday: Do diffing tests with current boards before moving onto the last two functions
+* 
 * ********************************************/
 
 //Includes
@@ -21,6 +21,9 @@ namespace CS170
 		TileState data[3][3];
 	};
 
+	// Allocate memory for a tic-tac-toe board.
+	// Returns:
+	//   A pointer to the created board struct.
 	Board* BoardCreate()
 	{
 		Board* board = new Board;
@@ -35,18 +38,21 @@ namespace CS170
 		
 		
 	}
-
+	// Free memory for the tic-tac-toe board.
+	// Params:
+	//   theBoard = A reference to the pointer to the board.
 	void BoardFree(Board*& theBoard)
 	{
 		//MAKE SURE THAT THE POINTER ISN'T POINTING TO A DEALLOCATED MEMORY SPOT
 		delete theBoard;
 		theBoard = nullptr;
 	}
-
+	// Display the contents of the board using the standard output stream.
+	// Params:
+	//   theBoard = A reference to the game board.
 	void BoardDisplay(const Board& board)
 	{
-		//All the printing will be handled through here
-		//Double check tilestate documentation to make sure you understand how to access the board's tilestates. If I remember, I think that the structure contains a tilestate array.
+		
 		for (int row = 0; row < boardLength; row++)
 		{
 			for (int hash = 0; hash < 13; hash++)
@@ -70,7 +76,7 @@ namespace CS170
 
 				else
 					std::cout << " ";
-				//std::cout << "|";
+				
 				std::cout << " ";
 
 			}
@@ -84,15 +90,22 @@ namespace CS170
 
 		
 	}
-
+	// Place a token on the board at a specific position.
+	// Params:
+	//   theBoard = A reference to the game board.
+	//   row = The row of the board on which to place the token.
+	//   column = The column of the board on which to place the token.
+	//   value = The value to place in the specified tile.
+	// Returns:
+	//   Whether the token was able to be placed.
 	PlaceResult BoardPlaceToken(Board& board, unsigned row, unsigned column, TileState value) //Ask teach about this thing
 	{
-		//If space is not on board
+		
 		if (row >= boardLength || column >= boardLength || row < 0 || column < 0)
 		{
 			return prREJECTED_OUTOFBOUNDS;
 		}
-		//If space is occupied
+		
 		if (board.data[row][column] != tsEMPTY)
 		{
 			return prREJECTED_OCCUPIED;
@@ -104,10 +117,12 @@ namespace CS170
 			return prACCEPTED;
 		}
 	}
-
+	// Reset the board to an empty state.
+	// Params:
+	//   theBoard = A reference to the game board.
 	void BoardReset(Board& board)
 	{
-		//Loop through the board and reset tilestate to tsEMPTY
+		
 		for (int row = 0; row < boardLength; row++)
 		{
 			for (int cell = 0; cell < boardLength; cell++)
@@ -116,13 +131,16 @@ namespace CS170
 			}
 		}
 	}
-
+	// Get the current state of the board. (Is the game over?)
+	// Params:
+	//   theBoard = A reference to the game board.
+	// Returns:
+	//   The current state of the game - win, tie, or open (still going).
 	BoardState BoardGetState(const Board& board)
 	{
 		
 		
-		//Tie is no spaces are empty and nobody won
-		//Player one win states
+		
 		if
 		(	 //Vertical columns
 			(board.data[0][0] == tsPLAYER_ONE && board.data[0][1] == tsPLAYER_ONE && board.data[0][2] == tsPLAYER_ONE) ||
@@ -155,7 +173,7 @@ namespace CS170
 				}
 		
 
-		//Still going if some spaces are empty
+		//bsOpen
 		for (int row = 0; row < boardLength; row++)
 		{
 			for (int cell = 0; cell < boardLength; cell++)
