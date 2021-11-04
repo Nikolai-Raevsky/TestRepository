@@ -60,12 +60,12 @@ namespace CS170
 				std::cout << " ";
 				if (board.data[row][cell] == tsPLAYER_ONE)
 				{
-					std::cout << "O";
+					std::cout << "X";
 				}
 
 				else if (board.data[row][cell] == tsPLAYER_TWO)
 				{
-					std::cout << "X";
+					std::cout << "O";
 				}
 
 				else
@@ -105,13 +105,71 @@ namespace CS170
 		}
 	}
 
-	//void BoardReset(Board& board)
-	//{
+	void BoardReset(Board& board)
+	{
+		//Loop through the board and reset tilestate to tsEMPTY
+		for (int row = 0; row < boardLength; row++)
+		{
+			for (int cell = 0; cell < boardLength; cell++)
+			{
+				board.data[row][cell] = tsEMPTY;
+			}
+		}
+	}
 
-	//}
+	BoardState BoardGetState(const Board& board)
+	{
+		
+		
+		//Tie is no spaces are empty and nobody won
+		//Player one win states
+		if
+		(	 //Vertical columns
+			(board.data[0][0] == tsPLAYER_ONE && board.data[0][1] == tsPLAYER_ONE && board.data[0][2] == tsPLAYER_ONE) ||
+			(board.data[1][0] == tsPLAYER_ONE && board.data[1][1] == tsPLAYER_ONE && board.data[1][2] == tsPLAYER_ONE) ||
+			(board.data[2][0] == tsPLAYER_ONE && board.data[2][1] == tsPLAYER_ONE && board.data[2][2] == tsPLAYER_ONE) ||
+			//Horizontal rows
+			(board.data[0][0] == tsPLAYER_ONE && board.data[1][0] == tsPLAYER_ONE && board.data[2][0] == tsPLAYER_ONE) ||
+			(board.data[0][1] == tsPLAYER_ONE && board.data[1][1] == tsPLAYER_ONE && board.data[2][1] == tsPLAYER_ONE) ||
+			(board.data[0][2] == tsPLAYER_ONE && board.data[1][2] == tsPLAYER_ONE && board.data[2][2] == tsPLAYER_ONE) ||
+			//Diagonals
+			(board.data[0][0] == tsPLAYER_ONE && board.data[1][1] == tsPLAYER_ONE && board.data[2][2] == tsPLAYER_ONE) ||
+			(board.data[2][0] == tsPLAYER_ONE && board.data[1][1] == tsPLAYER_ONE && board.data[0][2] == tsPLAYER_ONE)	)
+				{
+					return bsWIN_ONE;
+				}
+		else if
+			(	 //Vertical columns
+				(board.data[0][0] == tsPLAYER_TWO && board.data[0][1] == tsPLAYER_TWO && board.data[0][2] == tsPLAYER_TWO) ||
+				(board.data[1][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[1][2] == tsPLAYER_TWO) ||
+				(board.data[2][0] == tsPLAYER_TWO && board.data[2][1] == tsPLAYER_TWO && board.data[2][2] == tsPLAYER_TWO) ||
+				//Horizontal rows
+				(board.data[0][0] == tsPLAYER_TWO && board.data[1][0] == tsPLAYER_TWO && board.data[2][0] == tsPLAYER_TWO) ||
+				(board.data[0][1] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[2][1] == tsPLAYER_TWO) ||
+				(board.data[0][2] == tsPLAYER_TWO && board.data[1][2] == tsPLAYER_TWO && board.data[2][2] == tsPLAYER_TWO) ||
+				//Diagonals
+				(board.data[0][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[2][2] == tsPLAYER_TWO) ||
+				(board.data[2][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[0][2] == tsPLAYER_TWO))
+				{
+			return bsWIN_TWO;
+				}
+		else
+		{
+			return bsTIE;
+		}
 
-	//BoardState BoardGetState(const Board& board)
-	//{
+		//Still going if some spaces are empty
+		for (int row = 0; row < boardLength; row++)
+		{
+			for (int cell = 0; cell < boardLength; cell++)
+			{
+				if (board.data[row][cell] == tsEMPTY)
+				{
+					return bsOPEN;
+				}
+			}
+		}
 
-	//}
+			
+	}
 }

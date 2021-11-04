@@ -1,2 +1,6 @@
 ﻿  Board.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(162): warning C4702: unreachable code
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(164): warning C4702: unreachable code
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(166): warning C4702: unreachable code
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Board.cpp(168): warning C4702: unreachable code
   TicTacToe.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Tic-Tac-Toe\TicTacToe Student\Debug\TicTacToe.exe

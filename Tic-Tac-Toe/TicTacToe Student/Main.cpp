@@ -54,8 +54,8 @@ int main(int argc, char *argv[])
 		TestCreateFree, // Test 1
 		TestDisplay,    // Test 2
 		TestPlaceToken, // Test 3
-		//TestClear,      // Test 4
-		//TestGetState,   // Test 5
+		TestClear,      // Test 4
+		TestGetState,   // Test 5
 		//TestRandom,     // Test 6
 		//TestStress,     // Test 7
 	};
@@ -184,151 +184,151 @@ bool TestPlaceToken()
 	return true;
 }
 //
-//bool TestClear()
-//{
-//	// Allocate memory
-//	CS170::Board* theBoard = CS170::BoardCreate();
-//	std::cout << "Testing BoardReset." << std::endl;
+bool TestClear()
+{
+	// Allocate memory
+	CS170::Board* theBoard = CS170::BoardCreate();
+	std::cout << "Testing BoardReset." << std::endl;
+
+	// Place tokens
+	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
+		CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)(i % 2 + 1));
+	std::cout << "Board after valid placements: " << std::endl;
+	CS170::BoardDisplay(*theBoard);
+
+	// Clear the board.
+	BoardReset(*theBoard);
+	std::cout << "Board after BoardReset: " << std::endl;
+	CS170::BoardDisplay(*theBoard);
+
+	// Free the board.
+	CS170::BoardFree(theBoard);
+	return true;
+}
 //
-//	// Place tokens
-//	for (unsigned i = 0; i < CS170::boardLength * CS170::boardLength; ++i)
-//		CS170::BoardPlaceToken(*theBoard, i / CS170::boardLength, i % CS170::boardLength, (CS170::TileState)(i % 2 + 1));
-//	std::cout << "Board after valid placements: " << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//
-//	// Clear the board.
-//	BoardReset(*theBoard);
-//	std::cout << "Board after BoardReset: " << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//
-//	// Free the board.
-//	CS170::BoardFree(theBoard);
-//	return true;
-//}
-//
-//// Helper for TestGetState
-//bool TestGetStatePlayerWin(CS170::Board& theBoard, CS170::TileState player)
-//{
-//	CS170::BoardState state;
-//
-//	// Test horizontal wins
-//	std::cout << "Testing win conditions for Player " << player << std::endl;
-//	std::cout << "1. Horizontal" << std::endl;
-//	for (unsigned r = 0; r < CS170::boardLength; ++r)
-//	{
-//		for (unsigned c = 0; c < CS170::boardLength; ++c)
-//			CS170::BoardPlaceToken(theBoard, r, c, player);
-//		CS170::BoardDisplay(theBoard);
-//		state = CS170::BoardGetState(theBoard);
-//		if (state != CS170::bsWIN_ONE + player - 1)
-//			return false;
-//		BoardReset(theBoard);
-//		std::cout << "Player " << player << " wins." << std::endl;
-//	}
-//
-//	// Test vertical wins
-//	std::cout << "2. Vertical" << std::endl;
-//	for (unsigned c = 0; c < CS170::boardLength; ++c)
-//	{
-//		for (unsigned r = 0; r < CS170::boardLength; ++r)
-//			CS170::BoardPlaceToken(theBoard, r, c, player);
-//		CS170::BoardDisplay(theBoard);
-//		state = CS170::BoardGetState(theBoard);
-//		if (state != CS170::bsWIN_ONE + player - 1)
-//			return false;
-//		BoardReset(theBoard);
-//		std::cout << "Player " << player << " wins." << std::endl;
-//	}
-//
-//	// Test diagonal wins
-//	std::cout << "3. Diagonals" << std::endl;
-//
-//	for (unsigned i = 0; i < CS170::boardLength; ++i)
-//		CS170::BoardPlaceToken(theBoard, i, i, player);
-//	CS170::BoardDisplay(theBoard);
-//	state = CS170::BoardGetState(theBoard);
-//	if (state != CS170::bsWIN_ONE + player - 1)
-//		return false;
-//	BoardReset(theBoard);
-//	std::cout << "Player " << player << " wins." << std::endl;
-//
-//	for (unsigned i = 0; i < CS170::boardLength; ++i)
-//		CS170::BoardPlaceToken(theBoard, i, CS170::boardLength - 1 - i, player);
-//	CS170::BoardDisplay(theBoard);
-//	state = CS170::BoardGetState(theBoard);
-//	if (state != CS170::bsWIN_ONE + player - 1)
-//		return false;
-//	BoardReset(theBoard);
-//	std::cout << "Player " << player << " wins." << std::endl;
-//	std::cout << "Success!" << std::endl << std::endl;
-//
-//	// All wins passed!
-//	return true;
-//}
-//
-//bool TestGetState()
-//{
-//	// Setup phase
-//	CS170::Board* theBoard = CS170::BoardCreate();
-//	CS170::BoardState state;
-//
-//	// Test empty
-//	std::cout << "Testing empty board." << std::endl;
-//	CS170::BoardDisplay(*theBoard);
-//	state = CS170::BoardGetState(*theBoard);
-//	if (state != CS170::bsOPEN)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	std::cout << "Board is open. Success!" << std::endl << std::endl;
-//
-//	// Test open
-//	std::cout << "Testing board with some tokens, no win." << std::endl;
-//	CS170::BoardPlaceToken(*theBoard, 0, 0, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 0, 1, CS170::tsPLAYER_ONE);
-//	CS170::BoardDisplay(*theBoard);
-//	state = CS170::BoardGetState(*theBoard);
-//	if (state != CS170::bsOPEN)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	BoardReset(*theBoard);
-//	std::cout << "Board is open. Success!" << std::endl << std::endl;
-//
-//	// Test wins
-//	if (!TestGetStatePlayerWin(*theBoard, CS170::tsPLAYER_ONE)
-//		|| !TestGetStatePlayerWin(*theBoard, CS170::tsPLAYER_TWO))
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//
-//	// Test tie
-//	std::cout << "Testing tie." << std::endl;
-//	CS170::BoardPlaceToken(*theBoard, 0, 0, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 0, 1, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 0, 2, CS170::tsPLAYER_TWO);
-//	CS170::BoardPlaceToken(*theBoard, 1, 0, CS170::tsPLAYER_TWO);
-//	CS170::BoardPlaceToken(*theBoard, 1, 1, CS170::tsPLAYER_TWO);
-//	CS170::BoardPlaceToken(*theBoard, 1, 2, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 2, 0, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 2, 1, CS170::tsPLAYER_ONE);
-//	CS170::BoardPlaceToken(*theBoard, 2, 2, CS170::tsPLAYER_TWO);
-//	CS170::BoardDisplay(*theBoard);
-//
-//	state = CS170::BoardGetState(*theBoard);
-//	if (state != CS170::bsTIE)
-//	{
-//		CS170::BoardFree(theBoard);
-//		return false;
-//	}
-//	std::cout << "Tie game. Success!" << std::endl << std::endl;
-//
-//	CS170::BoardFree(theBoard);
-//	return true;
-//}
+// Helper for TestGetState
+bool TestGetStatePlayerWin(CS170::Board& theBoard, CS170::TileState player)
+{
+	CS170::BoardState state;
+
+	// Test horizontal wins
+	std::cout << "Testing win conditions for Player " << player << std::endl;
+	std::cout << "1. Horizontal" << std::endl;
+	for (unsigned r = 0; r < CS170::boardLength; ++r)
+	{
+		for (unsigned c = 0; c < CS170::boardLength; ++c)
+			CS170::BoardPlaceToken(theBoard, r, c, player);
+		CS170::BoardDisplay(theBoard);
+		state = CS170::BoardGetState(theBoard);
+		if (state != CS170::bsWIN_ONE + player - 1)
+			return false;
+		BoardReset(theBoard);
+		std::cout << "Player " << player << " wins." << std::endl;
+	}
+
+	// Test vertical wins
+	std::cout << "2. Vertical" << std::endl;
+	for (unsigned c = 0; c < CS170::boardLength; ++c)
+	{
+		for (unsigned r = 0; r < CS170::boardLength; ++r)
+			CS170::BoardPlaceToken(theBoard, r, c, player);
+		CS170::BoardDisplay(theBoard);
+		state = CS170::BoardGetState(theBoard);
+		if (state != CS170::bsWIN_ONE + player - 1)
+			return false;
+		BoardReset(theBoard);
+		std::cout << "Player " << player << " wins." << std::endl;
+	}
+
+	// Test diagonal wins
+	std::cout << "3. Diagonals" << std::endl;
+
+	for (unsigned i = 0; i < CS170::boardLength; ++i)
+		CS170::BoardPlaceToken(theBoard, i, i, player);
+	CS170::BoardDisplay(theBoard);
+	state = CS170::BoardGetState(theBoard);
+	if (state != CS170::bsWIN_ONE + player - 1)
+		return false;
+	BoardReset(theBoard);
+	std::cout << "Player " << player << " wins." << std::endl;
+
+	for (unsigned i = 0; i < CS170::boardLength; ++i)
+		CS170::BoardPlaceToken(theBoard, i, CS170::boardLength - 1 - i, player);
+	CS170::BoardDisplay(theBoard);
+	state = CS170::BoardGetState(theBoard);
+	if (state != CS170::bsWIN_ONE + player - 1)
+		return false;
+	BoardReset(theBoard);
+	std::cout << "Player " << player << " wins." << std::endl;
+	std::cout << "Success!" << std::endl << std::endl;
+
+	// All wins passed!
+	return true;
+}
+
+bool TestGetState()
+{
+	// Setup phase
+	CS170::Board* theBoard = CS170::BoardCreate();
+	CS170::BoardState state;
+
+	// Test empty
+	std::cout << "Testing empty board." << std::endl;
+	CS170::BoardDisplay(*theBoard);
+	state = CS170::BoardGetState(*theBoard);
+	if (state != CS170::bsOPEN)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	std::cout << "Board is open. Success!" << std::endl << std::endl;
+
+	// Test open
+	std::cout << "Testing board with some tokens, no win." << std::endl;
+	CS170::BoardPlaceToken(*theBoard, 0, 0, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 0, 1, CS170::tsPLAYER_ONE);
+	CS170::BoardDisplay(*theBoard);
+	state = CS170::BoardGetState(*theBoard);
+	if (state != CS170::bsOPEN)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	BoardReset(*theBoard);
+	std::cout << "Board is open. Success!" << std::endl << std::endl;
+
+	// Test wins
+	if (!TestGetStatePlayerWin(*theBoard, CS170::tsPLAYER_ONE)
+		|| !TestGetStatePlayerWin(*theBoard, CS170::tsPLAYER_TWO))
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+
+	// Test tie
+	std::cout << "Testing tie." << std::endl;
+	CS170::BoardPlaceToken(*theBoard, 0, 0, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 0, 1, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 0, 2, CS170::tsPLAYER_TWO);
+	CS170::BoardPlaceToken(*theBoard, 1, 0, CS170::tsPLAYER_TWO);
+	CS170::BoardPlaceToken(*theBoard, 1, 1, CS170::tsPLAYER_TWO);
+	CS170::BoardPlaceToken(*theBoard, 1, 2, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 2, 0, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 2, 1, CS170::tsPLAYER_ONE);
+	CS170::BoardPlaceToken(*theBoard, 2, 2, CS170::tsPLAYER_TWO);
+	CS170::BoardDisplay(*theBoard);
+
+	state = CS170::BoardGetState(*theBoard);
+	if (state != CS170::bsTIE)
+	{
+		CS170::BoardFree(theBoard);
+		return false;
+	}
+	std::cout << "Tie game. Success!" << std::endl << std::endl;
+
+	CS170::BoardFree(theBoard);
+	return true;
+}
 //
 //// Helper function for random test
 //enum OutputLevel
