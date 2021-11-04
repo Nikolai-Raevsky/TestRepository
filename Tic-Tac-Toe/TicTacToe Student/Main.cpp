@@ -56,8 +56,8 @@ int main(int argc, char *argv[])
 		TestPlaceToken, // Test 3
 		TestClear,      // Test 4
 		TestGetState,   // Test 5
-		//TestRandom,     // Test 6
-		//TestStress,     // Test 7
+		TestRandom,     // Test 6
+		TestStress,     // Test 7
 	};
 
 	// Seed random number generator - same result every time
@@ -329,75 +329,75 @@ bool TestGetState()
 	CS170::BoardFree(theBoard);
 	return true;
 }
-//
-//// Helper function for random test
-//enum OutputLevel
-//{
-//	olMINIMAL,
-//	olNORMAL,
-//	olVERBOSE
-//};
-//
-//void TestRandomHelper(OutputLevel level = olMINIMAL)
-//{
-//	// Setup phase
-//	CS170::Board* theBoard = CS170::BoardCreate();
-//
-//	// Choose starting player
-//	unsigned i = CS170::Utils::rand() % 2;
-//
-//	// Make random moves until game is over
-//	CS170::BoardState state;
-//	do
-//	{
-//		// Keep trying until the placement is valid
-//		CS170::PlaceResult result;
-//		unsigned row, col;
-//		do
-//		{
-//			row = CS170::Utils::rand() % CS170::boardLength;
-//			col = CS170::Utils::rand() % CS170::boardLength;
-//			result = CS170::BoardPlaceToken(*theBoard, row, col, (CS170::TileState)(CS170::tsPLAYER_ONE + (i % 2)));
-//		}while(result != CS170::prACCEPTED);
-//		
-//		// Verbose - display board after each placement.
-//		if (level == olVERBOSE)
-//			CS170::BoardDisplay(*theBoard);
-//		state = CS170::BoardGetState(*theBoard);
-//
-//		// Switch players
-//		++i;
-//	} while (state == CS170::bsOPEN);
-//
-//	// Normal output - display end board.
-//	if (level == olNORMAL)
-//		CS170::BoardDisplay(*theBoard);
-//
-//	// Always print out end state
-//	if (state == CS170::bsWIN_ONE)
-//		std::cout << "Player 1 wins.";
-//	else if (state == CS170::bsWIN_TWO)
-//		std::cout << "Player 2 wins.";
-//	else
-//		std::cout << "Tie.";
-//	std::cout << std::endl;
-//
-//	// Deallocate memory
-//	CS170::BoardFree(theBoard);
-//}
-//
-//bool TestRandom()
-//{
-//	std::cout << "Testing random placement." << std::endl;
-//	TestRandomHelper(olVERBOSE);
-//	return true;
-//}
-//
-//bool TestStress()
-//{
-//	const int numRandomTests = 1000;
-//	std::cout << "Testing random placement for " << numRandomTests << " games." << std::endl;
-//	for (unsigned i = 0; i < numRandomTests; ++i)
-//		TestRandomHelper(olMINIMAL);
-//	return true;
-//}
+
+// Helper function for random test
+enum OutputLevel
+{
+	olMINIMAL,
+	olNORMAL,
+	olVERBOSE
+};
+
+void TestRandomHelper(OutputLevel level = olMINIMAL)
+{
+	// Setup phase
+	CS170::Board* theBoard = CS170::BoardCreate();
+
+	// Choose starting player
+	unsigned i = CS170::Utils::rand() % 2;
+
+	// Make random moves until game is over
+	CS170::BoardState state;
+	do
+	{
+		// Keep trying until the placement is valid
+		CS170::PlaceResult result;
+		unsigned row, col;
+		do
+		{
+			row = CS170::Utils::rand() % CS170::boardLength;
+			col = CS170::Utils::rand() % CS170::boardLength;
+			result = CS170::BoardPlaceToken(*theBoard, row, col, (CS170::TileState)(CS170::tsPLAYER_ONE + (i % 2)));
+		}while(result != CS170::prACCEPTED);
+		
+		// Verbose - display board after each placement.
+		if (level == olVERBOSE)
+			CS170::BoardDisplay(*theBoard);
+		state = CS170::BoardGetState(*theBoard);
+
+		// Switch players
+		++i;
+	} while (state == CS170::bsOPEN);
+
+	// Normal output - display end board.
+	if (level == olNORMAL)
+		CS170::BoardDisplay(*theBoard);
+
+	// Always print out end state
+	if (state == CS170::bsWIN_ONE)
+		std::cout << "Player 1 wins.";
+	else if (state == CS170::bsWIN_TWO)
+		std::cout << "Player 2 wins.";
+	else
+		std::cout << "Tie.";
+	std::cout << std::endl;
+
+	// Deallocate memory
+	CS170::BoardFree(theBoard);
+}
+
+bool TestRandom()
+{
+	std::cout << "Testing random placement." << std::endl;
+	TestRandomHelper(olVERBOSE);
+	return true;
+}
+
+bool TestStress()
+{
+	const int numRandomTests = 1000;
+	std::cout << "Testing random placement for " << numRandomTests << " games." << std::endl;
+	for (unsigned i = 0; i < numRandomTests; ++i)
+		TestRandomHelper(olMINIMAL);
+	return true;
+}

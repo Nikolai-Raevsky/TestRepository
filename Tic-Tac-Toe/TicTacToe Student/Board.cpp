@@ -149,14 +149,11 @@ namespace CS170
 				(board.data[0][2] == tsPLAYER_TWO && board.data[1][2] == tsPLAYER_TWO && board.data[2][2] == tsPLAYER_TWO) ||
 				//Diagonals
 				(board.data[0][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[2][2] == tsPLAYER_TWO) ||
-				(board.data[2][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[0][2] == tsPLAYER_TWO))
+				(board.data[2][0] == tsPLAYER_TWO && board.data[1][1] == tsPLAYER_TWO && board.data[0][2] == tsPLAYER_TWO)	)
 				{
 			return bsWIN_TWO;
 				}
-		else
-		{
-			return bsTIE;
-		}
+		
 
 		//Still going if some spaces are empty
 		for (int row = 0; row < boardLength; row++)
@@ -169,6 +166,8 @@ namespace CS170
 				}
 			}
 		}
+
+		return bsTIE;
 
 			
 	}
