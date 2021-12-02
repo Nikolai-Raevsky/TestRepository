@@ -23,7 +23,7 @@ f) __Default___ Bar(int a = 5, int b = 10);
 
 Foo(const Foo& fooObj);
 4.
-________ StopWatch sw1;   
+__NC (Jeremy checked)______ StopWatch sw1;   
 ________ StopWatch *sw2; 
 ________ StopWatch sw3[5];  
 ________ StopWatch *sw4[5]; 
@@ -33,8 +33,18 @@ ________ StopWatch *sw7[] = {1, 2, 3};
 
 
 5.
-________ StopWatch1 sw1 = 1;  
-________ StopWatch2 sw2 = 1;  
+___C_____ StopWatch1 sw1 = 1;  
+____NC____ StopWatch2 sw2 = 1;  
 
+6.
+b.
+7.
+void Student(const Student& _student)
+{
+	age = _student.age;
+	GPA = _student.GPA;
+	name = new char[strlen(_student.name)];
+	strcpy(name, _student.name); 
+} 
 
 
