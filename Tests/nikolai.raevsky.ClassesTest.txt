@@ -1,22 +1,27 @@
 1.
  
-_______ A struct in C++ can contain methods. 
-_______ A struct can only have public members. 
-_______ A default constructor can be defined either with default arguments for all arguments or 
+___T____ A struct in C++ can contain methods. 
+____F___ A struct can only have public members. 
+_____T__ A default constructor can be defined either with default arguments for all arguments or 
 with no arguments at all (i.e. void). 
-_______ Conversion constructors can be used only to convert to the class' type, not to another 
+____T___ Conversion constructors can be used only to convert to the class' type, not to another 
 type.   
-_______ A copy constructor must have two explicit parameters: a reference to the class that is 
+___F____ A copy constructor must have two explicit parameters: a reference to the class that is 
 being copied from and a reference to the class that is being copied to. 
-_______ An initialization list may only be used with constructors. 
+___T____ An initialization list may only be used with constructors. 
 
 2.
 
-
+a) __Copy___ Bar(const Bar& b); 
+b) __Conversion___ Bar(int a); 
+c) _____ Bar(void); 
+d) Non-default_____ Bar(double a, int b, int c = 0); 
+e) __Conversion___ Bar(const Foo& f); 
+f) __Default___ Bar(int a = 5, int b = 10); 
 
 3.
 
-
+Foo(const Foo& fooObj);
 4.
 ________ StopWatch sw1;   
 ________ StopWatch *sw2; 
