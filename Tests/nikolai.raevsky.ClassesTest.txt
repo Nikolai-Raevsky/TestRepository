@@ -1,0 +1,35 @@
+1.
+ 
+_______ A struct in C++ can contain methods. 
+_______ A struct can only have public members. 
+_______ A default constructor can be defined either with default arguments for all arguments or 
+with no arguments at all (i.e. void). 
+_______ Conversion constructors can be used only to convert to the class' type, not to another 
+type.   
+_______ A copy constructor must have two explicit parameters: a reference to the class that is 
+being copied from and a reference to the class that is being copied to. 
+_______ An initialization list may only be used with constructors. 
+
+2.
+
+
+
+3.
+
+
+4.
+________ StopWatch sw1;   
+________ StopWatch *sw2; 
+________ StopWatch sw3[5];  
+________ StopWatch *sw4[5]; 
+________ StopWatch sw5 = 1;  
+________ StopWatch sw6[] = {1, 2, 3}; 
+________ StopWatch *sw7[] = {1, 2, 3}; 
+
+
+5.
+________ StopWatch1 sw1 = 1;  
+________ StopWatch2 sw2 = 1;  
+
+
+
