@@ -57,7 +57,7 @@ void Lab1::Update(float dt)
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
 	Vector2D p1 = Vector2D(0, 0);
 	Vector2D p2 = Vector2D(5, 4);
-	DebugDraw.AddLine(p1, p2, Colors::Red);
+	DebugDraw.AddLineToList(p1, p2, Colors::Red);
 	// TO DO: Draw a circle (see assignment page for link to example code)
 
 	// TO DO: Draw lines (see assignment page for link to example code)
