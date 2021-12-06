@@ -59,7 +59,7 @@ void Lab1::Update(float dt)
 	Vector2D p2 = Vector2D(5, 4);
 	//Make DebugDraw object
 	DebugDraw& debug = *(EngineGetModule(DebugDraw));
-	EngineGetModule(Beta::DebugDraw)->debug.AddLineToList(p1, p2, Colors::Red);
+	EngineGetModule(Beta::DebugDraw)->debug.AddLineToList(p1, p2, Colors::Red); //REMEMBER TO FIX THIS WHEN YOU GET BACK!!!
 	// TO DO: Draw a circle (see assignment page for link to example code)
 
 	// TO DO: Draw lines (see assignment page for link to example code)
