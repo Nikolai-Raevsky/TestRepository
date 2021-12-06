@@ -20,24 +20,23 @@ e) __Conversion___ Bar(const Foo& f);
 f) __Default___ Bar(int a = 5, int b = 10); 
 
 3.
-
 Foo(const Foo& fooObj);
 4.
 __NC (Jeremy checked)______ StopWatch sw1;   
-________ StopWatch *sw2; 
-________ StopWatch sw3[5];  
-________ StopWatch *sw4[5]; 
-________ StopWatch sw5 = 1;  
-________ StopWatch sw6[] = {1, 2, 3}; 
-________ StopWatch *sw7[] = {1, 2, 3}; 
+____C____ StopWatch *sw2; 
+__NC______ StopWatch sw3[5];  
+___C_____ StopWatch *sw4[5]; 
+_____C___ StopWatch sw5 = 1;  
+____C____ StopWatch sw6[] = {1, 2, 3}; 
+___NC_____ StopWatch *sw7[] = {1, 2, 3}; 
 
-
+This one doesn't have a default constructor that pre-initializes the Stopwatch's seconds variable, so you can't declare a Stopwatch object without assigning a value to it. You can initialize Stopwatches and arrays of Stopwatches because that gives the variable a value
 5.
 ___C_____ StopWatch1 sw1 = 1;  
 ____NC____ StopWatch2 sw2 = 1;  
-
+StopWatch2 doesn't compile because it's conversion constructor is explicit.
 6.
-b.
+b. because the destructor would have a higher chance of breaking the program if it deleted the objects in the order of their creation. We don't even know if this program is going to use a destructor to delete objects, but it would be really bizarre if C++ destroyed objects in object of creation if the other objects need to be defined in relation to the first one as a general rule of thumb. Destructors get called no matter what because each class in C++ generates a default destructor (even though it doesn't do anything by default).
 7.
 void Student(const Student& _student)
 {
