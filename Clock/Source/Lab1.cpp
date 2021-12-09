@@ -55,14 +55,15 @@ void Lab1::Update(float dt)
 	UNREFERENCED_PARAMETER(dt);
 
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
-	Vector2D p1 = Vector2D(0, 0);
-	Vector2D p2 = Vector2D(5, 4);
+	Vector2D linePoint1 = Vector2D(0, 0);
+	Vector2D linePoint2 = Vector2D(5, 4);
 	//Make DebugDraw object
 	DebugDraw& debug = *(EngineGetModule(DebugDraw));
-	EngineGetModule(Beta::DebugDraw)->debug.AddLineToList(p1, p2, Colors::Red); //REMEMBER TO FIX THIS WHEN YOU GET BACK!!!
+	debug.AddLineToList(linePoint1, linePoint2, Colors::Red); 
 	// TO DO: Draw a circle (see assignment page for link to example code)
 
 	// TO DO: Draw lines (see assignment page for link to example code)
+	debug.EndLineList();
 }
 
 // Shut down the Lab1 level.
