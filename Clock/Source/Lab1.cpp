@@ -17,6 +17,7 @@
 #include "DebugDraw.h" // AddDebugLine
 #include "Vector2D.h"  // Vector2D
 #include "GraphicsEngine.h"  // SetBackgroundColor
+#include <math.h> // sin and cos
 
 //------------------------------------------------------------------------------
 // Public Functions:
@@ -55,14 +56,19 @@ void Lab1::Update(float dt)
 	UNREFERENCED_PARAMETER(dt);
 
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
+	float endpointX = 5;
+	float endpointY = 4;
 	Vector2D linePoint1 = Vector2D(0, 0);
-	Vector2D linePoint2 = Vector2D(5, 4);
+	Vector2D linePoint2 = Vector2D(cos(endpointX), sin(endpointY));//I need to input a variables in here since I want to change these points
+	Vector2D circlePoint1 = Vector2D(0, 0);
+	
 	//Make DebugDraw object
 	DebugDraw& debug = *(EngineGetModule(DebugDraw));
-	debug.AddLineToList(linePoint1, linePoint2, Colors::Red); 
+	 
 	// TO DO: Draw a circle (see assignment page for link to example code)
-
+	debug.AddCircle(circlePoint1, 2, Colors::Blue);
 	// TO DO: Draw lines (see assignment page for link to example code)
+	debug.AddLineToList(linePoint1, linePoint2, Colors::Red);
 	debug.EndLineList();
 }
 
