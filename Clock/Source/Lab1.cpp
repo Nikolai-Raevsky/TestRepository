@@ -56,10 +56,12 @@ void Lab1::Update(float dt)
 	UNREFERENCED_PARAMETER(dt);
 
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
+	 secondsHand = Vector2D(2.0f * cos(angle1), 2.0f * sin(angle1));//I need to input a variables in here since I want to change these points
+	 minutesHand = Vector2D(1.5f * cos(angle2), 1.5f * sin(angle2));
+	 hoursHand = Vector2D(1.0f * cos(angle3), 1.0f * sin(angle3));
 	
 	
 	
-	Vector2D linePoint2 = Vector2D(9*cos(angle1), 9 * sin(angle1));//I need to input a variables in here since I want to change these points
 	Vector2D circlePoint1 = Vector2D(0, 0);
 	
 	//Make DebugDraw object
@@ -68,15 +70,20 @@ void Lab1::Update(float dt)
 	// TO DO: Draw a circle (see assignment page for link to example code)
 	debug.AddCircle(origin, lineLength, Colors::Blue);
 	// TO DO: Draw lines (see assignment page for link to example code)
-	debug.AddLineToList(origin, linePoint2, Colors::Red);
+	debug.AddLineToList(origin, secondsHand, Colors::Red);
+	debug.AddLineToList(origin, minutesHand, Colors::Green);
+	debug.AddLineToList(origin, hoursHand, Colors::Blue);
 	debug.EndLineList();
 
 	//Change endpoint variables
 	angle1 += rotationalVelocity;
+	angle2 += rotationalVelocity * (1.0f / 60);
+	angle3 += rotationalVelocity * (1.0f / 360);
 }
 
 // Shut down the Lab1 level.
 void Lab1::Shutdown()
 {
 	// TO DO: Print "Lab1: Shutdown" to the console
+	std::cout << "Lab1: Shutdown" << std::endl;
 }

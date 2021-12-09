@@ -48,7 +48,7 @@ private:
 	// Private Consts:
 	//------------------------------------------------------------------------------
 
-	const float pi;
+	const float pi; //I have to figure out what to do about this pi thing
 	const float lineLength;
 	const float rotationalVelocity;
 	const Beta::Vector2D origin;
@@ -66,6 +66,8 @@ private:
 	Beta::Vector2D p, q, r;
 
 	// TO DO: Add other variables here as needed.
-	float endpointX = 5;
-	float endpointY = 4; 
+	//These three are the points I'm using. I understand that we got p, q, and r, but those names mean nothing to me
+	Beta::Vector2D secondsHand;
+	Beta::Vector2D minutesHand;
+	Beta::Vector2D hoursHand;
 };
