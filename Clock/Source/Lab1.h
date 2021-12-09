@@ -66,5 +66,6 @@ private:
 	Beta::Vector2D p, q, r;
 
 	// TO DO: Add other variables here as needed.
-
+	float endpointX = 5;
+	float endpointY = 4; 
 };

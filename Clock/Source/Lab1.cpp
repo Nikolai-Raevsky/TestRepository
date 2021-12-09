@@ -56,20 +56,23 @@ void Lab1::Update(float dt)
 	UNREFERENCED_PARAMETER(dt);
 
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
-	float endpointX = 5;
-	float endpointY = 4;
-	Vector2D linePoint1 = Vector2D(0, 0);
-	Vector2D linePoint2 = Vector2D(cos(endpointX), sin(endpointY));//I need to input a variables in here since I want to change these points
+	
+	
+	
+	Vector2D linePoint2 = Vector2D(9*cos(angle1), 9 * sin(angle1));//I need to input a variables in here since I want to change these points
 	Vector2D circlePoint1 = Vector2D(0, 0);
 	
 	//Make DebugDraw object
 	DebugDraw& debug = *(EngineGetModule(DebugDraw));
 	 
 	// TO DO: Draw a circle (see assignment page for link to example code)
-	debug.AddCircle(circlePoint1, 2, Colors::Blue);
+	debug.AddCircle(origin, lineLength, Colors::Blue);
 	// TO DO: Draw lines (see assignment page for link to example code)
-	debug.AddLineToList(linePoint1, linePoint2, Colors::Red);
+	debug.AddLineToList(origin, linePoint2, Colors::Red);
 	debug.EndLineList();
+
+	//Change endpoint variables
+	angle1 += rotationalVelocity;
 }
 
 // Shut down the Lab1 level.
