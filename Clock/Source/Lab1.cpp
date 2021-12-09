@@ -3,7 +3,7 @@
 //------------------------------------------------------------------------------
 //
 // File Name:	Lab1.cpp
-// Author(s):	Jeremy Kings (j.kings)
+// Author(s):	Jeremy Kings (j.kings) Modified by Nikolai Raevsky (n.raevsky)
 // Project:		Lab1
 // Course:		MAT140
 //
@@ -56,13 +56,13 @@ void Lab1::Update(float dt)
 	UNREFERENCED_PARAMETER(dt);
 
 	// TO DO: Create variable declarations for points/vectors (Beta::Vector2D) and floats as needed.
-	 secondsHand = Vector2D(2.0f * cos(angle1), 2.0f * sin(angle1));//I need to input a variables in here since I want to change these points
+	 secondsHand = Vector2D(2.0f * cos(angle1), 2.0f * sin(angle1));
 	 minutesHand = Vector2D(1.5f * cos(angle2), 1.5f * sin(angle2));
 	 hoursHand = Vector2D(1.0f * cos(angle3), 1.0f * sin(angle3));
 	
 	
 	
-	Vector2D circlePoint1 = Vector2D(0, 0);
+	
 	
 	//Make DebugDraw object
 	DebugDraw& debug = *(EngineGetModule(DebugDraw));
@@ -76,9 +76,9 @@ void Lab1::Update(float dt)
 	debug.EndLineList();
 
 	//Change endpoint variables
-	angle1 += rotationalVelocity;
-	angle2 += rotationalVelocity * (1.0f / 60);
-	angle3 += rotationalVelocity * (1.0f / 360);
+	angle1 += -rotationalVelocity;
+	angle2 += -rotationalVelocity * (1.0f / 60);
+	angle3 += -rotationalVelocity * (1.0f / 360);
 }
 
 // Shut down the Lab1 level.

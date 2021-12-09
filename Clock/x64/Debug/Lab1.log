@@ -1,6 +1,4 @@
 ﻿  Lab1.cpp
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Clock\Source\Lab1.cpp(60,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Clock\Source\Lab1.cpp(60,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Lab1.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\Clock\x64\Debug\BetaExamples.exe
   FreeType\lib\win64\freetype.dll
   1 File(s) copied

@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------------
 //
 // File Name:	Lab1.h
-// Author(s):	Jeremy Kings (j.kings)
+// Author(s):	Jeremy Kings (j.kings) modified by Nikolai Raevsky (n.raevsky)
 // Project:		Lab1
 // Course:		MAT140
 //
@@ -48,7 +48,7 @@ private:
 	// Private Consts:
 	//------------------------------------------------------------------------------
 
-	const float pi; //I have to figure out what to do about this pi thing
+	const float pi; //This is used to make the rotational Velocity and isn't for me necessarily
 	const float lineLength;
 	const float rotationalVelocity;
 	const Beta::Vector2D origin;
@@ -63,8 +63,8 @@ private:
 	float angle3;
 
 	// Points
-	Beta::Vector2D p, q, r;
-
+	//Beta::Vector2D p, q, r;
+	//I'll comment these variables above out since they were given to me
 	// TO DO: Add other variables here as needed.
 	//These three are the points I'm using. I understand that we got p, q, and r, but those names mean nothing to me
 	Beta::Vector2D secondsHand;
