@@ -18,19 +18,23 @@ namespace CS170
 	public:
 		// Constructors (2)
 		Vector2D(float x, float y);
-		
+		Vector2D(void);
 		// Accessors (2)
 		
-		
+		//Vector2D X();
+		//Vector2D Y();
 		// Mutators (2)
 		
+		//Vector2D X();
+		//Vector2D Y();
 		
 		// Other functions (7)
 		
+		//DotProduct
 
 		// Overloaded operators (9 member functions)
 		
-		// <<
+		// =
 
 		//Vector + vector Addition
 		//Vector - vector subtraction
@@ -47,7 +51,7 @@ namespace CS170
 	};
   
 	// Overloaded operators (2 non-member, non-friend functions)
-	//Insertion thing
+	//<<
 	//
 	//
 
