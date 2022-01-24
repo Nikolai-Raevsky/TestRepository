@@ -23,6 +23,8 @@ namespace CS170
 		
 		//Vector2D X();
 		//Vector2D Y();
+
+
 		// Mutators (2)
 		
 		//Vector2D X();
