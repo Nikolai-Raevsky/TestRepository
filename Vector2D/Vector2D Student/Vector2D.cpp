@@ -1,3 +1,9 @@
+/*************************************************************
+*	Filename: Vector2D.cpp
+	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+	Instructor: Jeremy Kings (j.kings@digipen.edu
+	Assignment: PRG 6.3.6 CORE ASSIGNMENT: Vector2D Class
+	***********************************************************/
 #include "Vector2D.h"  // Vector2D members
 #include <cmath>    // sqrt, atan, sin, cos
 
@@ -24,8 +30,18 @@ Vector2D::Vector2D(float x_, float y_)
 
 // Operators (9)
 
+// <<
 
-///////////////////////////////////////////////////////////////////////////////
+//Vector + vector Addition
+//Vector - vector subtraction
+//Vector * int multiplication
+//Vector / int division
+//+=
+//-=
+//*=
+// /=
+
+
 // 2 non-member, non-friend functions (operators)
 
 

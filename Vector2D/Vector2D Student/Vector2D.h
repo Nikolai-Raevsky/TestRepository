@@ -1,3 +1,9 @@
+/*************************************************************
+*	Filename: Vector2D.h
+	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+	Instructor: Jeremy Kings (j.kings@digipen.edu
+	Assignment: PRG 6.3.6 CORE ASSIGNMENT: Vector2D Class
+	***********************************************************/
 ////////////////////////////////////////////////////////////////////////////////
 #ifndef VECTOR2D_H
 #define VECTOR2D_H
@@ -24,6 +30,16 @@ namespace CS170
 
 		// Overloaded operators (9 member functions)
 		
+		// <<
+
+		//Vector + vector Addition
+		//Vector - vector subtraction
+		//Vector * int multiplication
+		//Vector / int division
+		//+=
+		//-=
+		//*=
+		// /=
 		
 	private:
 		float x; // The x-coordinate of a Vector2D
@@ -31,7 +47,9 @@ namespace CS170
 	};
   
 	// Overloaded operators (2 non-member, non-friend functions)
-	
+	//Insertion thing
+	//
+	//
 
 } // namespace CS170
 
