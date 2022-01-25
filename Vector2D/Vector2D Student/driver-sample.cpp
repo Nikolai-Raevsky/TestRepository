@@ -65,35 +65,35 @@ void MagnitudeTest(void)
 	std::cout << std::endl;
 }
 //
-//void DistanceTest(void)
-//{
-//	std::cout << "\n********** Distance test ********** " << std::endl;
-//
-//	CS170::Vector2D v1(3.0f, 4.0f);
-//	CS170::Vector2D v2(7.0f, 12.0f);
-//	float distance = 0.0f;;
-//
-//	distance = v2.Distance(v1);
-//	std::cout.setf(std::ios_base::fixed, std::ios::floatfield);
-//	std::cout.precision(3);
-//	std::cout << "Distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
-//
-//	distance = v1.Distance(v2);
-//	std::cout << "Distance between " << v1 << " and " << v2 << " is " << distance << std::endl;
-//
-//	v1 = CS170::Vector2D(-5.0f, 3.0f);
-//	v2 = CS170::Vector2D(-1.0f, -7.0f);
-//
-//	distance = v2.Distance(v1);
-//	std::cout << "Distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
-//
-//	distance = v2.DistanceSquared(v1);
-//	std::cout << "Squared distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
-//
-//	std::cout << std::endl;
-//	std::cout.unsetf(std::ios_base::fixed);
-//	std::cout.precision(6);
-//}
+void DistanceTest(void)
+{
+	std::cout << "\n********** Distance test ********** " << std::endl;
+
+	CS170::Vector2D v1(3.0f, 4.0f);
+	CS170::Vector2D v2(7.0f, 12.0f);
+	float distance = 0.0f;;
+
+	distance = v2.Distance(v1);
+	std::cout.setf(std::ios_base::fixed, std::ios::floatfield);
+	std::cout.precision(3);
+	std::cout << "Distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
+
+	distance = v1.Distance(v2);
+	std::cout << "Distance between " << v1 << " and " << v2 << " is " << distance << std::endl;
+
+	v1 = CS170::Vector2D(-5.0f, 3.0f);
+	v2 = CS170::Vector2D(-1.0f, -7.0f);
+
+	distance = v2.Distance(v1);
+	std::cout << "Distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
+
+	distance = v2.DistanceSquared(v1);
+	std::cout << "Squared distance between " << v2 << " and " << v1 << " is " << distance << std::endl;
+
+	std::cout << std::endl;
+	std::cout.unsetf(std::ios_base::fixed);
+	std::cout.precision(6);
+}
 //
 //void MidpointTest(void)
 //{
@@ -259,14 +259,14 @@ int main(void)
 	ConstructorTest();
 	GetSetTest();
 	MagnitudeTest();
-	/*DistanceTest();
-	MidpointTest();
-	DotTest();
-	AddSubtractTest();
-	ScaleTest();
-	AssignmentTest1();
-	AssignmentTest2();
-	UnaryTest();*/
+	DistanceTest();
+	/*MidpointTest();
+	/*DotTest();
+	/*AddSubtractTest();
+	/*ScaleTest();
+	/*AssignmentTest1();
+	/*AssignmentTest2();
+	/*UnaryTest();*/
 
 	return 0;
 }

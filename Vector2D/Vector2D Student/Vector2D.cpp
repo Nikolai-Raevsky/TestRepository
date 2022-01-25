@@ -63,6 +63,20 @@ Vector2D Vector2D::Normalized(void)
 	vector.y = y / Magnitude();
 	return vector;
 }
+
+ float Vector2D::Distance(const Vector2D vector)
+{
+	return sqrt((vector.x - x) * (vector.x - x) + (vector.y -y) * (vector.y-y));
+}
+
+float Vector2D::DistanceSquared(const Vector2D vector)
+{
+	return (vector.x - x) * (vector.x - x) + (vector.y - y) * (vector.y - y);
+}
+Vector2D Vector2D::Midpoint(Vector2D vector)
+{
+	return Vector2D((vector.x + x) / 2, (vector.y + y) / 2);
+}
 // Operators (9)
 
 

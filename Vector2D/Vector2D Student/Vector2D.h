@@ -25,26 +25,44 @@ namespace CS170
 		Vector2D(void);
 		// Accessors (2)
 		
-		//
+		//Accesses x variable for use in other functions
 		float X(void);
+		//Accesses y variable for use in other functions
 		float Y(void);
 
 
 		// Mutators (2)
+
+		//This one sets the current Vector2D's x value to x_
 		void X(float x_);
+
+		//This one sets the current Vector2D's y value to y_
 		void Y(float y_);
-		//Vector2D X();
-		//Vector2D Y();
+		
 		
 		// Other functions (7)
 		
 		//Calculates the magnitude of the vector with floats x and y
+			//Returns a float that is the product of the Pythagorean theorem with x and y
 		float Magnitude();
 		//Squares the magnitude of the vector
+			//returns: A float that's the product of the current vector's magnitude multiplied by itself
 		float MagnitudeSquared();
 
-		//Returns a normalized vector going in the same direction as the original one (a unit vector of the current one).
+		//Makes a normalized vector that goes in the current direction of the current one
+			//Returns: A normalized Vector2D
 		Vector2D Normalized();
+
+		//Calculates the distance between the coordinates of two Vector2D with the Distance formula
+			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates
+			//Returns: A float that represents the distance between the two points of the vectors
+		float Distance(Vector2D vector);
+		//Calculates the squared distance between the coordinates of two Vector2D with the Distance formula but without the step where you square root it
+			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates.
+			//Returns: A float that represents the squared distance between the two points of the vectors
+		float DistanceSquared(Vector2D vector);
+
+		Vector2D Midpoint(Vector2D vector);
 		//DotProduct
 
 		// Overloaded operators (9 member functions)
