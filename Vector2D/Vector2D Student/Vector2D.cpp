@@ -19,11 +19,32 @@ Vector2D::Vector2D(float x_, float y_)
 {
 }
 
-// Accessors (2)
+Vector2D::Vector2D(void)
+: x(0), y(0)
+{
+}
 
+// Accessors (2)
+float Vector2D::X(void)
+{
+	return x;
+}
+ float Vector2D::Y(void)
+{
+	return y;
+}
 
 // Mutators (2)
-
+void Vector2D::X(float x_)
+	
+{
+	x = x_;
+}
+void Vector2D::Y(float y_)
+	
+{
+	y = y_;
+}
 
 // Other functions (7)
 
@@ -43,7 +64,11 @@ Vector2D::Vector2D(float x_, float y_)
 
 
 // 2 non-member, non-friend functions (operators)
-
+std::ostream& operator<<(std::ostream& os, Vector2D rhs)
+{
+	os << "(" << rhs.X() << ", " << rhs.Y() << ")" << std::endl;
+	return os;
+}
 
 } // namespace CS170
 
