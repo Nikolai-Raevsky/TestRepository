@@ -47,11 +47,25 @@ void Vector2D::Y(float y_)
 }
 
 // Other functions (7)
+float Vector2D::Magnitude(void)
+{
+	return sqrt(x*x+y*y);
+}
+float Vector2D::MagnitudeSquared(void)
+{
+	return Magnitude() * Magnitude();
+}
 
-
+Vector2D Vector2D::Normalized(void)
+{
+	Vector2D vector(x, y);
+	vector.x = x / Magnitude();
+	vector.y = y / Magnitude();
+	return vector;
+}
 // Operators (9)
 
-// <<
+
 
 //Vector + vector Addition
 //Vector - vector subtraction

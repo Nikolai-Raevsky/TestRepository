@@ -17,10 +17,15 @@ namespace CS170
 	{
 	public:
 		// Constructors (2)
-		Vector2D(float x, float y);
+		//A constructor that initializes a Vector2D's x and y variables with x_ and y_ respectively
+		
+		Vector2D(float x_, float y_);
+
+		//A constructor that initializes a Vector2D's x and y variables with 0
 		Vector2D(void);
 		// Accessors (2)
 		
+		//
 		float X(void);
 		float Y(void);
 
@@ -33,7 +38,13 @@ namespace CS170
 		
 		// Other functions (7)
 		
-		//Magnitude
+		//Calculates the magnitude of the vector with floats x and y
+		float Magnitude();
+		//Squares the magnitude of the vector
+		float MagnitudeSquared();
+
+		//Returns a normalized vector going in the same direction as the original one (a unit vector of the current one).
+		Vector2D Normalized();
 		//DotProduct
 
 		// Overloaded operators (9 member functions)

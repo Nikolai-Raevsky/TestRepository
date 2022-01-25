@@ -45,25 +45,25 @@ void GetSetTest(void)
 	std::cout << std::endl;
 }
 //
-//void MagnitudeTest(void)
-//{
-//	std::cout << "\n********** Magnitude test ********** " << std::endl;
-//
-//	CS170::Vector2D v1(3.0f, 4.0f);
-//	std::cout << "v1 = " << v1 << std::endl;
-//	std::cout << "magnitude of v1 = " << v1.Magnitude() << std::endl;
-//	std::cout << "magnitude of v1 squared = " << v1.MagnitudeSquared() << std::endl;
-//	
-//	CS170::Vector2D v2(7.0f, 12.0f);
-//	std::cout << "v2 = " << v2 << std::endl;
-//	std::cout << "magnitude of v2 = " << v2.Magnitude() << std::endl;
-//	std::cout << "magnitude of v2 squared = " << v2.MagnitudeSquared() << std::endl;
-//	std::cout << std::endl;
-//
-//	std::cout << "v1 normalized = " << v1.Normalized() << std::endl;
-//	std::cout << "v2 normalized = " << v2.Normalized() << std::endl;
-//	std::cout << std::endl;
-//}
+void MagnitudeTest(void)
+{
+	std::cout << "\n********** Magnitude test ********** " << std::endl;
+
+	CS170::Vector2D v1(3.0f, 4.0f);
+	std::cout << "v1 = " << v1 << std::endl;
+	std::cout << "magnitude of v1 = " << v1.Magnitude() << std::endl;
+	std::cout << "magnitude of v1 squared = " << v1.MagnitudeSquared() << std::endl;
+	
+	CS170::Vector2D v2(7.0f, 12.0f);
+	std::cout << "v2 = " << v2 << std::endl;
+	std::cout << "magnitude of v2 = " << v2.Magnitude() << std::endl;
+	std::cout << "magnitude of v2 squared = " << v2.MagnitudeSquared() << std::endl;
+	std::cout << std::endl;
+
+	std::cout << "v1 normalized = " << v1.Normalized() << std::endl;
+	std::cout << "v2 normalized = " << v2.Normalized() << std::endl;
+	std::cout << std::endl;
+}
 //
 //void DistanceTest(void)
 //{
@@ -257,9 +257,9 @@ void GetSetTest(void)
 int main(void)
 {
 	ConstructorTest();
-	/*GetSetTest();
+	GetSetTest();
 	MagnitudeTest();
-	DistanceTest();
+	/*DistanceTest();
 	MidpointTest();
 	DotTest();
 	AddSubtractTest();
