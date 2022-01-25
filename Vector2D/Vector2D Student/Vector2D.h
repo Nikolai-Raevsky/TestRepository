@@ -55,13 +55,14 @@ namespace CS170
 
 		//Calculates the distance between the coordinates of two Vector2D with the Distance formula
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates
-			//Returns: A float that represents the distance between the two points of the vectors
+			//Returns: A float that represents the distance between the two points of the vectors (using the distance formula)
 		float Distance(Vector2D vector);
 		//Calculates the squared distance between the coordinates of two Vector2D with the Distance formula but without the step where you square root it
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates.
 			//Returns: A float that represents the squared distance between the two points of the vectors
 		float DistanceSquared(Vector2D vector);
-
+		//Calculates the vector who points to the midpoint of the original Vector2D and the vector paramater
+		//Params: The second vector we'll be retrieving coordinates from for this operation
 		Vector2D Midpoint(Vector2D vector);
 		//DotProduct
 

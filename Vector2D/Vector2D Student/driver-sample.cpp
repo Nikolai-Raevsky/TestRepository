@@ -95,27 +95,27 @@ void DistanceTest(void)
 	std::cout.precision(6);
 }
 //
-//void MidpointTest(void)
-//{
-//	std::cout << "\n********** Midpoint test ********** " << std::endl;
-//
-//	CS170::Vector2D v1(3.0f, 4.0f);
-//	CS170::Vector2D v2(7.0f, 12.0f);
-//
-//	CS170::Vector2D v3 = v1.Midpoint(v2);
-//	std::cout.setf(std::ios_base::fixed, std::ios::floatfield);
-//	std::cout.precision(3);
-//	std::cout << "Midpoint of " << v1 << " and " << v2 << " is " << v3 << std::endl;
-//
-//	v1 = CS170::Vector2D(-5.0f, 3.0f);
-//	v2 = CS170::Vector2D(-1.0f, -7.0f);
-//	v3 = v1.Midpoint(v2);
-//	std::cout << "Midpoint of " << v1 << " and " << v2 << " is " << v3 << std::endl;
-//
-//	std::cout << std::endl;
-//	std::cout.unsetf(std::ios_base::fixed);
-//	std::cout.precision(6);
-//}
+void MidpointTest(void)
+{
+	std::cout << "\n********** Midpoint test ********** " << std::endl;
+
+	CS170::Vector2D v1(3.0f, 4.0f);
+	CS170::Vector2D v2(7.0f, 12.0f);
+
+	CS170::Vector2D v3 = v1.Midpoint(v2);
+	std::cout.setf(std::ios_base::fixed, std::ios::floatfield);
+	std::cout.precision(3);
+	std::cout << "Midpoint of " << v1 << " and " << v2 << " is " << v3 << std::endl;
+
+	v1 = CS170::Vector2D(-5.0f, 3.0f);
+	v2 = CS170::Vector2D(-1.0f, -7.0f);
+	v3 = v1.Midpoint(v2);
+	std::cout << "Midpoint of " << v1 << " and " << v2 << " is " << v3 << std::endl;
+
+	std::cout << std::endl;
+	std::cout.unsetf(std::ios_base::fixed);
+	std::cout.precision(6);
+}
 //
 //void DotTest(void)
 //{
@@ -260,7 +260,7 @@ int main(void)
 	GetSetTest();
 	MagnitudeTest();
 	DistanceTest();
-	/*MidpointTest();
+	MidpointTest();
 	/*DotTest();
 	/*AddSubtractTest();
 	/*ScaleTest();
