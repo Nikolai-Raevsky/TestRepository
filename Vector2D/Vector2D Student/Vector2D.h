@@ -89,7 +89,8 @@ namespace CS170
 		Vector2D& operator*=(const float& rhs);
 		//Divider operator that scales down the vector by the rhs
 		Vector2D& operator/=(const float& rhs);
-		Vector2D& operator=(const Vector2D& rhs);
+		//Negates the vector. This one is unary
+		Vector2D& operator-(Vector2D& rhs);
 
 		
 		
@@ -99,7 +100,7 @@ namespace CS170
 	};
   
 	// Overloaded operators (2 non-member, non-friend functions)
-	//<<
+	
 	//This operator overload gives the << operator the ability to output the passed in vector to the console's output stream
 	std::ostream& operator<<(std::ostream& os, Vector2D rhs);
 	//This is the operator overload for a float scalar being multiplied by a vector. Returns the scaled up vector, much like the *operator overload member function but for if the float is on the left instead of the right

@@ -133,10 +133,9 @@ Vector2D& Vector2D::operator/=(const float& rhs)
 	return *this;
 }
 
-Vector2D& Vector2D::operator=(const Vector2D& rhs)
+Vector2D& Vector2D::operator-(Vector2D& rhs)
 {
-	x = rhs.x;
-	y = rhs.y;
+	rhs = rhs * -1;
 	return *this;
 }
 
