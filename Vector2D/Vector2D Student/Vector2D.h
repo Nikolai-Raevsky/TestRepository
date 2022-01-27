@@ -76,16 +76,22 @@ namespace CS170
 		Vector2D operator+(const Vector2D& rhs);
 		//Subtract two vectors to get a vector difference
 		Vector2D operator-(const Vector2D& rhs);
-		// =
+		//Multiply a vector by a scalar to get a scaled up vector
+		Vector2D operator*(const float& rhs);
+		
+		//Divide a vector by a scalar to get a scaled down vector
+		Vector2D operator/(const float& rhs);
+		//Increment operator that adds vector rhs to the original vector
+		Vector2D& operator+=(const Vector2D& rhs);
+		//Decrement operator that subtracts vector rhs from the original vector
+		Vector2D& operator-=(const Vector2D& rhs);
+		//Multiplier operator that scales up the vector by rhs
+		Vector2D& operator*=(const float& rhs);
+		//Divider operator that scales down the vector by the rhs
+		Vector2D& operator/=(const float& rhs);
+		Vector2D& operator=(const Vector2D& rhs);
 
-		//Vector + vector Addition
-		//Vector - vector subtraction
-		//Vector * int multiplication
-		//Vector / int division
-		//+=
-		//-=
-		//*=
-		// /=
+		
 		
 	private:
 		float x; // The x-coordinate of a Vector2D
@@ -94,8 +100,11 @@ namespace CS170
   
 	// Overloaded operators (2 non-member, non-friend functions)
 	//<<
-
+	//This operator overload gives the << operator the ability to output the passed in vector to the console's output stream
 	std::ostream& operator<<(std::ostream& os, Vector2D rhs);
+	//This is the operator overload for a float scalar being multiplied by a vector. Returns the scaled up vector, much like the *operator overload member function but for if the float is on the left instead of the right
+	Vector2D operator*(float lhs, Vector2D& rhs);
+	
 	//
 	//
 

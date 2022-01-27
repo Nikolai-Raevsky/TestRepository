@@ -84,25 +84,62 @@ float Vector2D::DotProduct(const Vector2D vector)
 	return (x * vector.x + y * vector.y);
 }
 // Operators (9)
-Vector2D Vector2D::operator+(const Vector2D& rhs)
+Vector2D Vector2D::operator+(const Vector2D& lhs)
 {
-	return Vector2D(rhs.x + x, rhs.y + y);
+	return Vector2D(lhs.x + x, lhs.y + y);
 }
 
 Vector2D Vector2D::operator-(const Vector2D& rhs)
 {
-	return Vector2D(rhs.x - x, rhs.y - y);
+	return Vector2D(x-rhs.x, y-rhs.y);
+}
+
+Vector2D Vector2D::operator*(const float& rhs)
+{
+	return Vector2D(x * rhs, y * rhs);
 }
 
 
-//Vector + vector Addition
-//Vector - vector subtraction
-//Vector * int multiplication
-//Vector / int division
-//+=
-//-=
-//*=
-// /=
+Vector2D Vector2D::operator/(const float& rhs)
+{
+	return Vector2D(x / rhs, y / rhs);
+}
+
+Vector2D& Vector2D::operator+=(const Vector2D& rhs)
+{
+	x += rhs.x;
+	y += rhs.y;
+	return *this;
+}
+
+Vector2D& Vector2D::operator-=(const Vector2D& rhs)
+{
+	x -= rhs.x;
+	y -= rhs.y;
+	return *this;
+}
+
+Vector2D& Vector2D::operator*=(const float& rhs)
+{
+	x *= rhs;
+	y *= rhs;
+	return *this;
+}
+
+Vector2D& Vector2D::operator/=(const float& rhs)
+{
+	x /= rhs;
+	y /= rhs;
+	return *this;
+}
+
+Vector2D& Vector2D::operator=(const Vector2D& rhs)
+{
+	x = rhs.x;
+	y = rhs.y;
+	return *this;
+}
+
 
 
 // 2 non-member, non-friend functions (operators)
@@ -112,6 +149,12 @@ std::ostream& operator<<(std::ostream& os, Vector2D rhs)
 	return os;
 }
 
+Vector2D operator*(float lhs, Vector2D& rhs)
+{
+	
+	return rhs * lhs;
+	
+}
 } // namespace CS170
 
 
