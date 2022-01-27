@@ -117,46 +117,46 @@ void MidpointTest(void)
 	std::cout.precision(6);
 }
 //
-//void DotTest(void)
-//{
-//	std::cout << "\n********** Dot test ********** " << std::endl;
+void DotTest(void)
+{
+	std::cout << "\n********** Dot test ********** " << std::endl;
+
+	CS170::Vector2D v1(3.0f, 4.0f);
+	CS170::Vector2D v2(7.0f, 12.0f);
+
+	std::cout << "v1 = " << v1 << std::endl;
+	std::cout << "v2 = " << v2 << std::endl;
+	std::cout << "v1 dot v2 = " << v1.DotProduct(v2) << std::endl;
+	std::cout << "v2 dot v1 = " << v2.DotProduct(v1) << std::endl;
+	std::cout << std::endl;
+
+	CS170::Vector2D v3(2.0f, 4.0f);
+	CS170::Vector2D v4(-8.0f, 4.0f);
+
+	std::cout << "v3 = " << v3 << std::endl;
+	std::cout << "v4 = " << v4 << std::endl;
+	std::cout << "v3 dot v4 = " << v3.DotProduct(v4) << std::endl;
+	std::cout << "v4 dot v3 = " << v4.DotProduct(v3) << std::endl;
+	std::cout << std::endl;
+}
 //
-//	CS170::Vector2D v1(3.0f, 4.0f);
-//	CS170::Vector2D v2(7.0f, 12.0f);
-//
-//	std::cout << "v1 = " << v1 << std::endl;
-//	std::cout << "v2 = " << v2 << std::endl;
-//	std::cout << "v1 dot v2 = " << v1.DotProduct(v2) << std::endl;
-//	std::cout << "v2 dot v1 = " << v2.DotProduct(v1) << std::endl;
-//	std::cout << std::endl;
-//
-//	CS170::Vector2D v3(2.0f, 4.0f);
-//	CS170::Vector2D v4(-8.0f, 4.0f);
-//
-//	std::cout << "v3 = " << v3 << std::endl;
-//	std::cout << "v4 = " << v4 << std::endl;
-//	std::cout << "v3 dot v4 = " << v3.DotProduct(v4) << std::endl;
-//	std::cout << "v4 dot v3 = " << v4.DotProduct(v3) << std::endl;
-//	std::cout << std::endl;
-//}
-//
-//void AddSubtractTest(void)
-//{
-//	std::cout << "\n********** Add and Subtract test ********** " << std::endl;
-//
-//	CS170::Vector2D v1(3.0f, 4.0f);
-//	CS170::Vector2D v2(7.0f, 12.0f);
-//	CS170::Vector2D v3;
-//
-//	v3 = v1 + v2;
-//	std::cout << v1 << " + " << v2 << " = " << v3 << std::endl;
-//
-//	CS170::Vector2D v4;
-//	v4 = v2 - v1;
-//	std::cout << v2 << " - " << v1 << " = " << v4 << std::endl;
-//
-//	std::cout << std::endl;
-//}
+void AddSubtractTest(void)
+{
+	std::cout << "\n********** Add and Subtract test ********** " << std::endl;
+
+	CS170::Vector2D v1(3.0f, 4.0f);
+	CS170::Vector2D v2(7.0f, 12.0f);
+	CS170::Vector2D v3;
+
+	v3 = v1 + v2;
+	std::cout << v1 << " + " << v2 << " = " << v3 << std::endl;
+
+	CS170::Vector2D v4;
+	v4 = v2 - v1;
+	std::cout << v2 << " - " << v1 << " = " << v4 << std::endl;
+
+	std::cout << std::endl;
+}
 //
 //void ScaleTest(void)
 //{
@@ -261,8 +261,8 @@ int main(void)
 	MagnitudeTest();
 	DistanceTest();
 	MidpointTest();
-	/*DotTest();
-	/*AddSubtractTest();
+	DotTest();
+	AddSubtractTest();
 	/*ScaleTest();
 	/*AssignmentTest1();
 	/*AssignmentTest2();

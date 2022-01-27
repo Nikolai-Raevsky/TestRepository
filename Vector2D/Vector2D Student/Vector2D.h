@@ -63,11 +63,19 @@ namespace CS170
 		float DistanceSquared(Vector2D vector);
 		//Calculates the vector who points to the midpoint of the original Vector2D and the vector paramater
 		//Params: The second vector we'll be retrieving coordinates from for this operation
+		//Returns: A float that represents the distance of the vector multiplied by itself
 		Vector2D Midpoint(Vector2D vector);
-		//DotProduct
+
+		//Calcualtes the DotProduct of two vectors (the original vector and the vector passed in as a paramater
+		//Params: Takes the second vector we'll be receiving coordinates from to do the DotProduct operation
+		//Returns: A float that represents the dot product of the original Vector2D and the passed in vector Vector2D, which is the sum of the dot product operation (product of all xs + product of all ys).
+		float DotProduct(const Vector2D vector);
 
 		// Overloaded operators (9 member functions)
-		
+		//Add two vectors to get vector sum
+		Vector2D operator+(const Vector2D& rhs);
+		//Subtract two vectors to get a vector difference
+		Vector2D operator-(const Vector2D& rhs);
 		// =
 
 		//Vector + vector Addition
