@@ -4,6 +4,8 @@
 	Instructor: Jeremy Kings (j.kings@digipen.edu
 	Assignment: PRG 6.3.6 CORE ASSIGNMENT: Vector2D Class
 	Copyright © 2022DigiPen (USA) Corp. 
+
+	NOTE: When I say say "current vector" or "original vector" I mean the vector that the member function is being called from (as opposed to any vectors passed in as paramaters to the member functions).
 	***********************************************************/
 ////////////////////////////////////////////////////////////////////////////////
 #ifndef VECTOR2D_H
@@ -47,10 +49,10 @@ namespace CS170
 			//Returns a float that is the product of the Pythagorean theorem with x and y
 		float Magnitude();
 		//Squares the magnitude of the vector
-			//returns: A float that's the product of the current vector's magnitude multiplied by itself
+			//returns: A float that's the product of the current vector's magnitude multiplied by that same magnitude
 		float MagnitudeSquared();
 
-		//Makes a normalized vector that goes in the current direction of the current one
+		//Makes a normalized vector that goes in the direction of the current one
 			//Returns: A normalized Vector2D
 		Vector2D Normalized();
 
