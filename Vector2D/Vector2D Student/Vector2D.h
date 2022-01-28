@@ -29,9 +29,9 @@ namespace CS170
 		// Accessors (2)
 		
 		//Accesses x variable for use in other functions
-		float X(void);
+		float X(void) const;
 		//Accesses y variable for use in other functions
-		float Y(void);
+		float Y(void) const;
 
 
 		// Mutators (2)
@@ -47,43 +47,43 @@ namespace CS170
 		
 		//Calculates the magnitude of the vector with floats x and y
 			//Returns a float that is the product of the Pythagorean theorem with x and y
-		float Magnitude();
+		float Magnitude() const;
 		//Squares the magnitude of the vector
 			//returns: A float that's the product of the current vector's magnitude multiplied by that same magnitude
-		float MagnitudeSquared();
+		float MagnitudeSquared() const;
 
 		//Makes a normalized vector that goes in the direction of the current one
 			//Returns: A normalized Vector2D
-		Vector2D Normalized();
+		Vector2D Normalized() const;
 
 		//Calculates the distance between the coordinates of two Vector2D with the Distance formula
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates
 			//Returns: A float that represents the distance between the two points of the vectors (using the distance formula)
-		float Distance(Vector2D vector);
+		float Distance(const Vector2D& vector);
 		//Calculates the squared distance between the coordinates of two Vector2D with the Distance formula but without the step where you square root it
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates.
 			//Returns: A float that represents the squared distance between the two points of the vectors
-		float DistanceSquared(Vector2D vector);
+		float DistanceSquared(const Vector2D& vector);
 		//Calculates the vector who points to the midpoint of the original Vector2D and the vector paramater
 		//Params: The second vector we'll be retrieving coordinates from for this operation
 		//Returns: A float that represents the distance of the vector multiplied by itself
-		Vector2D Midpoint(Vector2D vector);
+		Vector2D Midpoint(const Vector2D& vector) const;
 
 		//Calcualtes the DotProduct of two vectors (the original vector and the vector passed in as a paramater
 		//Params: Takes the second vector we'll be receiving coordinates from to do the DotProduct operation
 		//Returns: A float that represents the dot product of the original Vector2D and the passed in vector Vector2D, which is the sum of the dot product operation (product of all xs + product of all ys).
-		float DotProduct(const Vector2D vector);
+		float DotProduct(const Vector2D& vector) const;
 
 		// Overloaded operators (9 member functions)
 		//Add two vectors to get vector sum
-		Vector2D operator+(const Vector2D& rhs);
+		Vector2D operator+(const Vector2D& rhs) const;
 		//Subtract two vectors to get a vector difference
-		Vector2D operator-(const Vector2D& rhs);
+		Vector2D operator-(const Vector2D& rhs) const;
 		//Multiply a vector by a scalar to get a scaled up vector
-		Vector2D operator*(const float& rhs);
+		Vector2D operator*(const float& rhs) const;
 		
 		//Divide a vector by a scalar to get a scaled down vector
-		Vector2D operator/(const float& rhs);
+		Vector2D operator/(const float& rhs) const;
 		//Increment operator that adds vector rhs to the original vector
 		Vector2D& operator+=(const Vector2D& rhs);
 		//Decrement operator that subtracts vector rhs from the original vector

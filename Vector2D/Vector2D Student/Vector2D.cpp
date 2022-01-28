@@ -26,11 +26,11 @@ Vector2D::Vector2D(void)
 }
 
 // Accessors (2)
-float Vector2D::X(void)
+float Vector2D::X(void) const
 {
 	return x;
 }
- float Vector2D::Y(void)
+ float Vector2D::Y(void) const
 {
 	return y;
 }
@@ -48,16 +48,16 @@ void Vector2D::Y(float y_)
 }
 
 // Other functions (7)
-float Vector2D::Magnitude(void)
+float Vector2D::Magnitude(void) const
 {
 	return sqrt(x*x+y*y);
 }
-float Vector2D::MagnitudeSquared(void)
+float Vector2D::MagnitudeSquared(void) const
 {
-	return Magnitude() * Magnitude();
+	return (x * x + y * y);
 }
 
-Vector2D Vector2D::Normalized(void)
+Vector2D Vector2D::Normalized(void) const
 {
 	Vector2D vector(x, y);
 	vector.x = x / Magnitude();
@@ -65,43 +65,43 @@ Vector2D Vector2D::Normalized(void)
 	return vector;
 }
 
- float Vector2D::Distance(const Vector2D vector)
+ float Vector2D::Distance(const Vector2D& vector) 
 {
 	return sqrt((vector.x - x) * (vector.x - x) + (vector.y -y) * (vector.y-y));
 }
 
-float Vector2D::DistanceSquared(const Vector2D vector)
+float Vector2D::DistanceSquared(const Vector2D& vector) 
 {
 	return (vector.x - x) * (vector.x - x) + (vector.y - y) * (vector.y - y);
 }
-Vector2D Vector2D::Midpoint(const Vector2D vector)
+Vector2D Vector2D::Midpoint(const Vector2D& vector) const
 {
 	return Vector2D((vector.x + x) / 2, (vector.y + y) / 2);
 }
 
-float Vector2D::DotProduct(const Vector2D vector)
+float Vector2D::DotProduct(const Vector2D& vector) const
 {
 	
 	return (x * vector.x + y * vector.y);
 }
 // Operators (9)
-Vector2D Vector2D::operator+(const Vector2D& lhs)
+Vector2D Vector2D::operator+(const Vector2D& lhs) const
 {
 	return Vector2D(lhs.x + x, lhs.y + y);
 }
 
-Vector2D Vector2D::operator-(const Vector2D& rhs)
+Vector2D Vector2D::operator-(const Vector2D& rhs) const
 {
 	return Vector2D(x-rhs.x, y-rhs.y);
 }
 
-Vector2D Vector2D::operator*(const float& rhs)
+Vector2D Vector2D::operator*(const float& rhs) const
 {
 	return Vector2D(x * rhs, y * rhs);
 }
 
 
-Vector2D Vector2D::operator/(const float& rhs)
+Vector2D Vector2D::operator/(const float& rhs) const
 {
 	return Vector2D(x / rhs, y / rhs);
 }
