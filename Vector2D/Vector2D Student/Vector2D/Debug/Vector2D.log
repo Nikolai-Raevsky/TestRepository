@@ -1,27 +1,4 @@
-﻿  driver-sample.cpp
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(84,35): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(84,35): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(85,36): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(85,36): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(110,35): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(110,35): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(111,36): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(111,36): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(112,22): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(112,22): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(151,14): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(151,14): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(155,14): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CS170::Vector2D' (or there is no acceptable conversion)
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(93,13): message : could be 'CS170::Vector2D &CS170::Vector2D::operator =(CS170::Vector2D &)'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\driver-sample.cpp(155,14): message : while trying to match the argument list '(CS170::Vector2D, CS170::Vector2D)'
-  Vector2D.cpp
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.cpp(162,1): error C2511: 'CS170::Vector2D &CS170::Vector2D::operator -(CS170::Vector2D &)': overloaded member function not found in 'CS170::Vector2D'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.h(16): message : see declaration of 'CS170::Vector2D'
-C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Vector2D.cpp(165,10): error C2671: 'CS170::Vector2D::-': static member functions do not have 'this' pointers
+﻿  Vector2D.cpp
+  driver-sample.cpp
   Generating Code...
+  Vector2D.vcxproj -> C:\Users\nikjr\Documents\DigiPen Assignments\DigiPenYear2\Repositoryforyear\Vector2D\Vector2D Student\Debug\Vector2D.exe

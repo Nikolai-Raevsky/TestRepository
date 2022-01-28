@@ -266,7 +266,7 @@ int main(void)
 	ScaleTest();
 	AssignmentTest1();
 	AssignmentTest2();
-	/*UnaryTest();*/
+	UnaryTest();
 
 	return 0;
 }
