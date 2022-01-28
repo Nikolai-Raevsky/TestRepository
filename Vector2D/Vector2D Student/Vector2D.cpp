@@ -133,11 +133,14 @@ Vector2D& Vector2D::operator/=(const float& rhs)
 	return *this;
 }
 
-Vector2D& Vector2D::operator-(Vector2D& rhs)
+Vector2D& Vector2D::operator=(Vector2D& rhs)
 {
-	rhs = rhs * -1;
+	x = rhs.x;
+	y = rhs.y;
 	return *this;
 }
+
+
 
 
 
@@ -153,6 +156,13 @@ Vector2D operator*(float lhs, Vector2D& rhs)
 	
 	return rhs * lhs;
 	
+}
+
+Vector2D& operator-(Vector2D& rhs)
+{
+	rhs.x *= -1;
+	rhs.y *= -1;
+	return *this;
 }
 } // namespace CS170
 
