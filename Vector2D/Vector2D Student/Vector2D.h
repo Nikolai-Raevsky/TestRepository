@@ -3,6 +3,7 @@
 	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
 	Instructor: Jeremy Kings (j.kings@digipen.edu
 	Assignment: PRG 6.3.6 CORE ASSIGNMENT: Vector2D Class
+	Copyright © 2022DigiPen (USA) Corp. 
 	***********************************************************/
 ////////////////////////////////////////////////////////////////////////////////
 #ifndef VECTOR2D_H

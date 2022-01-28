@@ -3,6 +3,7 @@
 	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
 	Instructor: Jeremy Kings (j.kings@digipen.edu
 	Assignment: PRG 6.3.6 CORE ASSIGNMENT: Vector2D Class
+	Copyright © 2022DigiPen (USA) Corp.
 	***********************************************************/
 #include "Vector2D.h"  // Vector2D members
 #include <cmath>    // sqrt, atan, sin, cos
@@ -146,7 +147,7 @@ Vector2D Vector2D::operator-()
 // 2 non-member, non-friend functions (operators)
 std::ostream& operator<<(std::ostream& os, Vector2D rhs)
 {
-	os << "(" << rhs.X() << ", " << rhs.Y() << ")" << std::endl;
+	os << "(" << rhs.X() << ", " << rhs.Y() << ")";
 	return os;
 }
 
