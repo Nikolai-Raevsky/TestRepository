@@ -59,11 +59,11 @@ namespace CS170
 		//Calculates the distance between the coordinates of two Vector2D with the Distance formula
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates
 			//Returns: A float that represents the distance between the two points of the vectors (using the distance formula)
-		float Distance(const Vector2D& vector);
+		float Distance(const Vector2D& vector) const;
 		//Calculates the squared distance between the coordinates of two Vector2D with the Distance formula but without the step where you square root it
 			//Params: A vector that we'll be retrieving one of the coordinates from. The other coordinates come from the current Vector2D's coordinates.
 			//Returns: A float that represents the squared distance between the two points of the vectors
-		float DistanceSquared(const Vector2D& vector);
+		float DistanceSquared(const Vector2D& vector) const;
 		//Calculates the vector who points to the midpoint of the original Vector2D and the vector paramater
 		//Params: The second vector we'll be retrieving coordinates from for this operation
 		//Returns: A float that represents the distance of the vector multiplied by itself
@@ -93,7 +93,7 @@ namespace CS170
 		//Divider operator that scales down the vector by the rhs
 		Vector2D& operator/=(const float& rhs);
 		//This operator overload for - negates the vector. This one is unary
-		Vector2D operator-();
+		Vector2D operator-() const;
 		
 
 		

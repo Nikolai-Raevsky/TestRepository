@@ -65,12 +65,12 @@ Vector2D Vector2D::Normalized(void) const
 	return vector;
 }
 
- float Vector2D::Distance(const Vector2D& vector) 
+ float Vector2D::Distance(const Vector2D& vector) const 
 {
 	return sqrt((vector.x - x) * (vector.x - x) + (vector.y -y) * (vector.y-y));
 }
 
-float Vector2D::DistanceSquared(const Vector2D& vector) 
+float Vector2D::DistanceSquared(const Vector2D& vector) const
 {
 	return (vector.x - x) * (vector.x - x) + (vector.y - y) * (vector.y - y);
 }
@@ -136,7 +136,7 @@ Vector2D& Vector2D::operator/=(const float& rhs)
 
 
 
-Vector2D Vector2D::operator-()
+Vector2D Vector2D::operator-() const
 {
 	
 	return Vector2D(-1*x, -1*y);
