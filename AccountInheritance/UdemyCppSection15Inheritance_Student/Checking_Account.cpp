@@ -9,3 +9,4 @@
 
 
 //Make a withdraw function
+//It has a $1.50 withdrawal fee

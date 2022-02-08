@@ -10,12 +10,16 @@
 //************************************************
 
 class Checking_Account : public Account {
+private:
+	static constexpr const char* def_name = "Unnamed Checking Account";
+	static constexpr double def_balance = 0.0;
+	static constexpr double def_int_rate = 0.0;
 
-	
-//Make a constructor
+public:
+	//Make a constructor
+	Checking_Account(std::string name = def_name, double balance = def_balance, double int_rate = def_int_rate);
 
-
-//Make a withdraw function
+	//Make a withdraw function
 
 };
 
