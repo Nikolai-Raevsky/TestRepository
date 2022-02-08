@@ -4,3 +4,8 @@
 // Teacher: Jeremy Kings (jeremy.kings@digipen.edu)
 // Assignment: PRG 7.1.9 PRACTICE: Account Class with Inheritance
 //************************************************
+
+//Make a constructor
+
+
+//Make a withdraw function
