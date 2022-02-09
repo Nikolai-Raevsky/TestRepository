@@ -35,7 +35,10 @@ bool Trust_Account::deposit(double amount)
 
 bool Trust_Account::withdraw(double amount)
 {
+	if (amount < balance * .2)
+	{
 
+	}
 }
 
 
