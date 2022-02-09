@@ -5,6 +5,11 @@
 // Assignment: PRG 7.1.9 PRACTICE: Account Class with Inheritance
 //************************************************
 
+
+
+//IMPORTANT FUNCTIONS FROM OTHER FILES TO REMEMBER
+// bool Account::withdraw
+// The functions in Checking_Account.h (Checking_Account(std::string 
 //Make a constructor
 
 
