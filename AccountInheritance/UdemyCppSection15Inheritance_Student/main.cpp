@@ -39,7 +39,7 @@ int main() {
 	 
 	 // Checking
    
-    /*vector<Checking_Account> check_accounts;
+    vector<Checking_Account> check_accounts;
     check_accounts.push_back(Checking_Account {} );
     check_accounts.push_back(Checking_Account {"Kirk"} );
     check_accounts.push_back(Checking_Account {"Spock", 2000} );
@@ -47,7 +47,7 @@ int main() {
 
     display(check_accounts);
     deposit(check_accounts, 1000);
-    withdraw(check_accounts, 2000);*/
+    withdraw(check_accounts, 2000);
 
     // Trust
   
