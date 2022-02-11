@@ -17,7 +17,7 @@
 
 std::ostream& operator<< (std::ostream& os, const Trust_Account& account)
 {
-	std::cout << "[Account name: " << account.name << ": " << account.balance << ", " << account.int_rate << "]";
+	std::cout << "[Trust Account: " << account.name << ": " << account.balance << ", " << account.int_rate << "%, withdrawals: " << account.withdrawals << "]";
 	return os;
 }
 
@@ -29,16 +29,48 @@ Trust_Account::Trust_Account(std::string name, double balance, double int_rate)
 
 bool Trust_Account::deposit(double amount)
 {
+	if (amount >= 5000)
+	{
+		amount += 50;
+	}
 	amount += amount * (int_rate / 100);
+	
 	return Account::deposit(amount);
 }
 
 bool Trust_Account::withdraw(double amount)
 {
-	if (amount < balance * .2) //I LEFT HERE
+	double withdrawLimit = balance * .2;
+	if (amount < withdrawLimit) //I LEFT HERE
 	{
+		
+		withdrawals += 1;
+		if (withdrawals > 3)
+		{
+			//std::cout << "withdrawals conditional is triggered. ";
+			withdrawals = 3;
+			return false;
+		}
 
+		else
+		{
+			//std::cout << "Mark that withdrawls have not exceeded 3 ";
+			return Account::withdraw(amount);
+		}
+			
+		
 	}
+	else
+	{
+		
+		//std::cout << "The amount withdrawn is more than 20% ";
+		return false;
+	}
+		
+
+	
+
+	
 }
 
 
