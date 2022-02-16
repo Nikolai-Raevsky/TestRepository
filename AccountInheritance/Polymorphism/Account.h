@@ -14,7 +14,7 @@ protected:
     double balance;
 public:
     Account(std::string name = def_name, double balance = def_balance);
-    virtual bool deposit(double amount);
-    virtual bool withdraw(double amount);
+    virtual bool deposit(double amount) const;
+    virtual bool withdraw(double amount) const;
 };
 #endif
