@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Polymorphism\Account.cpp" />
+    <ClCompile Include="..\..\Polymorphism\Account_Util.cpp" />
+    <ClCompile Include="..\..\Polymorphism\Checking_Account.cpp" />
+    <ClCompile Include="..\..\Polymorphism\main.cpp" />
+    <ClCompile Include="..\..\Polymorphism\Savings_Account.cpp" />
+    <ClCompile Include="..\..\Polymorphism\Trust_Account.cpp" />
+    <ClCompile Include="I_Printable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Polymorphism\Account.h" />
+    <ClInclude Include="..\..\Polymorphism\Account_Util.h" />
+    <ClInclude Include="..\..\Polymorphism\Checking_Account.h" />
+    <ClInclude Include="..\..\Polymorphism\Savings_Account.h" />
+    <ClInclude Include="..\..\Polymorphism\Trust_Account.h" />
+    <ClInclude Include="I_Printable.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,21 +155,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\Account.cpp" />
-    <ClCompile Include="..\Account_Util.cpp" />
-    <ClCompile Include="..\Checking_Account.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\Savings_Account.cpp" />
-    <ClCompile Include="..\Trust_Account.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Account.h" />
-    <ClInclude Include="..\Account_Util.h" />
-    <ClInclude Include="..\Checking_Account.h" />
-    <ClInclude Include="..\Savings_Account.h" />
-    <ClInclude Include="..\Trust_Account.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

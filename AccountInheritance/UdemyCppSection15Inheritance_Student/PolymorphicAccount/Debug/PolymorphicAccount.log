@@ -1,2 +1,33 @@
-﻿  main.cpp
-  PolymorphicAccount.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\AccountingInheritance\Debug\PolymorphicAccount.exe
+﻿  Account.cpp
+  Account_Util.cpp
+  Checking_Account.cpp
+  main.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(28,21): error C2665: 'display': none of the 4 overloads could convert all the argument types
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(27,6): message : could be 'void display(const std::vector<Trust_Account,std::allocator<Trust_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(22,6): message : or       'void display(const std::vector<Checking_Account,std::allocator<Checking_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(17,6): message : or       'void display(const std::vector<Savings_Account,std::allocator<Savings_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(11,6): message : or       'void display(const std::vector<Account,std::allocator<Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(28,21): message : while trying to match the argument list '(std::vector<Account *,std::allocator<Account *>>)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(29,27): error C2665: 'deposit': none of the 4 overloads could convert all the argument types
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(28,6): message : could be 'void deposit(std::vector<Trust_Account,std::allocator<Trust_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(23,6): message : or       'void deposit(std::vector<Checking_Account,std::allocator<Checking_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(18,6): message : or       'void deposit(std::vector<Savings_Account,std::allocator<Savings_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(12,6): message : or       'void deposit(std::vector<Account,std::allocator<Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(29,27): message : while trying to match the argument list '(std::vector<Account *,std::allocator<Account *>>, int)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(30,28): error C2665: 'withdraw': none of the 4 overloads could convert all the argument types
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(29,6): message : could be 'void withdraw(std::vector<Trust_Account,std::allocator<Trust_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(24,6): message : or       'void withdraw(std::vector<Checking_Account,std::allocator<Checking_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(19,6): message : or       'void withdraw(std::vector<Savings_Account,std::allocator<Savings_Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(13,6): message : or       'void withdraw(std::vector<Account,std::allocator<Account>> &,double)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(30,28): message : while trying to match the argument list '(std::vector<Account *,std::allocator<Account *>>, int)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(32,21): error C2665: 'display': none of the 4 overloads could convert all the argument types
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(27,6): message : could be 'void display(const std::vector<Trust_Account,std::allocator<Trust_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(22,6): message : or       'void display(const std::vector<Checking_Account,std::allocator<Checking_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(17,6): message : or       'void display(const std::vector<Savings_Account,std::allocator<Savings_Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(11,6): message : or       'void display(const std::vector<Account,std::allocator<Account>> &)'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(32,21): message : while trying to match the argument list '(std::vector<Account *,std::allocator<Account *>>)'
+  Savings_Account.cpp
+  Trust_Account.cpp
+  I_Printable.cpp
+  Generating Code...
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\PolymorphicAccount\I_Printable.cpp(7): error C4716: 'operator<<': must return a value
