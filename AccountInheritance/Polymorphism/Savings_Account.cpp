@@ -18,3 +18,9 @@ std::ostream &operator<<(std::ostream &os, const Savings_Account &account) {
     return os;
 }
 
+void Savings_Account::print(std::ostream& os)
+{
+    os << "[Savings_Account: " << name << ": " << balance << ", " << int_rate << "]";
+    
+}
+

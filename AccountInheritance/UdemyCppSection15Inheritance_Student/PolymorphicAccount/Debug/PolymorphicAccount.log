@@ -1,7 +1,9 @@
-﻿  Account.cpp
-  Account_Util.cpp
-  Checking_Account.cpp
+﻿  Account_Util.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(5,1): error C2011: 'I_Printable': 'class' type redefinition
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(4): message : see declaration of 'I_Printable'
   main.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(5,1): error C2011: 'I_Printable': 'class' type redefinition
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(4): message : see declaration of 'I_Printable'
 C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(28,21): error C2665: 'display': none of the 4 overloads could convert all the argument types
 C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(27,6): message : could be 'void display(const std::vector<Trust_Account,std::allocator<Trust_Account>> &)'
 C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\Account_Util.h(22,6): message : or       'void display(const std::vector<Checking_Account,std::allocator<Checking_Account>> &)'
@@ -28,6 +30,6 @@ C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Poly
 C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\main.cpp(32,21): message : while trying to match the argument list '(std::vector<Account *,std::allocator<Account *>>)'
   Savings_Account.cpp
   Trust_Account.cpp
-  I_Printable.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(5,1): error C2011: 'I_Printable': 'class' type redefinition
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\Polymorphism\I_Printable.h(4): message : see declaration of 'I_Printable'
   Generating Code...
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\PolymorphicAccount\I_Printable.cpp(7): error C4716: 'operator<<': must return a value

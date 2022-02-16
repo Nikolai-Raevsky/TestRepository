@@ -22,18 +22,18 @@
     <ClCompile Include="..\..\Polymorphism\Account.cpp" />
     <ClCompile Include="..\..\Polymorphism\Account_Util.cpp" />
     <ClCompile Include="..\..\Polymorphism\Checking_Account.cpp" />
+    <ClCompile Include="..\..\Polymorphism\I_Printable.cpp" />
     <ClCompile Include="..\..\Polymorphism\main.cpp" />
     <ClCompile Include="..\..\Polymorphism\Savings_Account.cpp" />
     <ClCompile Include="..\..\Polymorphism\Trust_Account.cpp" />
-    <ClCompile Include="I_Printable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Polymorphism\Account.h" />
     <ClInclude Include="..\..\Polymorphism\Account_Util.h" />
     <ClInclude Include="..\..\Polymorphism\Checking_Account.h" />
+    <ClInclude Include="..\..\Polymorphism\I_Printable.h" />
     <ClInclude Include="..\..\Polymorphism\Savings_Account.h" />
     <ClInclude Include="..\..\Polymorphism\Trust_Account.h" />
-    <ClInclude Include="I_Printable.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

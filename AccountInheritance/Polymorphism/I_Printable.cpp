@@ -3,6 +3,6 @@
 
 std::ostream& operator<<(std::ostream& os, const I_Printable& obj)
 {
-	I_Printable::print(os);
+	obj.print(os);
 	return os;
 }
