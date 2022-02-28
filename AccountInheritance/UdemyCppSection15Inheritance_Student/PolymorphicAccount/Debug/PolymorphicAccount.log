@@ -1,118 +1,21 @@
-﻿  Account.cpp
-  Account_Util.cpp
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(5): error C2011: 'I_Printable': 'class' type redefinition
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(4): note: see declaration of 'I_Printable'
-  Checking_Account.cpp
-  I_Printable.cpp
-  main.cpp
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(5): error C2011: 'I_Printable': 'class' type redefinition
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(4): note: see declaration of 'I_Printable'
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(28): error C2665: 'display': none of the 4 overloads could convert all the argument types
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(27): note: could be 'void display(const std::vector<Trust_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Trust_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(22): note: or       'void display(const std::vector<Checking_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Checking_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(17): note: or       'void display(const std::vector<Savings_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Savings_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(11): note: or       'void display(const std::vector<Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(28): note: while trying to match the argument list '(std::vector<Account *,std::allocator<_Ty>>)'
-          with
-          [
-              _Ty=Account *
-          ]
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(29): error C2665: 'deposit': none of the 4 overloads could convert all the argument types
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(28): note: could be 'void deposit(std::vector<Trust_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Trust_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(23): note: or       'void deposit(std::vector<Checking_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Checking_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(18): note: or       'void deposit(std::vector<Savings_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Savings_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(12): note: or       'void deposit(std::vector<Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(29): note: while trying to match the argument list '(std::vector<Account *,std::allocator<_Ty>>, int)'
-          with
-          [
-              _Ty=Account *
-          ]
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(30): error C2665: 'withdraw': none of the 4 overloads could convert all the argument types
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(29): note: could be 'void withdraw(std::vector<Trust_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Trust_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(24): note: or       'void withdraw(std::vector<Checking_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Checking_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(19): note: or       'void withdraw(std::vector<Savings_Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Savings_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(13): note: or       'void withdraw(std::vector<Account,std::allocator<_Ty>> &,double)'
-          with
-          [
-              _Ty=Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(30): note: while trying to match the argument list '(std::vector<Account *,std::allocator<_Ty>>, int)'
-          with
-          [
-              _Ty=Account *
-          ]
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(32): error C2665: 'display': none of the 4 overloads could convert all the argument types
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(27): note: could be 'void display(const std::vector<Trust_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Trust_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(22): note: or       'void display(const std::vector<Checking_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Checking_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(17): note: or       'void display(const std::vector<Savings_Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Savings_Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\account_util.h(11): note: or       'void display(const std::vector<Account,std::allocator<_Ty>> &)'
-          with
-          [
-              _Ty=Account
-          ]
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(32): note: while trying to match the argument list '(std::vector<Account *,std::allocator<_Ty>>)'
-          with
-          [
-              _Ty=Account *
-          ]
-  Savings_Account.cpp
-  Trust_Account.cpp
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(5): error C2011: 'I_Printable': 'class' type redefinition
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(4): note: see declaration of 'I_Printable'
-  Generating Code...
+﻿  main.cpp
+c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): error C2259: 'Checking_Account': cannot instantiate abstract class
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): note: due to following members:
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): note: 'void I_Printable::print(std::ostream &) const': is abstract
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
+c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): error C2259: 'Trust_Account': cannot instantiate abstract class
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): note: due to following members:
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): note: 'void I_Printable::print(std::ostream &) const': is abstract
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
+c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): error C2259: 'Checking_Account': cannot instantiate abstract class
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): note: due to following members:
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): note: 'void I_Printable::print(std::ostream &) const': is abstract
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
+c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): error C2259: 'Savings_Account': cannot instantiate abstract class
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): note: due to following members:
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): note: 'void I_Printable::print(std::ostream &) const': is abstract
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
+c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): error C2259: 'Trust_Account': cannot instantiate abstract class
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): note: due to following members:
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): note: 'void I_Printable::print(std::ostream &) const': is abstract
+  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
