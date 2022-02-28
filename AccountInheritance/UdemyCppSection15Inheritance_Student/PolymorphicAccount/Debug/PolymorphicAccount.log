@@ -1,21 +1,6 @@
-﻿  main.cpp
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): error C2259: 'Checking_Account': cannot instantiate abstract class
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): note: due to following members:
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(17): note: 'void I_Printable::print(std::ostream &) const': is abstract
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): error C2259: 'Trust_Account': cannot instantiate abstract class
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): note: due to following members:
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(20): note: 'void I_Printable::print(std::ostream &) const': is abstract
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): error C2259: 'Checking_Account': cannot instantiate abstract class
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): note: due to following members:
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(23): note: 'void I_Printable::print(std::ostream &) const': is abstract
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): error C2259: 'Savings_Account': cannot instantiate abstract class
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): note: due to following members:
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(24): note: 'void I_Printable::print(std::ostream &) const': is abstract
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
-c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): error C2259: 'Trust_Account': cannot instantiate abstract class
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): note: due to following members:
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\main.cpp(25): note: 'void I_Printable::print(std::ostream &) const': is abstract
-  c:\users\nikolai.raevsky\documents\github\testrepository\accountinheritance\polymorphism\i_printable.h(8): note: see declaration of 'I_Printable::print'
+﻿  Account_Util.cpp
+  main.cpp
+  Savings_Account.cpp
+  Trust_Account.cpp
+  Generating Code...
+  PolymorphicAccount.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\PolymorphicAccount\Debug\PolymorphicAccount.exe

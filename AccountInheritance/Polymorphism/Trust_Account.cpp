@@ -1,4 +1,5 @@
 #include "Trust_Account.h"
+#include "I_Printable.h"
 
 Trust_Account::Trust_Account(std::string name, double balance, double int_rate)
     : Savings_Account {name, balance, int_rate}, num_withdrawals {0}  {
@@ -28,7 +29,7 @@ std::ostream &operator<<(std::ostream &os, const Trust_Account &account) {
     return os;
 }
 
-void Trust_Account::print(std::ostream& os)
+void Trust_Account::print(std::ostream& os) const
 {
     os << "[Trust Account: " << name << ": " << balance << ", " << int_rate
         << "%, withdrawals: " << num_withdrawals << "]";

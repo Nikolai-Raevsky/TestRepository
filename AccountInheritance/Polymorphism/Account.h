@@ -7,7 +7,7 @@
 //I have to remember that if I have to deal with more stupid project stuff from PolymorphicAccount being in the same solution as the Inheritance project, I'm going to make a new solution
 
 class Account : public I_Printable{
-    friend std::ostream &operator<<(std::ostream &os, const Account &account);
+    
 private:   
     static constexpr const char *def_name = "Unnamed Account";
     static constexpr double def_balance = 0.0;
