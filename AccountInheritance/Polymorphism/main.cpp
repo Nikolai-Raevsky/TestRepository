@@ -26,11 +26,11 @@ int main()
     
     std::vector<Account *> accounts {p1,p2,p3};
     
-   /* display(accounts);
+    display(accounts);
     deposit(accounts, 1000);
     withdraw(accounts, 2000);
     
-    display(accounts);*/
+    display(accounts);
     
     delete p1;
     delete p2;
