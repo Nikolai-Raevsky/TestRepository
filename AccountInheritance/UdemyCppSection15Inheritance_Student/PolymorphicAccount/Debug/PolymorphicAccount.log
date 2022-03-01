@@ -1,3 +1,6 @@
-﻿  I_Printable.cpp
-  LINK : C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\PolymorphicAccount\Debug\PolymorphicAccount.exe not found or not built by the last incremental link; performing full link
+﻿  Account_Util.cpp
+  Savings_Account.cpp
+  Trust_Account.cpp
+  main.cpp
+  Generating Code...
   PolymorphicAccount.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\AccountInheritance\UdemyCppSection15Inheritance_Student\PolymorphicAccount\Debug\PolymorphicAccount.exe

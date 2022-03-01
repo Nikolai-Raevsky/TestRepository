@@ -24,9 +24,39 @@ protected:
     std::string name;
     double balance;
 public:
+	//This Account function constructs an account with a name set to def_name and a balance set to def_balance
+
     Account(std::string name = def_name, double balance = def_balance);
+
+
+	/**********-deposit notes-************/
+	//Description: 
+	//	Deposits money into account balance
+	//Params:
+	//	amount: The amount that gets deposited into the balance
+	//Returns:
+	//	Returns false if the amount is less than 0 and true otherwise
+
+
     virtual bool deposit(double amount);
+
+	/**********-withdraw notes-************/
+	//Description: 
+	//	Withdraws money from account balance
+	//Params:
+	//	amount: The amount that gets withdrawn from the balance
+	//Returns:
+	//	Returns true if balance-amount is greater than or equal to 0, false otherwise
+
+
     virtual bool withdraw(double amount);
+
+	/**********-print notes-************/
+	//Description: 
+	//	Outputs the account name and balance
+	//Params:
+	//	os: The ostream that the account is being outputted to. This is required to work with the I_Printable interface
+	
 	virtual void print(std::ostream& os);
 };
 #endif

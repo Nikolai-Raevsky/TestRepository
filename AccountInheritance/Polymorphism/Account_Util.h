@@ -14,26 +14,33 @@
 #include "Checking_Account.h"
 #include "Trust_Account.h"
 
-// Utility helper functions for Account class
 
+/**********-display notes-************/
+	//Description: 
+	//	Outputs a vector of account pointers
+	//Params:
+	//	&accounts: a reference to the account pointer vector being outputted
+	
 void display(const std::vector<Account *> &accounts);
+
+/**********-deposit notes-************/
+	//Description: 
+	//	Displays a confirmation or failure of account deposits
+	//Params:
+	//	accounts: A vector of account pointers that (after dereferencing) the function will check
+	//	amount: The amount of money (trying to be) deposited into the account balance
+	
 void deposit(std::vector<Account *> &accounts, double amount);
+
+/**********-withdraw notes-************/
+	//Description: 
+	//	Displays a withdrawal confirmation or denial
+	//Params:
+	//	accounts: A vector of account pointers that (after dereferencing) the function will check
+	//	amount: The amount of money (trying to be) withdrawn from the account balance
+	
 void withdraw(std::vector<Account *> &accounts, double amount);
 
-// Utility helper functions for Savings Account class
 
-//void display(const std::vector<Savings_Account> &accounts);
-//void deposit(std::vector<Savings_Account> &accounts, double amount);
-//void withdraw(std::vector<Savings_Account> &accounts, double amount);
-//
-//// Utility helper functions for Checking Account class
-//void display(const std::vector<Checking_Account> &accounts);
-//void deposit(std::vector<Checking_Account> &accounts, double amount);
-//void withdraw(std::vector<Checking_Account> &accounts, double amount);
-//
-//// Utility helper functions for Trust Account class
-//void display(const std::vector<Trust_Account> &accounts);
-//void deposit(std::vector<Trust_Account> &accounts, double amount);
-//void withdraw(std::vector<Trust_Account> &accounts, double amount);
 
 #endif
