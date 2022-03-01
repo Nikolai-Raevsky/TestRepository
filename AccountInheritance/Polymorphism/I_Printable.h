@@ -1,3 +1,10 @@
+//////////////////////////////////////////////////////
+//	Filename: I_Printable.h
+//	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+//	Project: PRG 7.29 Practice - Account Class With Polymorphism
+//	Course: WANIC VGP2
+//////////////////////////////////////////////////////
+
 #ifndef _I_PRINTABLE_H_
 #define _I_PRINTABLE_H_
 #include <iostream>

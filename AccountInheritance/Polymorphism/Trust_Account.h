@@ -1,3 +1,10 @@
+//////////////////////////////////////////////////////
+//	Filename: Trust_Account.h
+//	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+//	Project: PRG 7.29 Practice - Account Class With Polymorphism
+//	Course: WANIC VGP2
+//////////////////////////////////////////////////////
+
 #ifndef _TRUST_ACCOUNT_H_
 #define _TRUST_ACCOUNT_H_
 

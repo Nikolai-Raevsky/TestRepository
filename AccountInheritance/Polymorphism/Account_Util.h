@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////
+//	Filename: Account_Util.h
+//	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+//	Project: PRG 7.29 Practice - Account Class With Polymorphism
+//	Course: WANIC VGP2
+//////////////////////////////////////////////////////
+
+
 #ifndef _ACCOUNT_UTIL_H_
 #define _ACCOUNT_UTIL_H_
 #include <vector>

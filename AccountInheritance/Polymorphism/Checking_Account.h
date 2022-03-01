@@ -1,3 +1,10 @@
+//////////////////////////////////////////////////////
+//	Filename: Checking_Account.h
+//	Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
+//	Project: PRG 7.29 Practice - Account Class With Polymorphism
+//	Course: WANIC VGP2
+//////////////////////////////////////////////////////
+
 #ifndef _CHECKING_ACCOUNT_H_
 #define _CHECKING_ACCOUNT_H_
 #include <iostream>
