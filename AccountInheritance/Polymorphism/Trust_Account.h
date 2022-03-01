@@ -28,17 +28,19 @@ public:
     Trust_Account(std::string name = def_name,  double balance = def_balance, double int_rate = def_int_rate);
     
     // Deposits of $5000.00 or more will receive $50 bonus
+	//Params and return same as other deposits
     bool deposit(double amount);
     
     // Only allowed maximum of 3 withdrawals, each can be up to a maximum of 20% of the account's value
+	//Params and return same asa other withdraws
     bool withdraw(double amount);
+
 	/**********-print notes-************/
 	//Description: 
 	//	Outputs the trust account variables for the << operator
 	//Params:
 	//	os: A reference to the ostream that the variables will get outputted to
-	//Returns:
-	//	Returns false if the amount is less than 0 and true otherwise
+	
     virtual void print(std::ostream& os) const override;
 
 
