@@ -138,8 +138,9 @@ void TestingPolymorphism(void)
 }
 
 
-/*
+
 // Comment out the below code in order to test the abstract classes
+/*
 void TestingTheAbstractClasses(void)
 {
     //Should get a compiler error
