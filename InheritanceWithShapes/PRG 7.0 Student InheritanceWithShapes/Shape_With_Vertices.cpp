@@ -10,3 +10,8 @@
 Shape_With_Vertices::Shape_With_Vertices(Point center_, unsigned int number_of_vertices_) : Shape(center), number_of_vertices(number_of_vertices_)
 {}
 
+Shape_With_Vertices::~Shape_With_Vertices()
+{
+	delete vertices;
+	vertices = nullptr;
+}
