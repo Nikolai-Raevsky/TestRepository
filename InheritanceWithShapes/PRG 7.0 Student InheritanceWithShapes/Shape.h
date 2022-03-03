@@ -17,12 +17,16 @@ Virtual functions for derived objects can only be called if the method is called
 class Shape
 {
 public:
+	//Constructs a shape with a center set to center_
 	Shape(Point center_);
+	//This destructor is meant to be overriden by the destructors of derived objects
 	virtual ~Shape();
+	//returns the shape's center
 	Point GetCenter();
 	void SetCenter(float x_, float y_);
-	virtual void Draw();
+	//A pure virtual draw function that is meant to be overidden by derived classes
+	 virtual void Draw() const = 0;
 
-private:
+protected:
 	Point center;
 };

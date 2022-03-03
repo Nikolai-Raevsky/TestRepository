@@ -1,25 +1,4 @@
 ﻿  main.cpp
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(12): error C2065: 'Circle': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(12): error C2146: syntax error: missing ';' before identifier 'c1'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(12): error C3861: 'c1': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(13): error C2065: 'c1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(17): error C2065: 'Circle': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(17): error C2146: syntax error: missing ';' before identifier 'c2'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(17): error C2065: 'c1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(17): error C3861: 'c2': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(18): error C2065: 'c2': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(22): error C2065: 'Circle': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(22): error C2065: 'c3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(22): error C2061: syntax error: identifier 'Circle'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(23): error C2065: 'c3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(24): error C2065: 'c3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(25): error C2065: 'c3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(26): error C2065: 'c3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(26): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(30): error C2146: syntax error: missing ';' before identifier 'c4'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(30): error C3861: 'c4': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(31): error C2065: 'c4': undeclared identifier
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(44): error C2065: 'Rectangle': undeclared identifier
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(44): error C2146: syntax error: missing ';' before identifier 's1'
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(44): error C3861: 's1': identifier not found
@@ -41,49 +20,7 @@ c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\p
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(62): error C2146: syntax error: missing ';' before identifier 's4'
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(62): error C3861: 's4': identifier not found
 c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(63): error C2065: 's4': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(76): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(76): error C2146: syntax error: missing ';' before identifier 'p1'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(76): error C3861: 'p1': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(77): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(78): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(79): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(80): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(81): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(85): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(85): error C2146: syntax error: missing ';' before identifier 'p2'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(85): error C2065: 'p1': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(85): error C3861: 'p2': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(86): error C2065: 'p2': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(90): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(90): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(90): error C2061: syntax error: identifier 'Polygon'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(91): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(92): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(93): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(94): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(95): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(96): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(97): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(98): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(100): error C2065: 'p3': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(100): error C2541: 'delete': cannot delete objects that are not pointers
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(105): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(105): error C2146: syntax error: missing ';' before identifier 'p4'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(105): error C3861: 'p4': identifier not found
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(106): error C2065: 'p4': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(121): error C2065: 'Shape': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(121): error C2065: 'shapes': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(122): error C2065: 'shapes': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(122): error C2061: syntax error: identifier 'Circle'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(123): error C2065: 'shapes': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(123): error C2061: syntax error: identifier 'Rectangle'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(124): error C2065: 'shapes': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(124): error C2061: syntax error: identifier 'Polygon'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(125): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(125): error C2059: syntax error: ')'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(126): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(126): error C2059: syntax error: ')'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(127): error C2065: 'Polygon': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(127): error C2059: syntax error: ')'
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(131): error C2065: 'shapes': undeclared identifier
-c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\main.cpp(136): error C2065: 'shapes': undeclared identifier
+  Shape_With_Vertices.cpp
+c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\shape_with_vertices.cpp(10): error C2220: warning treated as error - no 'object' file generated
+c:\users\nikolai.raevsky\documents\github\testrepository\inheritancewithshapes\prg 7.0 student inheritancewithshapes\shape_with_vertices.cpp(10): warning C4100: 'center_': unreferenced formal parameter
+  Generating Code...
