@@ -12,6 +12,15 @@ Shape_With_Vertices::Shape_With_Vertices(Point center_, unsigned int number_of_v
 	vertices = new Point[number_of_vertices];
 }
 
+Shape_With_Vertices::Shape_With_Vertices(const Shape_With_Vertices& figure) : Shape(figure.center)
+{
+	vertices =  new Point[number_of_vertices];
+	for (unsigned int i = 0; i < number_of_vertices; i++)
+	{
+		vertices[i] = figure.vertices[i];
+	}
+}
+
 Shape_With_Vertices::~Shape_With_Vertices()
 {
 	delete vertices;

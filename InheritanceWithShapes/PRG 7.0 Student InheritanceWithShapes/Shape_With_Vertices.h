@@ -14,6 +14,7 @@ class Shape_With_Vertices : public Shape
 public:
 	//This is a constructor that initializes a Shape_With_Vertices with a center set to center_ and a number_of_vertices set to number_of_vertices_
 	Shape_With_Vertices(Point center_, unsigned int number_of_vertices_);
+	Shape_With_Vertices(const Shape_With_Vertices& figure);
 
 	//This is a destructor meant to be overidden by the rectangle and polygon destructors
 	virtual ~Shape_With_Vertices();
