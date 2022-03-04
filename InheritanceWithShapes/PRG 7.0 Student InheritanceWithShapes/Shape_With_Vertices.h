@@ -20,9 +20,9 @@ public:
 
 	
 	//	Sets center to a point made up of values x_ and y_ and transforms the other vertices based on how much the center was transformed. Rectangle doesn't track individual vertices so I have to make different variants for each of them
-	virtual void SetCenter(float x_, float y_) const = 0;
+	void SetCenter(float x_, float y_);
 
-	//This is a pure virtual function that will be overidden by the rectangle or polygon Draw functions
+	
 	
 
 protected:
