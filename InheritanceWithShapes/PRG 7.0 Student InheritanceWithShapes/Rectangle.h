@@ -8,7 +8,7 @@
 #include "Point.h"
 #include "Shape.h"
 #include "Shape_With_Vertices.h"
-
+//--------MAKE SURE TO DOUBLE CHECK THAT RECTANGLE TESTS WORK WITH SHAPE_WITH_VERTICES COPY CONSTRUCTOR------------
 class Rectangle : public Shape_With_Vertices
 {
 public:
