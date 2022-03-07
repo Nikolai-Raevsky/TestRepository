@@ -8,11 +8,11 @@
 #include "Point.h"
 #include "Shape.h"
 #include "Shape_With_Vertices.h"
-//--------MAKE SURE TO DOUBLE CHECK THAT RECTANGLE TESTS WORK WITH SHAPE_WITH_VERTICES COPY CONSTRUCTOR------------
+
 class Rectangle : public Shape_With_Vertices
 {
 public:
-	//This is a constructor that initializes a rectangle with a center, width, and height set to center_, width_, and height_ respetively
+	//This is a constructor that initializes a rectangle with a center, width, and height set to center_, width_, and height_ respetively. It also calculates the rectangle's vertices from the width_ and height_ operators
 	Rectangle(Point center_, unsigned int width_, unsigned int height_);
 	//This function outputs the rectangle's center, width, height, and vertices
 	void Draw() const;

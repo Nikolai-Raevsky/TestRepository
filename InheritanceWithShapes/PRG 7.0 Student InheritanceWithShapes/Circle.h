@@ -11,7 +11,7 @@
 class Circle : public Shape
 {
 public:
-	//A constructor that initializes Circle with a radius set to radius_. I think that center gets initialized in the Shape constructor but I might have to check with Jeremy about that
+	//A constructor that initializes Circle with a radius set to radius_. The center should generally be initialized in the Shape constructor
 	Circle(Point center_, unsigned int radius_);
 
 	//Description: Displays the center and radius of the circle to the console

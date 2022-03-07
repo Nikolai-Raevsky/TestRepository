@@ -22,7 +22,7 @@ Polygon::Polygon(Point center_, const Point* points, unsigned int number_of_vert
 {
 	for (unsigned int i = 0; i < number_of_vertices; i++)
 	{
-		vertices[i] = points[i];
+		vertices[i] = Point(center.x + points[i].x, center.y + points[i].y);//points[i];
 	}
 }
 
@@ -33,7 +33,7 @@ void Polygon::SetVertex(unsigned int vertexIdx_, float x_, float y_)
 		std::cout << "Bad vertex index provided" << std::endl;
 		return;
 	}
-	vertices[vertexIdx_] = Point(x_, y_);
+	vertices[vertexIdx_] = Point(center.x + x_, center.y + y_);
 }
 
 void Polygon::Draw() const

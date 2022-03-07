@@ -1,42 +1,21 @@
-Testing The Polygon Class:
----------------------------
-Polygon 1:
------------
-Drawing a polygon at x = 0 y = 0
-Vertex 0 (0, 0)
-Vertex 1 (0, 0)
-Vertex 2 (0, 0)
+Testing The Circle Class:
+-------------------------
+Circle 1:
+---------
+Drawing a circle at x = 10 y = 10 and radius 5
 
-Drawing a polygon at x = 0 y = 0
-Vertex 0 (5, 0)
-Vertex 1 (0, 15)
-Vertex 2 (-5, 0)
+Circle 2:
+---------
+Drawing a circle at x = 10 y = 10 and radius 5
 
-Polygon 2:
------------
-Drawing a polygon at x = 0 y = 0
+Circle 3:
+---------
+Drawing a circle at x = 0 y = 0 and radius 10
 
-Polygon 3:
------------
-Drawing a polygon at x = 10 y = 10
-Vertex 0 (5, 0)
-Vertex 1 (0, 15)
-Vertex 2 (-5, 0)
-Vertex 3 (0, -15)
+Drawing a circle at x = 15 y = 15 and radius 10
 
-Drawing a polygon at x = 15 y = 15
-Vertex 0 (10, 5)
-Vertex 1 (5, 20)
-Vertex 2 (0, 5)
-Vertex 3 (5, -10)
-
-
-Polygon 4:
------------
-Drawing a polygon at x = 20 y = 20
-Vertex 0 (5, 0)
-Vertex 1 (0, 15)
-Vertex 2 (-5, 0)
-Vertex 3 (0, -15)
+Circle 4:
+---------
+Drawing a circle at x = 20 y = 20 and radius 3
 
 

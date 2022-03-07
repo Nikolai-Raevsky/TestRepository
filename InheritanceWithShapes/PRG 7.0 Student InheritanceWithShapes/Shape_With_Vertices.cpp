@@ -12,11 +12,12 @@ Shape_With_Vertices::Shape_With_Vertices(Point center_, unsigned int number_of_v
 	vertices = new Point[number_of_vertices];
 }
 
-Shape_With_Vertices::Shape_With_Vertices(const Shape_With_Vertices& figure) : Shape(figure.center)
+Shape_With_Vertices::Shape_With_Vertices(const Shape_With_Vertices& figure) : Shape_With_Vertices(figure.center, figure.number_of_vertices)
 {
-	vertices =  new Point[number_of_vertices];
-	for (unsigned int i = 0; i < number_of_vertices; i++)
+	vertices =  new Point[figure.number_of_vertices]; //Check to see if figure.number_of_vertices is necessary after the intialization.
+	for (unsigned int i = 0; i < figure.number_of_vertices; i++)
 	{
+		//There's something up with this copy constructor.
 		vertices[i] = figure.vertices[i];
 	}
 }

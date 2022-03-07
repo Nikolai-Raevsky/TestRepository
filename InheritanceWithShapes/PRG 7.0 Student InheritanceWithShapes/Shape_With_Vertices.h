@@ -15,7 +15,7 @@ public:
 	//This is a constructor that initializes a Shape_With_Vertices with a center set to center_ and a number_of_vertices set to number_of_vertices_
 	Shape_With_Vertices(Point center_, unsigned int number_of_vertices_);
 
-	//This is a copy constructor that allocates new memory for a shape_with_vertices with identical dereferenced vertices and number_of_vertices values with the passed in figure Shape_With_Vertices
+	//This is a copy constructor that allocates new memory for a shape_with_vertices with identical dereferenced vertices and number_of_vertices values with the passed in figure object
 	Shape_With_Vertices(const Shape_With_Vertices& figure);
 
 	//This is a destructor meant to be overidden by the rectangle and polygon destructors
