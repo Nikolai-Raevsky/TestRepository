@@ -31,7 +31,7 @@ public:
 	//Params:
 	//	amount: a double that will be subtracted from the user's account
 	//Returns:
-	//	a bool that will be used in the account util withdraw function to determine what message to print
+	//	Bool: it will be used in the account util withdraw function to determine what message to print
 	bool withdraw(double amount);
 	//We're going to steal the deposit method from the parent class and nobody will stop us
 };

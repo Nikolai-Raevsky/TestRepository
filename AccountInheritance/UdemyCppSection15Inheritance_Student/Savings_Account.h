@@ -5,9 +5,7 @@
 // Savings Account is a type of Account
 //   adds an interest rate
 // Withdraw - same as a regular account
-// Deposit:
-//      Amount supplied to deposit will be incremented by (amount * int_rate/100) 
-//      and then the updated amount will be deposited
+
 //
 
 class Savings_Account: public Account {
@@ -19,8 +17,15 @@ private:
 protected:
     double int_rate;
 public:
+	//This is a constructor that initializes name, balance, and int_rate. By default they are assigned to def_name, def_balance, and def_int_rate respectively
     Savings_Account(std::string name = def_name, double balance =def_balance, double int_rate = def_int_rate);    
-    bool deposit(double amount);
+	// Deposit:
+//      Amount supplied to deposit will be incremented by (amount * int_rate/100) 
+//      and then the updated amount will be deposited
+	//amount will be amount of money the user requests to deposit in the account
+	//Return:
+	//	Bool: Returns a bool to be used in the account_util deposit function to determine what message to output to the console
+	bool deposit(double amount);
     // Inherits the Account::withdraw methods
 };
 
