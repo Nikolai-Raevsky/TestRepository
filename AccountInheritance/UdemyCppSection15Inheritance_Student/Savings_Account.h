@@ -22,7 +22,8 @@ public:
 	// Deposit:
 //      Amount supplied to deposit will be incremented by (amount * int_rate/100) 
 //      and then the updated amount will be deposited
-	//amount will be amount of money the user requests to deposit in the account
+	//Params:
+	//	amount: The amount of money the user requests to deposit in the account
 	//Return:
 	//	Bool: Returns a bool to be used in the account_util deposit function to determine what message to output to the console
 	bool deposit(double amount);

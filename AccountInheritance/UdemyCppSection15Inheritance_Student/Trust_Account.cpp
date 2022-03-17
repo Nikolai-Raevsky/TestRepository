@@ -11,7 +11,7 @@
 // Account::withdraw
 // Account::deposit
 // Trust_account.h functions
-
+#include "Savings_Account.h"
 #include "Trust_Account.h"
 #include <iostream>
 
@@ -22,7 +22,7 @@ std::ostream& operator<< (std::ostream& os, const Trust_Account& account)
 }
 
 Trust_Account::Trust_Account(std::string name, double balance, double int_rate) 
-	: Account{ name, balance }, int_rate{ int_rate }
+	: Savings_Account{ name, balance, int_rate }
 {
 
 }
