@@ -14,6 +14,8 @@ public class ZombieMovement : MonoBehaviour
 {
     public float speed = 5f;
     public float interpolater = .4f;
+    public float enemyDespawnPoint = 5f;
+    public Transform camTransform;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +25,10 @@ public class ZombieMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 target = new Vector3(5, transform.position.y, transform.position.z);
+        Vector3 camPos = camTransform.position; 
+        Vector3 target = new Vector3(camPos.x + enemyDespawnPoint, transform.position.y, transform.position.z);
         Vector3 current = transform.position;
-        //Update the zombie's position in here
+        //Update the zombie's position in here. The target is supposed to go to a location off screen so I want to see if I can calculate it
         transform.position = Vector3.MoveTowards(current, Vector3.Lerp(current, target, interpolater), speed * Time.deltaTime);
     }
 }
