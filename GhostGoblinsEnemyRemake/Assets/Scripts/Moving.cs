@@ -1,3 +1,5 @@
+// THIS IS FROM THE UNITY MANUAL AND IS NOT TO BE USED OUTSIDE OF TESTING PURPOSES
+
 // A longer example of Vector3.Lerp usage.
 // Drop this script under an object in your scene, and specify 2 other objects in the "startMarker"/"endMarker" variables in the script inspector window.
 // At play time, the script will move the object along a path between the position of those two markers.
