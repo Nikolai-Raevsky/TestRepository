@@ -33,6 +33,7 @@ public class ZombieSpawner : MonoBehaviour
         {
             if(currentZombieNum < maxZombieNum)
             {
+                //For instantiater remember to store it in a variable that can be destroyed and to randomize the positions based on the position of an object such as a player)
                 Instantiate(objectToBeSpawned, Vector3.zero, Quaternion.identity);
                 currentZombieNum += 1;
             }
