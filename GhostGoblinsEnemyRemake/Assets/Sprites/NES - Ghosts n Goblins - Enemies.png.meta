@@ -1,7 +1,664 @@
 fileFormatVersion: 2
 guid: bee2a943e24f7254399fe19c5bbcdad4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2400786685421466275
+    second: NES - Ghosts n Goblins - Enemies_0
+  - first:
+      213: 5204480579708308996
+    second: NES - Ghosts n Goblins - Enemies_1
+  - first:
+      213: -4169905583954506813
+    second: NES - Ghosts n Goblins - Enemies_2
+  - first:
+      213: 4598163969236590774
+    second: NES - Ghosts n Goblins - Enemies_3
+  - first:
+      213: 8707803978527586770
+    second: NES - Ghosts n Goblins - Enemies_4
+  - first:
+      213: -7428829449790345376
+    second: NES - Ghosts n Goblins - Enemies_5
+  - first:
+      213: 9008319656354927944
+    second: NES - Ghosts n Goblins - Enemies_6
+  - first:
+      213: 7708123338009090006
+    second: NES - Ghosts n Goblins - Enemies_7
+  - first:
+      213: 7015325807008760923
+    second: NES - Ghosts n Goblins - Enemies_8
+  - first:
+      213: 656512526207866570
+    second: NES - Ghosts n Goblins - Enemies_9
+  - first:
+      213: -7047445558328805237
+    second: NES - Ghosts n Goblins - Enemies_10
+  - first:
+      213: 8265526421899724036
+    second: NES - Ghosts n Goblins - Enemies_11
+  - first:
+      213: -2419897033619493747
+    second: NES - Ghosts n Goblins - Enemies_12
+  - first:
+      213: -5359905526979909203
+    second: NES - Ghosts n Goblins - Enemies_13
+  - first:
+      213: -8913780676045196597
+    second: NES - Ghosts n Goblins - Enemies_14
+  - first:
+      213: -6462181847412523617
+    second: NES - Ghosts n Goblins - Enemies_15
+  - first:
+      213: -3248660863391000913
+    second: NES - Ghosts n Goblins - Enemies_16
+  - first:
+      213: -4144198466597433307
+    second: NES - Ghosts n Goblins - Enemies_17
+  - first:
+      213: 1207268496170396700
+    second: NES - Ghosts n Goblins - Enemies_18
+  - first:
+      213: -1828183731633172252
+    second: NES - Ghosts n Goblins - Enemies_19
+  - first:
+      213: -6159313848623116579
+    second: NES - Ghosts n Goblins - Enemies_20
+  - first:
+      213: 4188681244602228987
+    second: NES - Ghosts n Goblins - Enemies_21
+  - first:
+      213: -8381878537980538633
+    second: NES - Ghosts n Goblins - Enemies_22
+  - first:
+      213: 1065438234083476914
+    second: NES - Ghosts n Goblins - Enemies_23
+  - first:
+      213: -4324328763201445168
+    second: NES - Ghosts n Goblins - Enemies_24
+  - first:
+      213: 4818271100508408791
+    second: NES - Ghosts n Goblins - Enemies_25
+  - first:
+      213: 7457990487044314615
+    second: NES - Ghosts n Goblins - Enemies_26
+  - first:
+      213: 5795580903558499074
+    second: NES - Ghosts n Goblins - Enemies_27
+  - first:
+      213: -5570671436518477731
+    second: NES - Ghosts n Goblins - Enemies_28
+  - first:
+      213: -6125752938977656716
+    second: NES - Ghosts n Goblins - Enemies_29
+  - first:
+      213: 7757163245144952921
+    second: NES - Ghosts n Goblins - Enemies_30
+  - first:
+      213: 704934963371055666
+    second: NES - Ghosts n Goblins - Enemies_31
+  - first:
+      213: 2659857802669175565
+    second: NES - Ghosts n Goblins - Enemies_32
+  - first:
+      213: 8104345592298934011
+    second: NES - Ghosts n Goblins - Enemies_33
+  - first:
+      213: 2086450072513492540
+    second: NES - Ghosts n Goblins - Enemies_34
+  - first:
+      213: 1673075798370803946
+    second: NES - Ghosts n Goblins - Enemies_35
+  - first:
+      213: 2241791886043791651
+    second: NES - Ghosts n Goblins - Enemies_36
+  - first:
+      213: 8305188016263991424
+    second: NES - Ghosts n Goblins - Enemies_37
+  - first:
+      213: -4692214798277281790
+    second: NES - Ghosts n Goblins - Enemies_38
+  - first:
+      213: 6313652266608108953
+    second: NES - Ghosts n Goblins - Enemies_39
+  - first:
+      213: -9119994019499859076
+    second: NES - Ghosts n Goblins - Enemies_40
+  - first:
+      213: -845990598139014761
+    second: NES - Ghosts n Goblins - Enemies_41
+  - first:
+      213: 1031230591406457381
+    second: NES - Ghosts n Goblins - Enemies_42
+  - first:
+      213: -7586130089384347022
+    second: NES - Ghosts n Goblins - Enemies_43
+  - first:
+      213: 3967509767290982832
+    second: NES - Ghosts n Goblins - Enemies_44
+  - first:
+      213: 438524615033322348
+    second: NES - Ghosts n Goblins - Enemies_45
+  - first:
+      213: 5269370644277982546
+    second: NES - Ghosts n Goblins - Enemies_46
+  - first:
+      213: -852630544078514701
+    second: NES - Ghosts n Goblins - Enemies_47
+  - first:
+      213: -7544277654404753634
+    second: NES - Ghosts n Goblins - Enemies_48
+  - first:
+      213: 723421617433396070
+    second: NES - Ghosts n Goblins - Enemies_49
+  - first:
+      213: 3976514677891226118
+    second: NES - Ghosts n Goblins - Enemies_50
+  - first:
+      213: -4523861524674071264
+    second: NES - Ghosts n Goblins - Enemies_51
+  - first:
+      213: 1700202966033531383
+    second: NES - Ghosts n Goblins - Enemies_52
+  - first:
+      213: -298368117036930246
+    second: NES - Ghosts n Goblins - Enemies_53
+  - first:
+      213: 4233947722553605811
+    second: NES - Ghosts n Goblins - Enemies_54
+  - first:
+      213: -4328634863204277768
+    second: NES - Ghosts n Goblins - Enemies_55
+  - first:
+      213: 7923219110222019743
+    second: NES - Ghosts n Goblins - Enemies_56
+  - first:
+      213: -7152930077207549058
+    second: NES - Ghosts n Goblins - Enemies_57
+  - first:
+      213: 3943202790883042071
+    second: NES - Ghosts n Goblins - Enemies_58
+  - first:
+      213: -7587394585308067460
+    second: NES - Ghosts n Goblins - Enemies_59
+  - first:
+      213: 2348049716428627445
+    second: NES - Ghosts n Goblins - Enemies_60
+  - first:
+      213: 2933802671501970317
+    second: NES - Ghosts n Goblins - Enemies_61
+  - first:
+      213: 1059737808886280555
+    second: NES - Ghosts n Goblins - Enemies_62
+  - first:
+      213: 8327289760710073326
+    second: NES - Ghosts n Goblins - Enemies_63
+  - first:
+      213: -2625310336227430823
+    second: NES - Ghosts n Goblins - Enemies_64
+  - first:
+      213: 5646907567525032242
+    second: NES - Ghosts n Goblins - Enemies_65
+  - first:
+      213: -7555946444378055345
+    second: NES - Ghosts n Goblins - Enemies_66
+  - first:
+      213: -3516315108360466130
+    second: NES - Ghosts n Goblins - Enemies_67
+  - first:
+      213: 8666275370460169422
+    second: NES - Ghosts n Goblins - Enemies_68
+  - first:
+      213: -2008205225243712614
+    second: NES - Ghosts n Goblins - Enemies_69
+  - first:
+      213: 6711955736722040712
+    second: NES - Ghosts n Goblins - Enemies_70
+  - first:
+      213: 4555092637626016585
+    second: NES - Ghosts n Goblins - Enemies_71
+  - first:
+      213: -3958768398672366626
+    second: NES - Ghosts n Goblins - Enemies_72
+  - first:
+      213: -2722982750353871732
+    second: NES - Ghosts n Goblins - Enemies_73
+  - first:
+      213: -4523323904884925869
+    second: NES - Ghosts n Goblins - Enemies_74
+  - first:
+      213: 5254194377054866723
+    second: NES - Ghosts n Goblins - Enemies_75
+  - first:
+      213: 4456705467388830098
+    second: NES - Ghosts n Goblins - Enemies_76
+  - first:
+      213: 2893886494859304451
+    second: NES - Ghosts n Goblins - Enemies_77
+  - first:
+      213: 706452346016958768
+    second: NES - Ghosts n Goblins - Enemies_78
+  - first:
+      213: 3953558949325386402
+    second: NES - Ghosts n Goblins - Enemies_79
+  - first:
+      213: 1673325142234470
+    second: NES - Ghosts n Goblins - Enemies_80
+  - first:
+      213: -5275833216966011273
+    second: NES - Ghosts n Goblins - Enemies_81
+  - first:
+      213: 6720645380189408396
+    second: NES - Ghosts n Goblins - Enemies_82
+  - first:
+      213: 4574578445613306985
+    second: NES - Ghosts n Goblins - Enemies_83
+  - first:
+      213: -8107207259068704049
+    second: NES - Ghosts n Goblins - Enemies_84
+  - first:
+      213: -5789939746100449925
+    second: NES - Ghosts n Goblins - Enemies_85
+  - first:
+      213: -2983414948727387708
+    second: NES - Ghosts n Goblins - Enemies_86
+  - first:
+      213: 4348810300491514613
+    second: NES - Ghosts n Goblins - Enemies_87
+  - first:
+      213: -3857195731550906574
+    second: NES - Ghosts n Goblins - Enemies_88
+  - first:
+      213: 5233513981160690054
+    second: NES - Ghosts n Goblins - Enemies_89
+  - first:
+      213: -6004951546848035876
+    second: NES - Ghosts n Goblins - Enemies_90
+  - first:
+      213: 8431465912945020771
+    second: NES - Ghosts n Goblins - Enemies_91
+  - first:
+      213: 3203552456656147361
+    second: NES - Ghosts n Goblins - Enemies_92
+  - first:
+      213: -7971063486429752067
+    second: NES - Ghosts n Goblins - Enemies_93
+  - first:
+      213: 8518557995286331952
+    second: NES - Ghosts n Goblins - Enemies_94
+  - first:
+      213: -6137509514814574000
+    second: NES - Ghosts n Goblins - Enemies_95
+  - first:
+      213: -1318687337183589310
+    second: NES - Ghosts n Goblins - Enemies_96
+  - first:
+      213: -3043290835429195883
+    second: NES - Ghosts n Goblins - Enemies_97
+  - first:
+      213: -1511597822677605863
+    second: NES - Ghosts n Goblins - Enemies_98
+  - first:
+      213: 4903011345745193421
+    second: NES - Ghosts n Goblins - Enemies_99
+  - first:
+      213: -4641433288666189679
+    second: NES - Ghosts n Goblins - Enemies_100
+  - first:
+      213: -5407388536149607220
+    second: NES - Ghosts n Goblins - Enemies_101
+  - first:
+      213: 581696670801373935
+    second: NES - Ghosts n Goblins - Enemies_102
+  - first:
+      213: -904947242880464967
+    second: NES - Ghosts n Goblins - Enemies_103
+  - first:
+      213: 685720070380430914
+    second: NES - Ghosts n Goblins - Enemies_104
+  - first:
+      213: 8862132048979801109
+    second: NES - Ghosts n Goblins - Enemies_105
+  - first:
+      213: 788729702975256165
+    second: NES - Ghosts n Goblins - Enemies_106
+  - first:
+      213: -8497564330944545784
+    second: NES - Ghosts n Goblins - Enemies_107
+  - first:
+      213: -2455264186035895462
+    second: NES - Ghosts n Goblins - Enemies_108
+  - first:
+      213: -9146051105427910815
+    second: NES - Ghosts n Goblins - Enemies_109
+  - first:
+      213: -8546190241496487618
+    second: NES - Ghosts n Goblins - Enemies_110
+  - first:
+      213: 518837189830626789
+    second: NES - Ghosts n Goblins - Enemies_111
+  - first:
+      213: 6079688787352251641
+    second: NES - Ghosts n Goblins - Enemies_112
+  - first:
+      213: 3234329323651677975
+    second: NES - Ghosts n Goblins - Enemies_113
+  - first:
+      213: 1072625574713548409
+    second: NES - Ghosts n Goblins - Enemies_114
+  - first:
+      213: 1990100771862724544
+    second: NES - Ghosts n Goblins - Enemies_115
+  - first:
+      213: -4076381121358513992
+    second: NES - Ghosts n Goblins - Enemies_116
+  - first:
+      213: 7822422582607862724
+    second: NES - Ghosts n Goblins - Enemies_117
+  - first:
+      213: -1017587798512123289
+    second: NES - Ghosts n Goblins - Enemies_118
+  - first:
+      213: 8395529248568018105
+    second: NES - Ghosts n Goblins - Enemies_119
+  - first:
+      213: 8891715503238342433
+    second: NES - Ghosts n Goblins - Enemies_120
+  - first:
+      213: 1147525210503974019
+    second: NES - Ghosts n Goblins - Enemies_121
+  - first:
+      213: 2452085799765248551
+    second: NES - Ghosts n Goblins - Enemies_122
+  - first:
+      213: 3885324053257446298
+    second: NES - Ghosts n Goblins - Enemies_123
+  - first:
+      213: -435566447215788853
+    second: NES - Ghosts n Goblins - Enemies_124
+  - first:
+      213: -2799406771250374987
+    second: NES - Ghosts n Goblins - Enemies_125
+  - first:
+      213: -3940211391470171333
+    second: NES - Ghosts n Goblins - Enemies_126
+  - first:
+      213: -1670976114185168872
+    second: NES - Ghosts n Goblins - Enemies_127
+  - first:
+      213: -6926520992516608416
+    second: NES - Ghosts n Goblins - Enemies_128
+  - first:
+      213: -4768679649886410107
+    second: NES - Ghosts n Goblins - Enemies_129
+  - first:
+      213: 658642624646950015
+    second: NES - Ghosts n Goblins - Enemies_130
+  - first:
+      213: 7404389338795204444
+    second: NES - Ghosts n Goblins - Enemies_131
+  - first:
+      213: 2105595579905828123
+    second: NES - Ghosts n Goblins - Enemies_132
+  - first:
+      213: 8816025562349860984
+    second: NES - Ghosts n Goblins - Enemies_133
+  - first:
+      213: 7998883632799513244
+    second: NES - Ghosts n Goblins - Enemies_134
+  - first:
+      213: 1689145083632480059
+    second: NES - Ghosts n Goblins - Enemies_135
+  - first:
+      213: -7967554377865233972
+    second: NES - Ghosts n Goblins - Enemies_136
+  - first:
+      213: 2504761707730337786
+    second: NES - Ghosts n Goblins - Enemies_137
+  - first:
+      213: 1068330715302271404
+    second: NES - Ghosts n Goblins - Enemies_138
+  - first:
+      213: -6787212891467952118
+    second: NES - Ghosts n Goblins - Enemies_139
+  - first:
+      213: -5748774664050006662
+    second: NES - Ghosts n Goblins - Enemies_140
+  - first:
+      213: 2684531807608232904
+    second: NES - Ghosts n Goblins - Enemies_141
+  - first:
+      213: 2660098904299135613
+    second: NES - Ghosts n Goblins - Enemies_142
+  - first:
+      213: 7095320271333702497
+    second: NES - Ghosts n Goblins - Enemies_143
+  - first:
+      213: -3252764205839577019
+    second: NES - Ghosts n Goblins - Enemies_144
+  - first:
+      213: -2727775656136824906
+    second: NES - Ghosts n Goblins - Enemies_145
+  - first:
+      213: -1451636127078406062
+    second: NES - Ghosts n Goblins - Enemies_146
+  - first:
+      213: -8878688184243907245
+    second: NES - Ghosts n Goblins - Enemies_147
+  - first:
+      213: 6874944053640154948
+    second: NES - Ghosts n Goblins - Enemies_148
+  - first:
+      213: -8649535569114437277
+    second: NES - Ghosts n Goblins - Enemies_149
+  - first:
+      213: -7577375637980337188
+    second: NES - Ghosts n Goblins - Enemies_150
+  - first:
+      213: 9145790740019290473
+    second: NES - Ghosts n Goblins - Enemies_151
+  - first:
+      213: 6621571359749896507
+    second: NES - Ghosts n Goblins - Enemies_152
+  - first:
+      213: -9217785679956725039
+    second: NES - Ghosts n Goblins - Enemies_153
+  - first:
+      213: -1743214113643199090
+    second: NES - Ghosts n Goblins - Enemies_154
+  - first:
+      213: 1761122735622703752
+    second: NES - Ghosts n Goblins - Enemies_155
+  - first:
+      213: 1292981371128014985
+    second: NES - Ghosts n Goblins - Enemies_156
+  - first:
+      213: 4132302333678808922
+    second: NES - Ghosts n Goblins - Enemies_157
+  - first:
+      213: 7433810775883139735
+    second: NES - Ghosts n Goblins - Enemies_158
+  - first:
+      213: 8178213478128286326
+    second: NES - Ghosts n Goblins - Enemies_159
+  - first:
+      213: 6461895544899329083
+    second: NES - Ghosts n Goblins - Enemies_160
+  - first:
+      213: -3497683123270018767
+    second: NES - Ghosts n Goblins - Enemies_161
+  - first:
+      213: 7288580748919348657
+    second: NES - Ghosts n Goblins - Enemies_162
+  - first:
+      213: -7314453253958163151
+    second: NES - Ghosts n Goblins - Enemies_163
+  - first:
+      213: 4596793789846125749
+    second: NES - Ghosts n Goblins - Enemies_164
+  - first:
+      213: -4559796749814991813
+    second: NES - Ghosts n Goblins - Enemies_165
+  - first:
+      213: -3315918240898964157
+    second: NES - Ghosts n Goblins - Enemies_166
+  - first:
+      213: -2665574681881966048
+    second: NES - Ghosts n Goblins - Enemies_167
+  - first:
+      213: -8038291751295130089
+    second: NES - Ghosts n Goblins - Enemies_168
+  - first:
+      213: 111662290952652901
+    second: NES - Ghosts n Goblins - Enemies_169
+  - first:
+      213: 8913247507639993462
+    second: NES - Ghosts n Goblins - Enemies_170
+  - first:
+      213: 9218340969997669782
+    second: NES - Ghosts n Goblins - Enemies_171
+  - first:
+      213: 6652745155296459874
+    second: NES - Ghosts n Goblins - Enemies_172
+  - first:
+      213: 360227106770120754
+    second: NES - Ghosts n Goblins - Enemies_173
+  - first:
+      213: 3498158208002841548
+    second: NES - Ghosts n Goblins - Enemies_174
+  - first:
+      213: -9094079067641079973
+    second: NES - Ghosts n Goblins - Enemies_175
+  - first:
+      213: -522650634247090903
+    second: NES - Ghosts n Goblins - Enemies_176
+  - first:
+      213: 1774805912022027940
+    second: NES - Ghosts n Goblins - Enemies_177
+  - first:
+      213: -7198402079868948571
+    second: NES - Ghosts n Goblins - Enemies_178
+  - first:
+      213: -2445428646642487375
+    second: NES - Ghosts n Goblins - Enemies_179
+  - first:
+      213: -2454355784318441333
+    second: NES - Ghosts n Goblins - Enemies_180
+  - first:
+      213: -2312908002301612150
+    second: NES - Ghosts n Goblins - Enemies_181
+  - first:
+      213: 6869628186768246455
+    second: NES - Ghosts n Goblins - Enemies_182
+  - first:
+      213: 2537101169903485
+    second: NES - Ghosts n Goblins - Enemies_183
+  - first:
+      213: -813952718438063685
+    second: NES - Ghosts n Goblins - Enemies_184
+  - first:
+      213: 5108342607491627900
+    second: NES - Ghosts n Goblins - Enemies_185
+  - first:
+      213: -4641506973919114806
+    second: NES - Ghosts n Goblins - Enemies_186
+  - first:
+      213: -533865790761518928
+    second: NES - Ghosts n Goblins - Enemies_187
+  - first:
+      213: 2570567537877438424
+    second: NES - Ghosts n Goblins - Enemies_188
+  - first:
+      213: 8066318074633078929
+    second: NES - Ghosts n Goblins - Enemies_189
+  - first:
+      213: -7555615938803289310
+    second: NES - Ghosts n Goblins - Enemies_190
+  - first:
+      213: -2585372163814240718
+    second: NES - Ghosts n Goblins - Enemies_191
+  - first:
+      213: 8500180290383802131
+    second: NES - Ghosts n Goblins - Enemies_192
+  - first:
+      213: -7337339408051604841
+    second: NES - Ghosts n Goblins - Enemies_193
+  - first:
+      213: 1942525055870939261
+    second: NES - Ghosts n Goblins - Enemies_194
+  - first:
+      213: 3337424863252633699
+    second: NES - Ghosts n Goblins - Enemies_195
+  - first:
+      213: -6993913172648964142
+    second: NES - Ghosts n Goblins - Enemies_196
+  - first:
+      213: 7145903479432455580
+    second: NES - Ghosts n Goblins - Enemies_197
+  - first:
+      213: -782643825446537833
+    second: NES - Ghosts n Goblins - Enemies_198
+  - first:
+      213: 2261137882803336951
+    second: NES - Ghosts n Goblins - Enemies_199
+  - first:
+      213: 1290642369060213855
+    second: NES - Ghosts n Goblins - Enemies_200
+  - first:
+      213: -1694098697223247461
+    second: NES - Ghosts n Goblins - Enemies_201
+  - first:
+      213: -5499068762789112346
+    second: NES - Ghosts n Goblins - Enemies_202
+  - first:
+      213: -2171701719351922932
+    second: NES - Ghosts n Goblins - Enemies_203
+  - first:
+      213: -3369243393278236841
+    second: NES - Ghosts n Goblins - Enemies_204
+  - first:
+      213: -8197666895939459823
+    second: NES - Ghosts n Goblins - Enemies_205
+  - first:
+      213: 3901137994973677080
+    second: NES - Ghosts n Goblins - Enemies_206
+  - first:
+      213: 385665340020194057
+    second: NES - Ghosts n Goblins - Enemies_207
+  - first:
+      213: 5601571065158845214
+    second: NES - Ghosts n Goblins - Enemies_208
+  - first:
+      213: -2794730209623721923
+    second: NES - Ghosts n Goblins - Enemies_209
+  - first:
+      213: -7556368541036270966
+    second: NES - Ghosts n Goblins - Enemies_210
+  - first:
+      213: 2180766604168578258
+    second: NES - Ghosts n Goblins - Enemies_211
+  - first:
+      213: -4714409453857716898
+    second: NES - Ghosts n Goblins - Enemies_212
+  - first:
+      213: 621221737931434282
+    second: NES - Ghosts n Goblins - Enemies_213
+  - first:
+      213: -7303312686335447350
+    second: NES - Ghosts n Goblins - Enemies_214
+  - first:
+      213: -1401900176264101555
+    second: NES - Ghosts n Goblins - Enemies_215
+  - first:
+      213: 2648477009195747512
+    second: NES - Ghosts n Goblins - Enemies_216
+  - first:
+      213: 5355884075804411169
+    second: NES - Ghosts n Goblins - Enemies_217
+  - first:
+      213: -6687848393578662245
+    second: NES - Ghosts n Goblins - Enemies_218
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +698,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +725,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +758,4606 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 210
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b80e35ce415120800000000000000
+      internalID: 2400786685421466275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 210
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ecee143870a3840800000000000000
+      internalID: 5204480579708308996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 209
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4979e6f48126c0800000000000000
+      internalID: -4169905583954506813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 212
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0e85594c5ffcf30800000000000000
+      internalID: 4598163969236590774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 212
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9bed1259558d870800000000000000
+      internalID: 8707803978527586770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 212
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f294c99fe77e890800000000000000
+      internalID: -7428829449790345376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 211
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8455434dffaf30d70800000000000000
+      internalID: 9008319656354927944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 214
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d71ee62651c8fa60800000000000000
+      internalID: 7708123338009090006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 183
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54436617a17b5160800000000000000
+      internalID: 7015325807008760923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 211
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d63b0aa66c1900800000000000000
+      internalID: 656512526207866570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 211
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8838e98a91723e90800000000000000
+      internalID: -7047445558328805237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 212
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40540f2fc7c05b270800000000000000
+      internalID: 8265526421899724036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 212
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca616187cca6ed0800000000000000
+      internalID: -2419897033619493747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 213
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9a5ba325acd95b0800000000000000
+      internalID: -5359905526979909203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 217
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b59ec3b3eb4480800000000000000
+      internalID: -8913780676045196597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 179
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dbffe09d7b156a0800000000000000
+      internalID: -6462181847412523617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 179
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa69dd928207ae2d0800000000000000
+      internalID: -3248660863391000913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 179
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520ddb79379dc76c0800000000000000
+      internalID: -4144198466597433307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 177
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ca1c60d4411c010800000000000000
+      internalID: 1207268496170396700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 184
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e05bdb059cf0a6e0800000000000000
+      internalID: -1828183731633172252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 193
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddecca820b8b58aa0800000000000000
+      internalID: -6159313848623116579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 189
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf06bdd366f212a30800000000000000
+      internalID: 4188681244602228987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f01339f0e59dab80800000000000000
+      internalID: -8381878537980538633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 173
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54aa0dd6239ce00800000000000000
+      internalID: 1065438234083476914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 173
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2af51b6e5ecf3c0800000000000000
+      internalID: -4324328763201445168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 188
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db8551a900fdd240800000000000000
+      internalID: 4818271100508408791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5d48675da108760800000000000000
+      internalID: 7457990487044314615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 179
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b44af102a0e6050800000000000000
+      internalID: 5795580903558499074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 179
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b6e9d7dff0b2b0800000000000000
+      internalID: -5570671436518477731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 179
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4708e6a5824fcfaa0800000000000000
+      internalID: -6125752938977656716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 171
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950d49b4fdaf6ab60800000000000000
+      internalID: 7757163245144952921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 147
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a1c714d9e68c900800000000000000
+      internalID: 704934963371055666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 147
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b5293496b9e420800000000000000
+      internalID: 2659857802669175565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 155
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe0bf5a06b687070800000000000000
+      internalID: 8104345592298934011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 150
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3631c5594f84fc10800000000000000
+      internalID: 2086450072513492540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0e1340395f73710800000000000000
+      internalID: 1673075798370803946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 161
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3214ef3c7d17c1f10800000000000000
+      internalID: 2241791886043791651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 152
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0801f3e7f74f14370800000000000000
+      internalID: 8305188016263991424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 163
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208f9da5087e1eeb0800000000000000
+      internalID: -4692214798277281790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995248a09499e9750800000000000000
+      internalID: 6313652266608108953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 153
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73260252c54f6180800000000000000
+      internalID: -9119994019499859076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 153
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7919a9288007244f0800000000000000
+      internalID: -845990598139014761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_42
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5224c4a52caaf4e00800000000000000
+      internalID: 1031230591406457381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_43
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 151
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27af75270e6a8b690800000000000000
+      internalID: -7586130089384347022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 151
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b19542dc1d6f0730800000000000000
+      internalID: 3967509767290982832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 151
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b735060d3f51600800000000000000
+      internalID: 438524615033322348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 151
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2557f02cea0902940800000000000000
+      internalID: 5269370644277982546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f55d8f9909da24f0800000000000000
+      internalID: -852630544078514701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_48
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 113
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e179942d1775d4790800000000000000
+      internalID: -7544277654404753634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 113
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663c4f1d02c1a0a00800000000000000
+      internalID: 723421617433396070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a55d3f70b6f2730800000000000000
+      internalID: 3976514677891226118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 113
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025beb869e30831c0800000000000000
+      internalID: -4523861524674071264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_52
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 118
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f18e7ce695589710800000000000000
+      internalID: 1700202966033531383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 116
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b26b347cbfbdbf0800000000000000
+      internalID: -298368117036930246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beb160750102ca30800000000000000
+      internalID: 4233947722553605811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f16658a6899de3c0800000000000000
+      internalID: -4328634863204277768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_56
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cbe5e3dcde4fd60800000000000000
+      internalID: 7923219110222019743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b26dc1effabbc90800000000000000
+      internalID: -7152930077207549058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 128
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a9ebdb0219b630800000000000000
+      internalID: 3943202790883042071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798dfb03d824b690800000000000000
+      internalID: -7587394585308067460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd5faec6c2f59020800000000000000
+      internalID: 2348049716428627445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_61
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b87fb5cf5f6b820800000000000000
+      internalID: 2933802671501970317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b7b52ce1f4be00800000000000000
+      internalID: 1059737808886280555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_63
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb1fd0eae9709370800000000000000
+      internalID: 8327289760710073326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 129
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ea000a826019bd0800000000000000
+      internalID: -2625310336227430823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2317bc99388dd5e40800000000000000
+      internalID: 5646907567525032242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_66
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 128
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d58f0fdb2e32790800000000000000
+      internalID: -7555946444378055345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 130
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d5d70a0a833fc0800000000000000
+      internalID: -3516315108360466130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_68
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4cef5988bc44870800000000000000
+      internalID: 8666275370460169422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e341dcfb6124e0800000000000000
+      internalID: -2008205225243712614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_70
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887667b5e28a52d50800000000000000
+      internalID: 6711955736722040712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_71
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94322b8be90f63f30800000000000000
+      internalID: 4555092637626016585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_72
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed37719ad11af09c0800000000000000
+      internalID: -3958768398672366626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_73
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c24a39d95063ad0800000000000000
+      internalID: -2722982750353871732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a1d45cfdce931c0800000000000000
+      internalID: -4523323904884925869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_75
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 130
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dc531b2f5aae840800000000000000
+      internalID: 5254194377054866723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_76
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a04c820669dd30800000000000000
+      internalID: 4456705467388830098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_77
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e93624f66292820800000000000000
+      internalID: 2893886494859304451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 118
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039051f6aa2ddc900800000000000000
+      internalID: 706452346016958768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_79
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a23b15eaecddd630800000000000000
+      internalID: 3953558949325386402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_80
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66552be51e1f50000800000000000000
+      internalID: 1673325142234470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_81
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776d88844a978c6b0800000000000000
+      internalID: -5275833216966011273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_82
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4f83ad57844d50800000000000000
+      internalID: 6720645380189408396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_83
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96490ffebda2c7f30800000000000000
+      internalID: 4574578445613306985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_84
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 118
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaddb2a3f96d7f80800000000000000
+      internalID: -8107207259068704049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_85
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d64c23a7006afa0800000000000000
+      internalID: -5789939746100449925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_86
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 118
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9838339e7c896d0800000000000000
+      internalID: -2983414948727387708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_87
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f24b546de31a5c30800000000000000
+      internalID: 4348810300491514613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 118
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23751cf1bec787ac0800000000000000
+      internalID: -3857195731550906574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_89
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6819f1ecc3d21a840800000000000000
+      internalID: 5233513981160690054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_90
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 117
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb0bc32602aaca0800000000000000
+      internalID: -6004951546848035876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_91
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 118
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f07e47395920570800000000000000
+      internalID: 8431465912945020771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_92
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 118
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d1567cfd457c20800000000000000
+      internalID: 3203552456656147361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_93
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 118
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49449ddf7116190800000000000000
+      internalID: -7971063486429752067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_94
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0320b9b0d5ff73670800000000000000
+      internalID: 8518557995286331952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_95
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052b5eb3d9f23daa0800000000000000
+      internalID: -6137509514814574000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_96
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ccd518ad413bde0800000000000000
+      internalID: -1318687337183589310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_97
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7a06fb1f04c5d0800000000000000
+      internalID: -3043290835429195883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_98
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 118
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9122c000ac9b50be0800000000000000
+      internalID: -1511597822677605863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_99
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc92ad877defa0440800000000000000
+      internalID: 4903011345745193421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_100
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 116
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190f06ce301569fb0800000000000000
+      internalID: -4641433288666189679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_101
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 116
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7844a6c815f4b0800000000000000
+      internalID: -5407388536149607220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaa4264a0a921800800000000000000
+      internalID: 581696670801373935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_103
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 118
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b704a7f64bf073f0800000000000000
+      internalID: -904947242880464967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_104
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 91
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246a16a55ca248900800000000000000
+      internalID: 685720070380430914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_105
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514bb0c152e9cfa70800000000000000
+      internalID: 8862132048979801109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_106
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b3a96c7122fa00800000000000000
+      internalID: 788729702975256165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_107
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c35065346921a80800000000000000
+      internalID: -8497564330944545784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_108
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 106
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5387993b362dedd0800000000000000
+      internalID: -2455264186035895462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_109
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 106
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f866b3af2b21180800000000000000
+      internalID: -9146051105427910815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_110
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 106
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3921b84145d56980800000000000000
+      internalID: -8546190241496487618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_111
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edcd1cdca7433700800000000000000
+      internalID: 518837189830626789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_112
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 104
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc6e039db46f5450800000000000000
+      internalID: 6079688787352251641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_113
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f33e63265a2ec20800000000000000
+      internalID: 3234329323651677975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_114
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97edcc5f64bb2ee00800000000000000
+      internalID: 1072625574713548409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_115
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 104
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfbb16ab124e9b10800000000000000
+      internalID: 1990100771862724544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_116
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8315cb7f8cd67c0800000000000000
+      internalID: -4076381121358513992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_117
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbd557d4e3de8c60800000000000000
+      internalID: 7822422582607862724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_118
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762c9e5e94dc0e1f0800000000000000
+      internalID: -1017587798512123289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_119
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b48c42ce59e28470800000000000000
+      internalID: 8395529248568018105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_120
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ea5ec328b56b70800000000000000
+      internalID: 8891715503238342433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_121
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c05ee5914dcef00800000000000000
+      internalID: 1147525210503974019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_122
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 106
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a89cd0b0f870220800000000000000
+      internalID: 2452085799765248551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_123
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e0bf14a17be530800000000000000
+      internalID: 3885324053257446298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_124
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 106
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccbf9dbf9e84f9f0800000000000000
+      internalID: -435566447215788853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_125
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65cc99f528629d0800000000000000
+      internalID: -2799406771250374987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_126
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 106
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b09779d9e8159c0800000000000000
+      internalID: -3940211391470171333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_127
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 106
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81894ddc3108fc8e0800000000000000
+      internalID: -1670976114185168872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ee2c70bdd00ef90800000000000000
+      internalID: -6926520992516608416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_129
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 80
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae2ecbf1f32ddb0800000000000000
+      internalID: -4768679649886410107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_130
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 89
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c230c3af7f32900800000000000000
+      internalID: 658642624646950015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_131
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 87
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd39d9fdca1c660800000000000000
+      internalID: 7404389338795204444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_132
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 87
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b156be42604983d10800000000000000
+      internalID: 2105595579905828123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_133
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 88
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87870a62a80d85a70800000000000000
+      internalID: 8816025562349860984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_134
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 93
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a73bcb84eb10f60800000000000000
+      internalID: 7998883632799513244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_135
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 94
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe20c018c017710800000000000000
+      internalID: 1689145083632480059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_136
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 94
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9fbbad18f8d6190800000000000000
+      internalID: -7967554377865233972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_137
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 94
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff744c9083b2c220800000000000000
+      internalID: 2504761707730337786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_138
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 94
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91b34102973de00800000000000000
+      internalID: 1068330715302271404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_139
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 94
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d91dd5d9fec1a0800000000000000
+      internalID: -6787212891467952118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a88fb6ef3830b0800000000000000
+      internalID: -5748774664050006662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_141
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbd9bca47f514520800000000000000
+      internalID: 2684531807608232904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_142
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 59
+        width: 66
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72e7221cd19ae420800000000000000
+      internalID: 2660098904299135613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_143
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 63
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3974b134a77260800000000000000
+      internalID: 7095320271333702497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_144
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54093dc403cdbd2d0800000000000000
+      internalID: -3252764205839577019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_145
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a10d3e7ef42ad0800000000000000
+      internalID: -2727775656136824906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_146
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 64
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582e5e22a0cadbe0800000000000000
+      internalID: -1451636127078406062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_147
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 63
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3551fa2432098c480800000000000000
+      internalID: -8878688184243907245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_148
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 36
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fc7e71135b86f50800000000000000
+      internalID: 6874944053640154948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369e3d22a3da6f780800000000000000
+      internalID: -8649535569114437277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_150
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 41
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbab700101c7d690800000000000000
+      internalID: -7577375637980337188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_151
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96128e8b8306cee70800000000000000
+      internalID: 9145790740019290473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_152
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 33
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39fac0b11c84eb50800000000000000
+      internalID: 6621571359749896507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_153
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d23f7213c8d31080800000000000000
+      internalID: -9217785679956725039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_154
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 30
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8589d4effbdec7e0800000000000000
+      internalID: -1743214113643199090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_155
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ac7a61cc3c07810800000000000000
+      internalID: 1761122735622703752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_156
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 32
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988684fd4b791f110800000000000000
+      internalID: 1292981371128014985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_157
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 32
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f617f1413e85930800000000000000
+      internalID: 4132302333678808922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_158
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4cffb3833a2760800000000000000
+      internalID: 7433810775883139735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_159
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af52d04d9de7170800000000000000
+      internalID: 8178213478128286326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_160
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c5761f2c34da950800000000000000
+      internalID: 6461895544899329083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_161
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399c9c1bbbb57fc0800000000000000
+      internalID: -3497683123270018767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_162
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9618139d362560800000000000000
+      internalID: 7288580748919348657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_163
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 36
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135af97e487dd7a90800000000000000
+      internalID: -7314453253958163151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_164
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 36
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcff75d8971bcf30800000000000000
+      internalID: 4596793789846125749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_165
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 36
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34fb4fc30958b0c0800000000000000
+      internalID: -4559796749814991813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_166
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345aafaaded7bf1d0800000000000000
+      internalID: -3315918240898964157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_167
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 36
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a862c13f9f10bd0800000000000000
+      internalID: -2665574681881966048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_168
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 36
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716e91bad30427090800000000000000
+      internalID: -8038291751295130089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_169
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680a031344bc8100800000000000000
+      internalID: 111662290952652901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_170
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6748400426732bb70800000000000000
+      internalID: 8913247507639993462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_171
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695142775402eef70800000000000000
+      internalID: 9218340969997669782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_172
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c75a2987c435c50800000000000000
+      internalID: 6652745155296459874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ff7125a8cff400800000000000000
+      internalID: 360227106770120754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_174
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb502c2b54fb8030800000000000000
+      internalID: 3498158208002841548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_175
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5710fd35475bc180800000000000000
+      internalID: -9094079067641079973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_176
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 18
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dc11c640c2fb8f0800000000000000
+      internalID: -522650634247090903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_177
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae065bd29061a810800000000000000
+      internalID: 1774805912022027940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_178
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af6af672732a1c90800000000000000
+      internalID: -7198402079868948571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_179
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6f413a97101ed0800000000000000
+      internalID: -2445428646642487375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_180
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88264bfa6060fdd0800000000000000
+      internalID: -2454355784318441333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_181
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f67ac1d66e6efd0800000000000000
+      internalID: -2312908002301612150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_182
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b605536072d55f50800000000000000
+      internalID: 6869628186768246455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_183
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77cdf5ea73090000800000000000000
+      internalID: 2537101169903485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_184
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12989a05244b4f0800000000000000
+      internalID: -813952718438063685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_185
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bf78e498a74e640800000000000000
+      internalID: 5108342607491627900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_186
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98d0dbffd069fb0800000000000000
+      internalID: -4641506973919114806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_187
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b83def44e35798f0800000000000000
+      internalID: -533865790761518928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_188
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc5566e8d7ca320800000000000000
+      internalID: 2570567537877438424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_189
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19841db3d8151ff60800000000000000
+      internalID: 8066318074633078929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_190
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b954c55f052790800000000000000
+      internalID: -7555615938803289310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_191
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e4ba307b9ee1cd0800000000000000
+      internalID: -2585372163814240718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_192
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f6a1f20f4b6f570800000000000000
+      internalID: 8500180290383802131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_193
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792fb9aeea88c2a90800000000000000
+      internalID: -7337339408051604841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_194
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70bb721f3c35fa10800000000000000
+      internalID: 1942525055870939261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_195
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368dabe0b3ae05e20800000000000000
+      internalID: 3337424863252633699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_196
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df455a5601a0fe90800000000000000
+      internalID: -6993913172648964142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_197
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 4
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95acca9a595b2360800000000000000
+      internalID: 7145903479432455580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 4
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7953b9e569d7325f0800000000000000
+      internalID: -782643825446537833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_199
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6fba4acec216f10800000000000000
+      internalID: 2261137882803336951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_200
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 4
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5417e3856849e110800000000000000
+      internalID: 1290642369060213855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_201
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996e89e53a5d78e0800000000000000
+      internalID: -1694098697223247461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_202
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5128678126fa3b0800000000000000
+      internalID: -5499068762789112346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_203
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f6cebdac09cd1e0800000000000000
+      internalID: -2171701719351922932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_204
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757a1dd1cfa0e31d0800000000000000
+      internalID: -3369243393278236841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_205
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 4
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ac8824690c3e80800000000000000
+      internalID: -8197666895939459823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_206
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8168f2a5650a32630800000000000000
+      internalID: 3901137994973677080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_207
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 4
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b751a55982a5500800000000000000
+      internalID: 385665340020194057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_208
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 4
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1346e29437ccbd40800000000000000
+      internalID: 5601571065158845214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_209
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 6
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3833547eaf1739d0800000000000000
+      internalID: -2794730209623721923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_210
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa897e8d2622790800000000000000
+      internalID: -7556368541036270966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_211
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4c08b1ca3a34e10800000000000000
+      internalID: 2180766604168578258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_212
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 4
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e554119649d039eb0800000000000000
+      internalID: -4714409453857716898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_213
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 6
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29672811e50f9800800000000000000
+      internalID: 621221737931434282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_214
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace2f5f6ecb65aa90800000000000000
+      internalID: -7303312686335447350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_215
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41883f97337b8ce0800000000000000
+      internalID: -1401900176264101555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_216
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 4
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8c6e0cec741c420800000000000000
+      internalID: 2648477009195747512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_217
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1254e74b03ce35a40800000000000000
+      internalID: 5355884075804411169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ghosts n Goblins - Enemies_218
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96b31dd15dff23a0800000000000000
+      internalID: -6687848393578662245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
