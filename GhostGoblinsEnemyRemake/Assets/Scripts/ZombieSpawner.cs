@@ -17,12 +17,35 @@ public class ZombieSpawner : MonoBehaviour
     private float waveTimerCopy;
     private int currentZombieNum = 0;
     private float spawnTimerCopy;
+    private float screenHalfNumber; //This one will pick which half of the screen the zombies will spawn in
+    //These are going to be subrange boundaries for the left and right side of the screen
+    public float leftSideMin = -20;
+    public float leftSideMax = -10;
+    public float rightSideMin = 10;
+    public float rightSideMax = 20;
+    float spawnX;
     
+    
+    Vector3 spawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         spawnTimerCopy = inbetweenSpawnTimer;
         waveTimerCopy = zombieWaveTimer;
+        screenHalfNumber = Random.Range(1, 3);
+        if (screenHalfNumber == 1)
+        {
+            spawnX = Random.Range(leftSideMin, leftSideMax);
+        }
+
+        else
+        {
+            spawnX = Random.Range(rightSideMin, rightSideMax);
+        }
+
+        spawnPoint = new Vector3(spawnX, transform.position.y, transform.position.z);
+        
     }
 
     // Update is called once per frame
@@ -34,7 +57,7 @@ public class ZombieSpawner : MonoBehaviour
             if(currentZombieNum < maxZombieNum)
             {
                 //For instantiater remember to store it in a variable that can be destroyed and to randomize the positions based on the position of an object such as a player)
-                Instantiate(objectToBeSpawned, Vector3.zero, Quaternion.identity);
+                Instantiate(objectToBeSpawned, spawnPoint, Quaternion.identity);
                 currentZombieNum += 1;
             }
 
