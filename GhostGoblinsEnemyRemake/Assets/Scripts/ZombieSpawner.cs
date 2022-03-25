@@ -33,6 +33,14 @@ public class ZombieSpawner : MonoBehaviour
     {
         spawnTimerCopy = inbetweenSpawnTimer;
         waveTimerCopy = zombieWaveTimer;
+        
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //This determines which half of the screen the zombies spawn in.
         screenHalfNumber = Random.Range(1, 3);
         if (screenHalfNumber == 1)
         {
@@ -44,13 +52,7 @@ public class ZombieSpawner : MonoBehaviour
             spawnX = Random.Range(rightSideMin, rightSideMax);
         }
 
-        spawnPoint = new Vector3(spawnX, transform.position.y, transform.position.z);
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        spawnPoint = new Vector3(spawnX + transform.position.x, transform.position.y, transform.position.z);
         inbetweenSpawnTimer -= Time.deltaTime;
         if (inbetweenSpawnTimer <= 0)
         {

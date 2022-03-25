@@ -10,7 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZombieMovement : MonoBehaviour
+public class ZombieMovement : ZombieSpawner
 {
     public float speed = 5f;
     public float interpolater = .4f;
@@ -18,11 +18,12 @@ public class ZombieMovement : MonoBehaviour
     public Transform camTransform;
     private float direction;
     Vector3 current;
+    public float deathZone = 45f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        camTransform = GameObject.Find("Main Camera").GetComponent<Transform>(); //For enemy objects like this make sure you know to get the camera dynamically. It can't be statically allocated before runtime because the camPos won't update
         DirectionRandomizer();
        
         
@@ -34,11 +35,20 @@ public class ZombieMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 camPos = camTransform.position; 
+        Vector3 camPos = camTransform.position;
+        Debug.Log("Got camPos: " + camPos);
+        
         Vector3 target = new Vector3(camPos.x + enemyDespawnPoint, transform.position.y, transform.position.z);
         Vector3 current = transform.position;
         //Update the zombie's position in here. The target is supposed to go to a location off screen so I want to see if I can calculate it
         transform.position = Vector3.MoveTowards(current, Vector3.Lerp(current, target, interpolater), speed * Time.deltaTime);
+        
+        //Despawning Instructions
+        if (transform.position.x >= deathZone + camPos.x)
+        {
+            Destroy(gameObject);
+            Debug.Log(deathZone);
+        }
     }
 
     void DirectionRandomizer()
