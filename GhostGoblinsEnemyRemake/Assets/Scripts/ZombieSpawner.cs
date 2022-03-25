@@ -19,10 +19,12 @@ public class ZombieSpawner : MonoBehaviour
     private float spawnTimerCopy;
     private float screenHalfNumber; //This one will pick which half of the screen the zombies will spawn in
     //These are going to be subrange boundaries for the left and right side of the screen
-    public float leftSideMin = -20;
+    public  float leftSideMin = -20;
     public float leftSideMax = -10;
     public float rightSideMin = 10;
     public float rightSideMax = 20;
+    
+
     float spawnX;
     
     
