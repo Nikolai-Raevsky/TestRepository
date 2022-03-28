@@ -174,6 +174,7 @@ MonoBehaviour:
   leftSideMax: -10
   rightSideMin: 10
   rightSideMax: 20
+  playerTransform: {fileID: 363087817}
 --- !u!1 &363087816
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4377276995701079008, guid: defb403da404fc24a81cc08ea550a842, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4377276995701079011, guid: defb403da404fc24a81cc08ea550a842, type: 3}
       propertyPath: deathZone

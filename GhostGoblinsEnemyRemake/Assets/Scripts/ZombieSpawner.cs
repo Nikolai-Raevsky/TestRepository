@@ -42,17 +42,27 @@ public class ZombieSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Screen half number is changing on each update and that's affecting the movement and images of the zombies.
+
+        //Potential solutions:
+        //1) Maybe delegate the direction settings to the zombie movement script so that the zombies have a single direction set at their start function
         //This determines which half of the screen the zombies spawn in.
         screenHalfNumber = Random.Range(1, 3);
         if (screenHalfNumber == 1)
         {
+            //Debug.Log("Direction = 1");
+            
             spawnX = Random.Range(leftSideMin, leftSideMax);
         }
 
         else
         {
+            //Debug.Log("Direction = -1");
+            
             spawnX = Random.Range(rightSideMin, rightSideMax);
         }
+
+        
 
         spawnPoint = new Vector3(spawnX + transform.position.x, transform.position.y, transform.position.z);
         inbetweenSpawnTimer -= Time.deltaTime;
