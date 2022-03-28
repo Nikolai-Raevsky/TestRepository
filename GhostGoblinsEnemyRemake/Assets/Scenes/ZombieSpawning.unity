@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4377276995701079008, guid: defb403da404fc24a81cc08ea550a842, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4377276995701079011, guid: defb403da404fc24a81cc08ea550a842, type: 3}
       propertyPath: deathZone

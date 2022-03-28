@@ -19,13 +19,14 @@ public class ZombieMovement : MonoBehaviour
     private float direction;
     Vector3 current;
     public float deathZone = 45f;
+    private SpriteRenderer mySpriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         camTransform = GameObject.Find("Main Camera").GetComponent<Transform>(); //For enemy objects like this make sure you know to get the camera dynamically. It can't be statically allocated before runtime because the camPos won't update
         DirectionRandomizer();
-       
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
         
         
     }
@@ -38,7 +39,7 @@ public class ZombieMovement : MonoBehaviour
         Vector3 camPos = camTransform.position;
         
         
-        Vector3 target = new Vector3(camPos.x + enemyDespawnPoint, transform.position.y, transform.position.z);
+        Vector3 target = new Vector3(camPos.x + enemyDespawnPoint * direction, transform.position.y, transform.position.z);
         Vector3 current = transform.position;
         //Update the zombie's position in here. The target is supposed to go to a location off screen so I want to see if I can calculate it
         
@@ -51,6 +52,27 @@ public class ZombieMovement : MonoBehaviour
             Destroy(gameObject);
             
         }
+
+        
+        if (direction == 1)
+        {
+            if (mySpriteRenderer != null)
+            {
+                mySpriteRenderer.flipX = false;
+            }
+        }
+
+        else if (direction == -1)
+        {
+            if (mySpriteRenderer != null)
+            {
+                mySpriteRenderer.flipX = true;
+            }
+        }
+            
+            
+        
+        
     }
 
     void DirectionRandomizer()
