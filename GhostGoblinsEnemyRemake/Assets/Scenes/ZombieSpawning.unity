@@ -234,7 +234,7 @@ AudioSource:
   m_GameObject: {fileID: 363087816}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b8772dbb9cba4494fb6291fb932c7ec9, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6abadf0f5452a1243b6946fce324678b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -321,6 +321,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1104031916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2206874967491308605, guid: 98f38b7ade2337940a69a5bcfedc975e, type: 3}
+  m_PrefabInstance: {fileID: 2206874968420435685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1104031919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104031916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b29b9989dbbc274890785691045850c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 363087817}
 --- !u!4 &2036574939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2206874967491308606, guid: 98f38b7ade2337940a69a5bcfedc975e, type: 3}

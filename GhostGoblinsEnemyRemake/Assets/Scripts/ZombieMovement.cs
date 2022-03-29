@@ -26,9 +26,9 @@ public class ZombieMovement : MonoBehaviour
     {
         camTransform = GameObject.Find("Main Camera").GetComponent<Transform>(); //For enemy objects like this make sure you know to get the camera dynamically. It can't be statically allocated before runtime because the camPos won't update
         playerTransform = GameObject.Find("Player").GetComponent<Transform>();
-        //DirectionRandomizer();
+        
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        //DirectionRandomizer();
+        
         if (transform.position.x < playerTransform.position.x)
         {
             direction = 1;
@@ -86,13 +86,6 @@ public class ZombieMovement : MonoBehaviour
         
     }
 
-    void DirectionRandomizer()
-    {
-        direction = Random.Range(-1, 2);
-        if (direction == 0)
-        {
-            DirectionRandomizer();
-        }
-    }
+    
 
 }
