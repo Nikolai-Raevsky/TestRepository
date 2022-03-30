@@ -13,6 +13,8 @@ using UnityEngine;
 public class ZombieMovement : MonoBehaviour
 {
     public float speed = 5f;
+    public float maxSpeed = 7.5f;
+    public float minSpeed = 2.5f;
     public float interpolater = .4f;
     public float enemyDespawnPoint = 5f;
     public Transform camTransform;
@@ -38,6 +40,7 @@ public class ZombieMovement : MonoBehaviour
         {
             direction = -1;
         }
+        speed = Random.Range(minSpeed, maxSpeed);
     }
 
     
