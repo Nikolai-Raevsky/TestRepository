@@ -36,29 +36,30 @@ public class ArthurController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        ////Horizontal movement //TOMORROW REMAKE IT W/ PHYSICS TO GET MORE CONTROLLER CUSTOMIZERS!! OR FIGURE OUT HOW TO MAKE PARABOLA JUMP ARC
-        if (Input.GetKey("right"))
+        ////Horizontal movement  OR FIGURE OUT HOW TO MAKE PARABOLA JUMP ARC
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             //transform.position = new Vector3(transform.position.x + moveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
-            myRB.velocity = new Vector2(moveSpeed, myRB.velocity.y);
-            Debug.Log("Right");
+            myRB.velocity = new Vector2(moveSpeed*Time.deltaTime, myRB.velocity.y);
+            
         }
 
-        if (Input.GetKey("left"))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             //transform.position = new Vector3(transform.position.x - moveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
-            myRB.velocity = new Vector2(-moveSpeed, myRB.velocity.y);
-            Debug.Log("Left");
+            myRB.velocity = new Vector2(-moveSpeed* Time.deltaTime, myRB.velocity.y);
+            
         }
 
-        if (Input.GetKey("space"))
+        if (Input.GetKey(KeyCode.Space))
         {
             //transform.position = new Vector3(transform.position.x, transform.position.y + moveSpeed * Time.deltaTime, transform.position.z);
             myRB.velocity = new Vector2(0, moveSpeed);
+            //Tomorrow make independent jump height variable
             Debug.Log("Space");
         }
 
-        else
+        if(Input.GetKey(KeyCode.None))
         {
             myRB.velocity = new Vector2(0, 0);
         }
