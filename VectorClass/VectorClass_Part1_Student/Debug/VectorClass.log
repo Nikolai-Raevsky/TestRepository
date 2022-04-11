@@ -1,0 +1,4 @@
+﻿  Vector.cpp
+driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::push_back(int)" (?push_back@Vector@CS170@@QAEXH@Z) referenced in function "void __cdecl TestALot1(void)" (?TestALot1@@YAXXZ)
+driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::push_front(int)" (?push_front@Vector@CS170@@QAEXH@Z) referenced in function "void __cdecl TestPush(void)" (?TestPush@@YAXXZ)
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part1_Student\Debug\VectorClass.exe : fatal error LNK1120: 2 unresolved externals

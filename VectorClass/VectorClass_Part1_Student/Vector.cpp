@@ -8,6 +8,11 @@ namespace CS170
 Vector::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 {
 }
+Vector::~Vector(void)
+{
+    clear();
+
+}
 
 bool Vector::empty(void) const
 {
@@ -28,6 +33,25 @@ unsigned Vector::allocations(void) const
 {
   return allocs_;
 }
+
+void Vector::clear(void)
+{
+    delete[] array_;
+    array_ = nullptr;
+    size_ = 0;
+}
+
+int Vector::operator[](unsigned index) const
+{
+    return array_[index];
+}
+
+int& Vector::operator[](unsigned index)
+{
+    return array_[index];
+}
+
+
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
