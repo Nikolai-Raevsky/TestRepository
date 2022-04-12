@@ -84,6 +84,7 @@ void Vector::push_front(int value)
         grow();
     }
 
+    //I diffed the output from this implementation against the master output and the files were identical even though I'm confused about the pseudocode of this. Isn't array_[size_-1] the left index to the first element that the array goes through in the array? How does this implementation shift the elements rightwards?
     unsigned rightIndex = size_-1;
     for (unsigned i = size_; i > 0; i--)
     {
@@ -119,20 +120,21 @@ void Vector::grow(void)
     // Double the capacity
   capacity_ = (capacity_) ? capacity_ * 2 : 1;
     
-    // Rest of the code here...
+    
     
 
-  //Instructions say allocate another int array that's twice the size of the OG array  (new int* array_ = (sizeof(int)*capacity))?
+  
   int* array_Copy = new int[capacity_];
-  //Loop through the og array and copy each of the elements into the new array
+  
   for (unsigned i = 0; i < size_; i++)
   {
       array_Copy[i] = array_[i];
   }
-  //Free the memory of the og array
+  
   delete[] array_;
+ 
   array_ = array_Copy;
-  //increment allocs_
+  
   allocs_ += 1;
 }
 

@@ -39,87 +39,87 @@ void TestPush(void)
   }
 }
 
-//void TestSubscripts(void)
-//{
-//  std::cout << "\n********** TestSubscripts **********\n";
-//  CS170::Vector a;
+void TestSubscripts(void)
+{
+  std::cout << "\n********** TestSubscripts **********\n";
+  CS170::Vector a;
+
+  std::cout << "push_back 10 even integers:\n";
+  for (int i = 0; i < 10; i++)
+    a.push_back(2 * i);
+
+  Print(a);
+
+  std::cout << "multiple each value by 3:\n";
+  for (int i = 0; i < 10; i++)
+    a[i] = a[i] * 3;
+  Print(a);
+}
 //
-//  std::cout << "push_back 10 even integers:\n";
-//  for (int i = 0; i < 10; i++)
-//    a.push_back(2 * i);
+void TestSubscript1(void)
+{
+  std::cout << "\n********** TestSubscript1 **********\n";
+  CS170::Vector a;
+
+  int ia[] = {2, 4, 6, 6, 8, 10, 6, 12, -6, 14, 16, 6, 6};
+  int size = sizeof(ia)/sizeof(*ia);
+  std::cout << "push_back 10 even integers:\n";
+  for (int i = 0; i < size; i++)
+    a.push_back(ia[i]);
+  Print(a);
+
+  int index = a.size() / 2;
+  std::cout << "using subscript: a[" << index << "]" << std::endl;
+  std::cout << "a[" << index << "] = " << a[index] << std::endl;
+}
 //
-//  Print(a);
+void TestSubscript2(void)
+{
+  std::cout << "\n********** TestSubscript2 **********\n";
+  CS170::Vector a;
+
+  int ia[] = {2, 4, 6, 6, 8, 10, 6, 12, -6, 14, 16, 6, 6};
+  int size = sizeof(ia)/sizeof(*ia);
+  std::cout << "push_back 10 even integers:\n";
+  for (int i = 0; i < size; i++)
+    a.push_back(ia[i]);
+  Print(a);
+
+#if 0
+  int index = a.size() * 2;
+  std::cout << "using subscript: a[" << index << "]" << std::endl;
+  std::cout << "a[" << index << "] = " << a[index] << std::endl;
+#endif
+}
 //
-//  std::cout << "multiple each value by 3:\n";
-//  for (int i = 0; i < 10; i++)
-//    a[i] = a[i] * 3;
-//  Print(a);
-//}
-//
-//void TestSubscript1(void)
-//{
-//  std::cout << "\n********** TestSubscript1 **********\n";
-//  CS170::Vector a;
-//
-//  int ia[] = {2, 4, 6, 6, 8, 10, 6, 12, -6, 14, 16, 6, 6};
-//  int size = sizeof(ia)/sizeof(*ia);
-//  std::cout << "push_back 10 even integers:\n";
-//  for (int i = 0; i < size; i++)
-//    a.push_back(ia[i]);
-//  Print(a);
-//
-//  int index = a.size() / 2;
-//  std::cout << "using subscript: a[" << index << "]" << std::endl;
-//  std::cout << "a[" << index << "] = " << a[index] << std::endl;
-//}
-//
-//void TestSubscript2(void)
-//{
-//  std::cout << "\n********** TestSubscript2 **********\n";
-//  CS170::Vector a;
-//
-//  int ia[] = {2, 4, 6, 6, 8, 10, 6, 12, -6, 14, 16, 6, 6};
-//  int size = sizeof(ia)/sizeof(*ia);
-//  std::cout << "push_back 10 even integers:\n";
-//  for (int i = 0; i < size; i++)
-//    a.push_back(ia[i]);
-//  Print(a);
-//
-//#if 0
-//  int index = a.size() * 2;
-//  std::cout << "using subscript: a[" << index << "]" << std::endl;
-//  std::cout << "a[" << index << "] = " << a[index] << std::endl;
-//#endif
-//}
-//
-//void TestALot1(void)
-//{
-//  std::cout << "\n********** TestALot1 **********\n";
-//  CS170::Vector a;
-//
-//  std::cout << "push_back 10 even integers:\n";
-//  for (int i = 0; i < 10; i++)
-//    a.push_back(2 * i);
-//  Print(a);
-//
-//  std::cout << "clear:\n";
-//  a.clear();
-//  Print(a);
-//
-//  std::cout << "push_back 10 odd integers:\n";
-//  for (int i = 0; i < 10; i++)
-//    a.push_back(2 * i + 1);
-//  Print(a);
-//
-//  std::cout << "push_back 10 more integers:\n";
-//  for (int i = 0; i < 10; i++)
-//    a.push_back(i);
-//  Print(a);
-//
-//  std::cout << "clear:\n";
-//  a.clear();
-//  Print(a);
-//}
+void TestALot1(void)
+{
+  std::cout << "\n********** TestALot1 **********\n";
+  CS170::Vector a;
+
+  std::cout << "push_back 10 even integers:\n";
+  for (int i = 0; i < 10; i++)
+    a.push_back(2 * i);
+  Print(a);
+
+  std::cout << "clear:\n";
+  a.clear();
+  Print(a);
+
+  std::cout << "push_back 10 odd integers:\n";
+  for (int i = 0; i < 10; i++)
+    a.push_back(2 * i + 1);
+  Print(a);
+
+  std::cout << "push_back 10 more integers:\n";
+  for (int i = 0; i < 10; i++)
+    a.push_back(i);
+  Print(a);
+
+  std::cout << "clear:\n";
+  a.clear();
+  Print(a);
+}
 
 int main(int argc, char **argv)
 {
@@ -130,10 +130,10 @@ int main(int argc, char **argv)
   typedef void (*Test)(void);
   Test Tests[] = {
                     TestPush,        //  1 
-                    //TestSubscripts,  //  2
-                    //TestSubscript1,  //  3
-                    //TestSubscript2,  //  4
-                    //TestALot1,       //  5
+                    TestSubscripts,  //  2
+                    TestSubscript1,  //  3
+                    TestSubscript2,  //  4
+                    TestALot1,       //  5
                  };
 
   int num = sizeof(Tests) / sizeof(*Tests);
