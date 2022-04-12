@@ -64,6 +64,37 @@ int& Vector::operator[](unsigned index)
     return array_[index];
 }
 
+void Vector::push_back(int value)
+{
+    
+    if (size_ == capacity_)
+    {
+        grow();
+        
+    }
+
+    array_[size_] = value;
+    size_ += 1;
+}
+
+void Vector::push_front(int value)
+{
+    if (size_ == capacity_)
+    {
+        grow();
+    }
+
+    unsigned rightIndex = size_-1;
+    for (unsigned i = size_; i > 0; i--)
+    {
+        array_[i] = array_[rightIndex];
+        rightIndex -= 1;
+    }
+    array_[0] = value;
+
+    size_ += 1;
+}
+
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -92,15 +123,15 @@ void Vector::grow(void)
     
 
   //Instructions say allocate another int array that's twice the size of the OG array  (new int* array_ = (sizeof(int)*capacity))?
-  int* array_Copy = new int(capacity_);
+  int* array_Copy = new int[capacity_];
   //Loop through the og array and copy each of the elements into the new array
   for (unsigned i = 0; i < size_; i++)
   {
       array_Copy[i] = array_[i];
   }
   //Free the memory of the og array
-  delete array_;
-  array_ = nullptr;
+  delete[] array_;
+  array_ = array_Copy;
   //increment allocs_
   allocs_ += 1;
 }
