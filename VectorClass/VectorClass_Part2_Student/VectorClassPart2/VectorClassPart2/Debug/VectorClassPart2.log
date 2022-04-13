@@ -1,13 +1,4 @@
-﻿  driver.cpp
-  Vector.cpp
-  Generating Code...
-driver.obj : error LNK2019: unresolved external symbol "public: __thiscall CS170::Vector::Vector(class CS170::Vector const &)" (??0Vector@CS170@@QAE@ABV01@@Z) referenced in function "void __cdecl TestCopy(void)" (?TestCopy@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: __thiscall CS170::Vector::Vector(int const * const,unsigned int)" (??0Vector@CS170@@QAE@QBHI@Z) referenced in function "void __cdecl TestArray(void)" (?TestArray@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::pop_back(void)" (?pop_back@Vector@CS170@@QAEXXZ) referenced in function "void __cdecl TestALot1(void)" (?TestALot1@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::pop_front(void)" (?pop_front@Vector@CS170@@QAEXXZ) referenced in function "void __cdecl TestPop(void)" (?TestPop@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::insert(int,unsigned int)" (?insert@Vector@CS170@@QAEXHI@Z) referenced in function "void __cdecl TestInsert1(void)" (?TestInsert1@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::remove(int)" (?remove@Vector@CS170@@QAEXH@Z) referenced in function "void __cdecl TestRemove(void)" (?TestRemove@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: class CS170::Vector & __thiscall CS170::Vector::operator=(class CS170::Vector const &)" (??4Vector@CS170@@QAEAAV01@ABV01@@Z) referenced in function "void __cdecl TestAdd1(void)" (?TestAdd1@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: class CS170::Vector & __thiscall CS170::Vector::operator+=(class CS170::Vector const &)" (??YVector@CS170@@QAEAAV01@ABV01@@Z) referenced in function "void __cdecl TestAdd2(void)" (?TestAdd2@@YAXXZ)
-driver.obj : error LNK2019: unresolved external symbol "public: class CS170::Vector __thiscall CS170::Vector::operator+(class CS170::Vector const &)const " (??HVector@CS170@@QBE?AV01@ABV01@@Z) referenced in function "void __cdecl TestAdd1(void)" (?TestAdd1@@YAXXZ)
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part2_Student\VectorClassPart2\Debug\VectorClassPart2.exe : fatal error LNK1120: 9 unresolved externals
+﻿  Vector.cpp
+driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::pop_front(void)" (?pop_front@Vector@CS170@@QAEXXZ) referenced in function "void __cdecl TestPush(void)" (?TestPush@@YAXXZ)
+Vector.obj : error LNK2019: unresolved external symbol "public: __thiscall CS170::Vector::Vector(class CS170::Vector const &)" (??0Vector@CS170@@QAE@ABV01@@Z) referenced in function "public: class CS170::Vector __thiscall CS170::Vector::operator+(class CS170::Vector const &)const " (??HVector@CS170@@QBE?AV01@ABV01@@Z)
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part2_Student\VectorClassPart2\Debug\VectorClassPart2.exe : fatal error LNK1120: 2 unresolved externals

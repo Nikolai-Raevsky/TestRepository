@@ -13,14 +13,28 @@
 
 namespace CS170
 {
-
+//Constructors and Destructor 
 Vector::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 {
+}
+
+Vector::Vector(const int array[], unsigned size) : size_(size), capacity_(size), allocs_(0)
+{
+    *array_ = *array;
 }
 Vector::~Vector(void)
 {
     clear();
 
+}
+
+void Vector::clear(void)
+{
+    delete[] array_;
+    array_ = nullptr;
+    size_ = 0;
+    capacity_ = 0;
+    
 }
 
 bool Vector::empty(void) const
@@ -33,6 +47,7 @@ unsigned Vector::size(void) const
   return size_;
 }
 
+//Getters
 unsigned Vector::capacity(void) const
 {
   return capacity_;
@@ -43,14 +58,7 @@ unsigned Vector::allocations(void) const
   return allocs_;
 }
 
-void Vector::clear(void)
-{
-    delete[] array_;
-    array_ = nullptr;
-    size_ = 0;
-    capacity_ = 0;
-    
-}
+
 
 int Vector::operator[](unsigned index) const
 {
@@ -94,6 +102,36 @@ void Vector::push_front(int value)
     array_[0] = value;
 
     size_ += 1;
+}
+
+void Vector::pop_back(void)
+{
+    if (array_[size_] != NULL)
+    {
+        array_[size_] = NULL;
+    }
+    return;
+}
+
+//Operators
+
+Vector& Vector::operator+=(const Vector& rhs)
+{
+    for (unsigned i = 0; i < rhs.size_; i++)
+    {
+        push_back(rhs.array_[i]);
+    }
+
+    return *this;
+}
+
+Vector Vector::operator+(const Vector& rhs) const
+{
+    
+    Vector newVector;
+    newVector +=  *this;
+    newVector += rhs;
+    return newVector;
 }
 
 
