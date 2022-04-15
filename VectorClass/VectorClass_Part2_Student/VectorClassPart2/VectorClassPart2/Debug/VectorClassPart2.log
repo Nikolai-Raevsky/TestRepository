@@ -1,4 +1,2 @@
 ﻿  Vector.cpp
-driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector::pop_front(void)" (?pop_front@Vector@CS170@@QAEXXZ) referenced in function "void __cdecl TestPush(void)" (?TestPush@@YAXXZ)
-Vector.obj : error LNK2019: unresolved external symbol "public: __thiscall CS170::Vector::Vector(class CS170::Vector const &)" (??0Vector@CS170@@QAE@ABV01@@Z) referenced in function "public: class CS170::Vector __thiscall CS170::Vector::operator+(class CS170::Vector const &)const " (??HVector@CS170@@QBE?AV01@ABV01@@Z)
-C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part2_Student\VectorClassPart2\Debug\VectorClassPart2.exe : fatal error LNK1120: 2 unresolved externals
+  VectorClassPart2.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part2_Student\VectorClassPart2\Debug\VectorClassPart2.exe
