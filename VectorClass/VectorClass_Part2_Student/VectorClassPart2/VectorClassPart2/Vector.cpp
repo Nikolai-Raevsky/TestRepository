@@ -51,12 +51,53 @@ bool Vector::empty(void) const
   return size_ == 0;
 }
 
+void Vector::remove(int value)
+{
+    //Might need to declare a variable to store the index where value is before the loop starts
+    unsigned valueIndex = 0;
+    //Loop through array_ until array_ item is found with int equal to value
+    for (unsigned i = 0; i < size_; i++)
+    {
+        //Break loop once the equal is found
+        if (array_[i] == value)
+        {
+            valueIndex = i;
+            break;
+        }
+    }
+
+    //Decrease size_ here?
+    size_ -= 1;
+    //Loop through the rest of the array (NOT THE ENTIRE ARRAY, THE REST OF IT FROM THE INDEX WHERE VALUE IS) and equate array_[index] to array_[index + 1]
+    for (unsigned i = valueIndex; i < size_; i++)
+    {
+        array_[i] = array_[i + 1];
+    }
+}
+
+void Vector::insert(int value, unsigned position)
+{
+    if (size_ == capacity_)
+    {
+        grow();
+    }
+
+    for (unsigned i = size_; i > position; i--)
+    {
+        array_[i] = array_[i - 1]; //Wrong
+    }
+
+    array_[position] = value;
+    size_ += 1;
+}
+
+//Getters
 unsigned Vector::size(void) const
 {
   return size_;
 }
 
-//Getters
+
 unsigned Vector::capacity(void) const
 {
   return capacity_;
@@ -88,11 +129,11 @@ void Vector::push_front(int value)
     }
 
     //I diffed the output from this implementation against the master output and the files were identical even though I'm confused about the pseudocode of this. Isn't array_[size_-1] the left index to the first element that the array goes through in the array? How does this implementation shift the elements rightwards?
-    unsigned rightIndex = size_ - 1;
+    
     for (unsigned i = size_; i > 0; i--)
     {
-        array_[i] = array_[rightIndex];
-        rightIndex -= 1;
+        array_[i] = array_[i-1];
+        
     }
     array_[0] = value;
 
@@ -107,11 +148,11 @@ void Vector::pop_back(void)
 
 void Vector::pop_front(void)
 {
-    unsigned rightIndex = size_ - 1;
-    for (unsigned i = 0; i < size_; i++)
+    
+    for (unsigned i = 0; i < size_-1; i++)
     {
-        array_[i] = array_[rightIndex];
-        rightIndex += 1;
+        array_[i] = array_[i+1];
+        
     }
     size_ -= 1;
 

@@ -45,85 +45,85 @@ void TestPush(void)
   }
 }
 
-//void TestPop(void)
-//{
-//  std::cout << "\n********** TestPop **********\n";
-//  CS170::Vector a;
-//  std::cout << "Empty array:\n";
-//  Print(a);
+void TestPop(void)
+{
+  std::cout << "\n********** TestPop **********\n";
+  CS170::Vector a;
+  std::cout << "Empty array:\n";
+  Print(a);
+
+  std::cout << "push_back 5 integers:\n";
+  for (int i = 0; i < 5; i++)
+  {
+    a.push_back(i);
+    Print(a);
+  }
+
+  std::cout << "push_front 5 integers:\n";
+  for (int i = 0; i < 5; i++)
+  {
+    a.push_front(i);
+    Print(a);
+  }
+
+  std::cout << "pop_back/pop_front:\n";
+  a.pop_back();
+  a.pop_front();
+  Print(a);
+
+  std::cout << "pop_back/front until empty:\n";
+  while (!a.empty())
+  {
+    a.pop_front();
+    a.pop_back();
+    Print(a);
+  }
+}
 //
-//  std::cout << "push_back 5 integers:\n";
-//  for (int i = 0; i < 5; i++)
-//  {
-//    a.push_back(i);
-//    Print(a);
-//  }
+void TestRemove(void)
+{
+  std::cout << "\n********** TestRemove **********\n";
+  CS170::Vector a;
+  std::cout << "Empty array:\n";
+  Print(a);
+
+  std::cout << "push_back 5 integers:\n";
+  for (int i = 0; i < 5; i++)
+  {
+    a.push_back(i);
+    Print(a);
+  }
+
+  std::cout << "remove(0), remove(3):\n";
+  a.remove(0);
+  a.remove(3);
+  Print(a);
+}
 //
-//  std::cout << "push_front 5 integers:\n";
-//  for (int i = 0; i < 5; i++)
-//  {
-//    a.push_front(i);
-//    Print(a);
-//  }
-//
-//  std::cout << "pop_back/pop_front:\n";
-//  a.pop_back();
-//  a.pop_front();
-//  Print(a);
-//
-//  std::cout << "pop_back/front until empty:\n";
-//  while (!a.empty())
-//  {
-//    a.pop_front();
-//    a.pop_back();
-//    Print(a);
-//  }
-//}
-//
-//void TestRemove(void)
-//{
-//  std::cout << "\n********** TestRemove **********\n";
-//  CS170::Vector a;
-//  std::cout << "Empty array:\n";
-//  Print(a);
-//
-//  std::cout << "push_back 5 integers:\n";
-//  for (int i = 0; i < 5; i++)
-//  {
-//    a.push_back(i);
-//    Print(a);
-//  }
-//
-//  std::cout << "remove(0), remove(3):\n";
-//  a.remove(0);
-//  a.remove(3);
-//  Print(a);
-//}
-//
-//void TestInsert1(void)
-//{
-//  std::cout << "\n********** TestInsert **********\n";
-//  CS170::Vector a;
-//  std::cout << "Empty array:\n";
-//  Print(a);
-//
-//  std::cout << "push_back 5 integers:\n";
-//  for (int i = 0; i < 5; i++)
-//  {
-//    a.push_back(i);
-//    Print(a);
-//  }
-//
-//  std::cout << "insert(99, 3):\n";
-//  a.insert(99, 3);
-//  Print(a);
-//  std::cout << "insert(98, 0):\n";
-//  a.insert(98, 0);
-//  Print(a);
-//  std::cout << "insert(97, 6):\n";
-//  a.insert(97, 6);
-//  Print(a);
-//}
+void TestInsert1(void)
+{
+  std::cout << "\n********** TestInsert **********\n";
+  CS170::Vector a;
+  std::cout << "Empty array:\n";
+  Print(a);
+
+  std::cout << "push_back 5 integers:\n";
+  for (int i = 0; i < 5; i++)
+  {
+    a.push_back(i);
+    Print(a);
+  }
+
+  std::cout << "insert(99, 3):\n";
+  a.insert(99, 3);
+  Print(a);
+  std::cout << "insert(98, 0):\n";
+  a.insert(98, 0);
+  Print(a);
+  std::cout << "insert(97, 6):\n";
+  a.insert(97, 6);
+  Print(a);
+}
 //
 //void TestSubscripts(void)
 //{
@@ -390,9 +390,9 @@ int main(int argc, char **argv)
   typedef void (*Test)(void);
   Test Tests[] = {
                     TestPush,        //  1 
-                    //TestPop,         //  2
-                    //TestRemove,      //  3
-                    //TestInsert1,     //  4
+                    TestPop,         //  2
+                    TestRemove,      //  3
+                    TestInsert1,     //  4
                     //TestSubscripts,  //  5
                     //TestArray,       //  6
                     //TestSubscript1,  //  7
