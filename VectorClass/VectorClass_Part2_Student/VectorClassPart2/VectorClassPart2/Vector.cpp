@@ -18,14 +18,20 @@ Vector::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 {
 }
 
-Vector::Vector(const int array[], unsigned size) : size_(size), capacity_(size), allocs_(0)
+Vector::Vector(const int array[], unsigned size) :  size_(size), capacity_(size), allocs_(0)
 {
-    *array_ = *array;
+    array_ = new int[capacity_];
+    for (unsigned i = 0; i < size_; i++)
+    {
+        array_[i] = array[i];
+    }
+    allocs_ += 1;
+    
 }
 
-Vector::Vector(const Vector& rhs) : size_(rhs.size()), capacity_(rhs.capacity()), allocs_(rhs.allocations())
+Vector::Vector(const Vector& rhs) : size_(rhs.size()), capacity_(size_), allocs_(1)
 {
-    array_ = new int(capacity_);
+    array_ = new int[capacity_];
     for (unsigned i = 0; i < rhs.size_; i++)
     {
         array_[i] = rhs.array_[i];
@@ -178,7 +184,8 @@ int& Vector::operator[](unsigned index)
 
 Vector& Vector::operator+=(const Vector& rhs)
 {
-    for (unsigned i = 0; i < rhs.size_; i++)
+    unsigned loopNum = rhs.size_;
+    for (unsigned i = 0; i < loopNum; i++)
     {
         push_back(rhs.array_[i]);
     }
@@ -197,11 +204,21 @@ Vector Vector::operator+(const Vector& rhs) const
 
 Vector& Vector::operator=(const Vector& rhs) 
 {
-    size_ = rhs.size();
+    if (this == &rhs) 
+    {
+        return *this;
+    }
+    size_ = 0;
     capacity_ = rhs.capacity();
     allocs_ = rhs.allocations();
-
-    for (unsigned i = 0; i < size_; i++)
+    if (capacity_ < rhs.capacity_)
+    {
+        delete[] array_;
+        array_ = new int[capacity_];
+        allocs_ += 1;
+    }
+    
+    for (unsigned i = 0; i < rhs.size_; i++)
     {
         push_back(rhs[i]);
     }
