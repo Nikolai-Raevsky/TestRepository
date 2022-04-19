@@ -1,0 +1,386 @@
+﻿  driver-person.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,15): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,22): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,50): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,63): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,80): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,35): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,43): error C2065: 'rhs': undeclared identifier
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,66): error C2597: illegal reference to non-static member 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(105): message : see declaration of 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(42,10): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(43,1): error C2509: '{dtor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(48,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(49,1): error C2509: 'clear': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(58,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(59,1): error C2509: 'empty': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(65,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(66,1): error C2509: 'remove': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(93,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(94,1): error C2509: 'insert': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(110,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(111,1): error C2509: 'size': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(116,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(117,1): error C2509: 'capacity': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(121,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(122,1): error C2509: 'allocations': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(128,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(129,1): error C2509: 'push_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(144,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(145,1): error C2509: 'push_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(164,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(165,1): error C2509: 'pop_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(171,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(172,1): error C2509: 'pop_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(187,13): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(188,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(193,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(194,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(203,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(204,1): error C2509: '+=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(214,16): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(215,1): error C2509: '+': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(223,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(224,1): error C2509: '=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(258,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(259,1): error C2509: 'check_bounds': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(269,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(270,1): error C2509: 'grow': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\driver-person.cpp(68,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\driver-person.cpp(69,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\driver-person.cpp(70,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\driver-person.cpp(83,7): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  driver.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,15): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,22): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,50): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,63): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,80): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,35): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,43): error C2065: 'rhs': undeclared identifier
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,66): error C2597: illegal reference to non-static member 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(105): message : see declaration of 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(42,10): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(43,1): error C2509: '{dtor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(48,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(49,1): error C2509: 'clear': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(58,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(59,1): error C2509: 'empty': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(65,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(66,1): error C2509: 'remove': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(93,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(94,1): error C2509: 'insert': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(110,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(111,1): error C2509: 'size': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(116,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(117,1): error C2509: 'capacity': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(121,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(122,1): error C2509: 'allocations': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(128,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(129,1): error C2509: 'push_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(144,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(145,1): error C2509: 'push_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(164,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(165,1): error C2509: 'pop_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(171,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(172,1): error C2509: 'pop_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(187,13): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(188,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(193,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(194,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(203,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(204,1): error C2509: '+=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(214,16): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(215,1): error C2509: '+': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(223,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(224,1): error C2509: '=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(258,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(259,1): error C2509: 'check_bounds': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(269,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(270,1): error C2509: 'grow': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+  Vector.cpp
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,15): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,22): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,50): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,63): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,80): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,35): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,43): error C2065: 'rhs': undeclared identifier
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,66): error C2597: illegal reference to non-static member 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(105): message : see declaration of 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(42,10): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(43,1): error C2509: '{dtor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(48,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(49,1): error C2509: 'clear': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(58,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(59,1): error C2509: 'empty': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(65,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(66,1): error C2509: 'remove': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(93,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(94,1): error C2509: 'insert': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(110,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(111,1): error C2509: 'size': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(116,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(117,1): error C2509: 'capacity': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(121,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(122,1): error C2509: 'allocations': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(128,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(129,1): error C2509: 'push_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(144,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(145,1): error C2509: 'push_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(164,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(165,1): error C2509: 'pop_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(171,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(172,1): error C2509: 'pop_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(187,13): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(188,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(193,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(194,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(203,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(204,1): error C2509: '+=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(214,16): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(215,1): error C2509: '+': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(223,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(224,1): error C2509: '=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(258,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(259,1): error C2509: 'check_bounds': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(269,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(270,1): error C2509: 'grow': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(17,22): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,50): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,63): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(22,80): error C3867: 'CS170::Vector<T>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,9): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,35): error C2509: '{ctor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,43): error C2065: 'rhs': undeclared identifier
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(33,66): error C2597: illegal reference to non-static member 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(105): message : see declaration of 'CS170::Vector<T>::size_'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(42,10): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(43,1): error C2509: '{dtor}': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(48,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(49,1): error C2509: 'clear': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(58,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(59,1): error C2509: 'empty': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(65,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(66,1): error C2509: 'remove': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(93,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(94,1): error C2509: 'insert': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(110,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(111,1): error C2509: 'size': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(116,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(117,1): error C2509: 'capacity': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(121,18): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(122,1): error C2509: 'allocations': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(128,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(129,1): error C2509: 'push_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(144,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(145,1): error C2509: 'push_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(164,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(165,1): error C2509: 'pop_back': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(171,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(172,1): error C2509: 'pop_front': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(187,13): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(188,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(193,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(194,1): error C2509: '[]': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(203,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(204,1): error C2509: '+=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(214,16): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(215,1): error C2509: '+': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(223,17): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(224,1): error C2509: '=': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(258,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(259,1): error C2509: 'check_bounds': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(269,14): error C2955: 'CS170::Vector': use of class template requires template argument list
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.cpp(270,1): error C2509: 'grow': member function not declared in 'CS170::Vector'
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Vector_Part3_files\Vector.h(21): message : see declaration of 'CS170::Vector'
+  Generating Code...
