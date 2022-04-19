@@ -209,14 +209,16 @@ Vector& Vector::operator=(const Vector& rhs)
         return *this;
     }
     size_ = 0;
-    capacity_ = rhs.capacity();
-    allocs_ = rhs.allocations();
     if (capacity_ < rhs.capacity_)
     {
         delete[] array_;
+        capacity_ = rhs.size_;
         array_ = new int[capacity_];
         allocs_ += 1;
     }
+    
+    
+    
     
     for (unsigned i = 0; i < rhs.size_; i++)
     {
