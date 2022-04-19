@@ -14,12 +14,14 @@
 namespace CS170
 {
 //This function constructs a vector with all the member variables initialized to 0 
-Vector::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
+ template <typename T>
+Vector<T>::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 {
 }
 
 //This function constructs a vector. size_ and capacity_ get initialized to the size argument, allocs gets set to 1, and each of the passed in array values are stored in the array_ member.
-Vector::Vector(const int array[], unsigned size) :  size_(size), capacity_(size), allocs_(0)
+template <typename T>
+Vector<T>::Vector(const int array[], unsigned size) :  size_(size), capacity_(size), allocs_(0)
 {
     array_ = new int[capacity_];
     for (unsigned i = 0; i < size_; i++)
@@ -30,7 +32,8 @@ Vector::Vector(const int array[], unsigned size) :  size_(size), capacity_(size)
     
 }
 //This is for initializing a Vector with the data of another Vector. The only difference should be in the allocs and the capacity_ of the newly constructed Vector as everything else is supposed to be the same.
-Vector::Vector(const Vector& rhs) : size_(rhs.size()), capacity_(size_), allocs_(1)
+template <typename T>
+Vector<T>::Vector(const Vector& rhs) : size_(rhs.size()), capacity_(size_), allocs_(1)
 {
     array_ = new int[capacity_];
     for (unsigned i = 0; i < rhs.size_; i++)
