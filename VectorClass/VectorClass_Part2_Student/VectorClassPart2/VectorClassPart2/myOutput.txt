@@ -138,8 +138,57 @@ Assign: b = a, print a,b
 Assign: a = a, print a
 0  2  4  6  8  10  12  14  16  18  (size=10, capacity=16, allocs=5)
 Assign: a = c, print a,c
-3  9  15  21  27  (size=5, capacity=8, allocs=4)
+3  9  15  21  27  (size=5, capacity=16, allocs=5)
 3  9  15  21  27  (size=5, capacity=8, allocs=4)
 Assign: c = b, print b,c
 0  2  4  6  8  10  12  14  16  18  (size=10, capacity=16, allocs=5)
-0  2  4  6  8  10  12  14  16  18  (size=10, capacity=16, allocs=5)
+0  2  4  6  8  10  12  14  16  18  (size=10, capacity=10, allocs=5)
+
+********** TestAdd1 **********
+push_back 5 integers:
+0  (size=1, capacity=1, allocs=1)
+0  1  (size=2, capacity=2, allocs=2)
+0  1  2  (size=3, capacity=4, allocs=3)
+0  1  2  3  (size=4, capacity=4, allocs=3)
+0  1  2  3  4  (size=5, capacity=8, allocs=4)
+push_front 5 integers:
+0  (size=1, capacity=1, allocs=1)
+10  0  (size=2, capacity=2, allocs=2)
+20  10  0  (size=3, capacity=4, allocs=3)
+30  20  10  0  (size=4, capacity=4, allocs=3)
+40  30  20  10  0  (size=5, capacity=8, allocs=4)
+c = a + b:
+0  1  2  3  4  (size=5, capacity=8, allocs=4)
+40  30  20  10  0  (size=5, capacity=8, allocs=4)
+0  1  2  3  4  40  30  20  10  0  (size=10, capacity=10, allocs=1)
+clear a,b print c
+0  1  2  3  4  40  30  20  10  0  (size=10, capacity=10, allocs=1)
+
+********** TestAdd2 **********
+push_back 5 integers:
+0  (size=1, capacity=1, allocs=1)
+0  1  (size=2, capacity=2, allocs=2)
+0  1  2  (size=3, capacity=4, allocs=3)
+0  1  2  3  (size=4, capacity=4, allocs=3)
+0  1  2  3  4  (size=5, capacity=8, allocs=4)
+push_front 5 integers:
+0  (size=1, capacity=1, allocs=1)
+10  0  (size=2, capacity=2, allocs=2)
+20  10  0  (size=3, capacity=4, allocs=3)
+30  20  10  0  (size=4, capacity=4, allocs=3)
+40  30  20  10  0  (size=5, capacity=8, allocs=4)
+a += b:
+0  1  2  3  4  40  30  20  10  0  (size=10, capacity=16, allocs=5)
+40  30  20  10  0  (size=5, capacity=8, allocs=4)
+clear b print a
+0  1  2  3  4  40  30  20  10  0  (size=10, capacity=16, allocs=5)
+
+********** TestAdd3 **********
+push_back 5 integers:
+0  (size=1, capacity=1, allocs=1)
+0  1  (size=2, capacity=2, allocs=2)
+0  1  2  (size=3, capacity=4, allocs=3)
+0  1  2  3  (size=4, capacity=4, allocs=3)
+0  1  2  3  4  (size=5, capacity=8, allocs=4)
+a += a:
+0  1  2  3  4  0  1  2  3  4  (size=10, capacity=16, allocs=5)
