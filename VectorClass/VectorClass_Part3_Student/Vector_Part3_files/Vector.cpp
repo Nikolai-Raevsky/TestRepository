@@ -1,7 +1,7 @@
 ////////////////////////////////////////
 // Author: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
 // Instructor: Jeremy Kings (jeremy.kings@digipen.edu)
-// Assignment: PRG 8.1.4 CORE ASSIGNMENT: Vector Container Class Part 2
+// Assignment: PRG 8.1.7 CORE ASSIGNMENT: Vector Container Class Part 3
 // Course: WANIC VGP2
 ////////////////////////////////////////
 
