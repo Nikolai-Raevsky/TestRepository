@@ -21,9 +21,9 @@ Vector<T>::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 
 //This function constructs a vector. size_ and capacity_ get initialized to the size argument, allocs gets set to 1, and each of the passed in array values are stored in the array_ member.
 template <typename T>
-Vector<T>::Vector(const int array[], unsigned size) :  size_(size), capacity_(size), allocs_(0)
+Vector<T>::Vector(const T array[], unsigned size) :  size_(size), capacity_(size), allocs_(0)
 {
-    array_ = new int[capacity_];
+    array_ = new T[capacity_];
     for (unsigned i = 0; i < size_; i++)
     {
         array_[i] = array[i];
@@ -35,20 +35,22 @@ Vector<T>::Vector(const int array[], unsigned size) :  size_(size), capacity_(si
 template <typename T>
 Vector<T>::Vector(const Vector& rhs) : size_(rhs.size()), capacity_(size_), allocs_(1)
 {
-    array_ = new int[capacity_];
+    array_ = new T[capacity_];
     for (unsigned i = 0; i < rhs.size_; i++)
     {
         array_[i] = rhs.array_[i];
     }
 }
 //A destructor that calls clar
-Vector::~Vector(void)
+template <typename T>
+Vector<T>::~Vector(void)
 {
     clear();
 
 }
 //Deletes and null points array_, and sets size_ and capacity_ to 0.
-void Vector::clear(void)
+template <typename T>
+void Vector<T>::clear(void)
 {
     delete[] array_;
     array_ = nullptr;
@@ -58,14 +60,16 @@ void Vector::clear(void)
     
 }
 //I don't remember if I did this one but this one checks if size_ == 0
-bool Vector::empty(void) const
+template <typename T>
+bool Vector<T>::empty(void) const
 {
   return size_ == 0;
 }
 
 //Removes a value from the Vector array_
 //Params: value, the value that the user wants removed from the array (NOT THE INDEX OF THE VALUE)
-void Vector::remove(int value)
+template <typename T>
+void Vector<T>::remove(T value)
 {
     //Might need to declare a variable to store the index where value is before the loop starts
     unsigned valueIndex = 0;
@@ -93,7 +97,8 @@ void Vector::remove(int value)
 //Params:
 //  value: The value the user wants inserted
 //  position: The index of array_ in which the user wants value inserted
-void Vector::insert(int value, unsigned position)
+template <typename T>
+void Vector<T>::insert(T value, unsigned position)
 {
     if (size_ == capacity_)
     {
@@ -110,25 +115,29 @@ void Vector::insert(int value, unsigned position)
 }
 
 //Gets the user access to size_
-unsigned Vector::size(void) const
+template <typename T>
+unsigned Vector<T>::size(void) const
 {
   return size_;
 }
 
 //Gets the user access to capacity_
-unsigned Vector::capacity(void) const
+template <typename T>
+unsigned Vector<T>::capacity(void) const
 {
   return capacity_;
 }
 //Gets the user access to allocs_
-unsigned Vector::allocations(void) const
+template <typename T>
+unsigned Vector<T>::allocations(void) const
 {
   return allocs_;
 }
 //Inserts a new value at the end of the Vector array_
 // Params: 
 // value: the value the user wants to insert into the array
-void Vector::push_back(int value)
+template <typename T>
+void Vector<T>::push_back(T value)
 {
 
     if (size_ == capacity_)
@@ -144,7 +153,8 @@ void Vector::push_back(int value)
 //Inserts a new value into the front of the array
 // Params:
 // value: The value the user wants to insert into the array
-void Vector::push_front(int value)
+template <typename T>
+void Vector<T>::push_front(T value)
 {
     if (size_ == capacity_)
     {
@@ -164,14 +174,16 @@ void Vector::push_front(int value)
 }
 
 //Removes the last value from the Vector array_
-void Vector::pop_back(void)
+template <typename T>
+void Vector<T>::pop_back(void)
 {
     size_ -= 1;
     
 }
 
 //Removes the first value from the Vector array_
-void Vector::pop_front(void)
+template <typename T>
+void Vector<T>::pop_front(void)
 {
     
     for (unsigned i = 0; i < size_-1; i++)
@@ -187,13 +199,15 @@ void Vector::pop_front(void)
 //Operators
 
 //This one returns the value at array_[index] if the index is valid. A version made for const Vectors
-int Vector::operator[](unsigned index) const
+template <typename T>
+T Vector<T>::operator[](unsigned index) const
 {
     check_bounds(index);
     return array_[index];
 }
 //This is identical to the previous operator but for non const value access
-int& Vector::operator[](unsigned index)
+template <typename T>
+T& Vector<T>::operator[](unsigned index)
 {
     check_bounds(index);
     return array_[index];
@@ -203,7 +217,8 @@ int& Vector::operator[](unsigned index)
 
 
 //Basically appends rhs onto the end of this Vector
-Vector& Vector::operator+=(const Vector& rhs)
+template <typename T>
+Vector<T>& Vector<T>::operator+=(const Vector<T>& rhs)
 {
     unsigned loopNum = rhs.size_;
     for (unsigned i = 0; i < loopNum; i++)
@@ -214,7 +229,8 @@ Vector& Vector::operator+=(const Vector& rhs)
     return *this;
 }
 //Returns the connection of this Vector and rhs Vector. I think this one's primarily intended to be used when initializing other Vectors as the sums of two different Vectors
-Vector Vector::operator+(const Vector& rhs) const
+template <typename T>
+Vector<T> Vector<T>::operator+(const Vector<T>& rhs) const
 {
     
     Vector newVector;
@@ -223,7 +239,8 @@ Vector Vector::operator+(const Vector& rhs) const
     return newVector;
 }
 //This assigns rhs array_ data (ADDRESS CONTENT, I DON'T MEAN THE POINTERS THEMSELVES)to this Vector.
-Vector& Vector::operator=(const Vector& rhs) 
+template <typename T>
+Vector<T>& Vector<T>::operator=(const Vector<T>& rhs) 
 {
     if (this == &rhs) 
     {
@@ -234,7 +251,7 @@ Vector& Vector::operator=(const Vector& rhs)
     {
         delete[] array_;
         capacity_ = rhs.size_;
-        array_ = new int[capacity_];
+        array_ = new T[capacity_];
         allocs_ += 1;
     }
     
@@ -257,8 +274,8 @@ Vector& Vector::operator=(const Vector& rhs)
 // private (I DID NOT WORK ON ANY OF THESE FUNCTIONS)
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
-
-void Vector::check_bounds(unsigned index) const
+template <typename T>
+void Vector<T>::check_bounds(unsigned index) const
 {
     // Don't have to check for < 0 because index is unsigned
   if (index >= size_)
@@ -268,8 +285,8 @@ void Vector::check_bounds(unsigned index) const
     std::abort();
   }
 }
-
-void Vector::grow(void)
+template <typename T>
+void Vector<T>::grow(void)
 {
     // Double the capacity
   capacity_ = (capacity_) ? capacity_ * 2 : 1;
@@ -278,7 +295,7 @@ void Vector::grow(void)
     
 
   
-  int* array_Copy = new int[capacity_];
+  T* array_Copy = new T[capacity_];
   
   for (unsigned i = 0; i < size_; i++)
   {
