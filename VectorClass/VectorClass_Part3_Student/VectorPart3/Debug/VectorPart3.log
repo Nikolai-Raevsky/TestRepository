@@ -1,2 +1,4 @@
-﻿  driver-person.cpp
-  VectorPart3.vcxproj -> C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Debug\VectorPart3.exe
+﻿driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector<int>::reverse(void)" (?reverse@?$Vector@H@CS170@@QAEXXZ) referenced in function "void __cdecl TestReverse1(void)" (?TestReverse1@@YAXXZ)
+driver.obj : error LNK2019: unresolved external symbol "public: bool __thiscall CS170::Vector<int>::operator==(class CS170::Vector<int> const &)const " (??8?$Vector@H@CS170@@QBE_NABV01@@Z) referenced in function "void __cdecl TestEqual1(void)" (?TestEqual1@@YAXXZ)
+driver.obj : error LNK2019: unresolved external symbol "public: void __thiscall CS170::Vector<int>::shrink_to_fit(void)" (?shrink_to_fit@?$Vector@H@CS170@@QAEXXZ) referenced in function "void __cdecl TestShrink1(void)" (?TestShrink1@@YAXXZ)
+C:\Users\nikolai.raevsky\Documents\GitHub\TestRepository\VectorClass\VectorClass_Part3_Student\Debug\VectorPart3.exe : fatal error LNK1120: 3 unresolved externals

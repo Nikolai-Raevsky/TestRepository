@@ -196,6 +196,18 @@ void Vector<T>::pop_front(void)
     return;
 }
 
+
+template <typename T>
+void Vector<T>::swapv(Vector& other)
+{
+    Vector otherCopy = Vector(other);
+    other = *this;
+    other.capacity_ = this->capacity_;
+    other.allocs_ = this->allocs_;
+    *this = otherCopy;
+    this->capacity_ = otherCopy.capacity_;
+    this->allocs_ = otherCopy.allocs_;
+}
 //Operators
 
 //This one returns the value at array_[index] if the index is valid. A version made for const Vectors

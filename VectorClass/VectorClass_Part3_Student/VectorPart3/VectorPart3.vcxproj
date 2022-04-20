@@ -146,9 +146,11 @@
     <ClInclude Include="..\Vector_Part3_files\Vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Vector_Part3_files\driver-person.cpp" />
-    <ClCompile Include="..\Vector_Part3_files\driver.cpp">
+    <ClCompile Include="..\Vector_Part3_files\driver-person.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Vector_Part3_files\driver.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
