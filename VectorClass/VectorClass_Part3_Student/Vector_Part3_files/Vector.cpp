@@ -208,6 +208,7 @@ void Vector<T>::pop_front(void)
 }
 
 
+//This function swaps the contents *this and the other Vector
 template <typename T>
 void Vector<T>::swapv(Vector& other)
 {
@@ -217,10 +218,37 @@ void Vector<T>::swapv(Vector& other)
     swap(size_, other.size_);
 }
 
+//This function reverses the order of array_ elements
 template <typename T>
 void Vector<T>::reverse(void)
 {
+    if (size_ == 0)
+    {
+        return;
+    }
+    for (unsigned i = 0, j = size_-1; i < (size_ / 2) || j > (size_ / 2); i++, j--)
+    {
+        swap(array_[i], array_[j]);
+    }
+}
 
+template <typename T>
+void Vector<T>::shrink_to_fit(void)
+{
+    if (size_ == capacity_)
+    {
+        return;
+    }
+
+    //Allocate new memory that matches the actual array size_
+    capacity_ = size_;
+
+    T* arrayCopy_ = new T[capacity_];
+
+    //Store array_ values in arrayCopy_ before array_ deletion
+    //Delete the memory of array_ and then assign it the pointer to the new memory?
+    delete[] array_;
+    array_ = arrayCopy_;
 }
 //Operators
 
@@ -291,6 +319,25 @@ Vector<T>& Vector<T>::operator=(const Vector<T>& rhs)
 
     return *this;
     
+}
+
+template <typename T>
+bool Vector<T>::operator==(const Vector<T>& rhs) const
+{
+    if (size_ != rhs.size_)
+    {
+        return false;
+    }
+
+    for (unsigned i = 0; i < size_; i++)
+    {
+        if (array_[i] != rhs.array_[i])
+        {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 

@@ -68,117 +68,117 @@ void TestSwap1(void)
   Print(b);
 }
 
-//void TestReverse1(void)
-//{
-//  int count = 10;
-//  std::cout << "\n********** TestReverse1 **********\n";
-//  CS170::Vector<int> a;
+void TestReverse1(void)
+{
+  int count = 10;
+  std::cout << "\n********** TestReverse1 **********\n";
+  CS170::Vector<int> a;
+
+  std::cout << "push_back integers:\n";
+  for (int i = 0; i < count; i++)
+    a.push_back(i + 1);
+
+  Print(a);
+  a.reverse();
+  std::cout << "Reversed:\n";
+  Print(a);
+
+  std::cout << "Remove last element:\n";
+  a.pop_back();
+  Print(a);
+  a.reverse();
+  std::cout << "Reversed:\n";
+  Print(a);
+}
 //
-//  std::cout << "push_back integers:\n";
-//  for (int i = 0; i < count; i++)
-//    a.push_back(i + 1);
+void TestReverse2(void)
+{
+  int count = 10;
+  std::cout << "\n********** TestReverse2 **********\n";
+  CS170::Vector<int> a;
+
+  std::cout << "push_back integers:\n";
+  for (int i = 0; i < count; i++)
+    a.push_back(i + 1);
+
+  Print(a);
+  a.reverse();
+  std::cout << "Reversed:\n";
+  Print(a);
+
+  while (!a.empty())
+  {
+    if (a.size() % 2) // odd
+    {
+      std::cout << "Remove last element:\n";
+      a.pop_back();
+    }
+    else // even
+    {
+      std::cout << "Remove first element:\n";
+      a.pop_front();
+    }
+    Print(a);
+    a.reverse();
+    std::cout << "Reversed:\n";
+    Print(a);
+  }
+}
 //
-//  Print(a);
-//  a.reverse();
-//  std::cout << "Reversed:\n";
-//  Print(a);
-//
-//  std::cout << "Remove last element:\n";
-//  a.pop_back();
-//  Print(a);
-//  a.reverse();
-//  std::cout << "Reversed:\n";
-//  Print(a);
-//}
-//
-//void TestReverse2(void)
-//{
-//  int count = 10;
-//  std::cout << "\n********** TestReverse2 **********\n";
-//  CS170::Vector<int> a;
-//
-//  std::cout << "push_back integers:\n";
-//  for (int i = 0; i < count; i++)
-//    a.push_back(i + 1);
-//
-//  Print(a);
-//  a.reverse();
-//  std::cout << "Reversed:\n";
-//  Print(a);
-//
-//  while (!a.empty())
-//  {
-//    if (a.size() % 2) // odd
-//    {
-//      std::cout << "Remove last element:\n";
-//      a.pop_back();
-//    }
-//    else // even
-//    {
-//      std::cout << "Remove first element:\n";
-//      a.pop_front();
-//    }
-//    Print(a);
-//    a.reverse();
-//    std::cout << "Reversed:\n";
-//    Print(a);
-//  }
-//}
-//
-//void TestEqual1(void)
-//{
-//  std::cout << "\n********** TestEqual1 **********\n";
-//  CS170::Vector<int> a, b, c;
-//
-//  std::cout << "push_back integers:\n";
-//  for (int i = 0; i < 10; i++)
-//    a.push_back(i + 1);
-//  for (int i = 0; i < 10; i++)
-//    b.push_back(i + 1);
-//
-//  std::cout << "a: ";
-//  Print(a);
-//  std::cout << "b: ";
-//  Print(b);
-//
-//  if (a == b)
-//    std::cout << "a is equal to b\n";
-//  else
-//    std::cout << "a is NOT equal to b\n";
-//
-//  std::cout << "remove last element of a:\n";
-//  a.pop_back();
-//  std::cout << "a: ";
-//  Print(a);
-//  std::cout << "b: ";
-//  Print(b);
-//  if (a == b)
-//    std::cout << "a is equal to b\n";
-//  else
-//    std::cout << "a is NOT equal to b\n";
-//
-//  std::cout << "remove last element of b:\n";
-//  b.pop_back();
-//  std::cout << "a: ";
-//  Print(a);
-//  std::cout << "b: ";
-//  Print(b);
-//  if (a == b)
-//    std::cout << "a is equal to b\n";
-//  else
-//    std::cout << "a is NOT equal to b\n";
-//
-//  std::cout << "change last element of b to 100:\n";
-//  b[b.size() - 1] = 100;
-//  std::cout << "a: ";
-//  Print(a);
-//  std::cout << "b: ";
-//  Print(b);
-//  if (a == b)
-//    std::cout << "a is equal to b\n";
-//  else
-//    std::cout << "a is NOT equal to b\n";
-//}
+void TestEqual1(void)
+{
+  std::cout << "\n********** TestEqual1 **********\n";
+  CS170::Vector<int> a, b, c;
+
+  std::cout << "push_back integers:\n";
+  for (int i = 0; i < 10; i++)
+    a.push_back(i + 1);
+  for (int i = 0; i < 10; i++)
+    b.push_back(i + 1);
+
+  std::cout << "a: ";
+  Print(a);
+  std::cout << "b: ";
+  Print(b);
+
+  if (a == b)
+    std::cout << "a is equal to b\n";
+  else
+    std::cout << "a is NOT equal to b\n";
+
+  std::cout << "remove last element of a:\n";
+  a.pop_back();
+  std::cout << "a: ";
+  Print(a);
+  std::cout << "b: ";
+  Print(b);
+  if (a == b)
+    std::cout << "a is equal to b\n";
+  else
+    std::cout << "a is NOT equal to b\n";
+
+  std::cout << "remove last element of b:\n";
+  b.pop_back();
+  std::cout << "a: ";
+  Print(a);
+  std::cout << "b: ";
+  Print(b);
+  if (a == b)
+    std::cout << "a is equal to b\n";
+  else
+    std::cout << "a is NOT equal to b\n";
+
+  std::cout << "change last element of b to 100:\n";
+  b[b.size() - 1] = 100;
+  std::cout << "a: ";
+  Print(a);
+  std::cout << "b: ";
+  Print(b);
+  if (a == b)
+    std::cout << "a is equal to b\n";
+  else
+    std::cout << "a is NOT equal to b\n";
+}
 //
 //void TestSubscriptEx(void)
 //{
@@ -316,13 +316,13 @@ void TestSwap1(void)
 int main(void)
 {
   TestSwap1();
-/*  TestReverse1();
+  TestReverse1();
   TestReverse2();
   TestEqual1();
-  TestShrink1();
+  /*TestShrink1();
 
-  TestSubscriptEx();
-  TestInsertEx();
+  /*TestSubscriptEx();
+  /*TestInsertEx();
 
   TestSwapStress()*/;
 
