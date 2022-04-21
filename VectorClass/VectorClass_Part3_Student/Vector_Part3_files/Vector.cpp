@@ -13,6 +13,17 @@
 
 namespace CS170
 {
+    //This function template has instructions for functions that assign value2 to value1 and value1 to value2 (a literal swap of those two variables)
+    //Params:
+    //value1: The first value the user inputs
+    //value2: The second value the user inputs
+    template <typename T>
+    void swap(T& value1, T& value2)
+    {
+        T value2Copy = value2;
+        value2 = value1;
+        value1 = value2Copy;
+    }
 //This function constructs a vector with all the member variables initialized to 0 
  template <typename T>
 Vector<T>::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
@@ -200,13 +211,16 @@ void Vector<T>::pop_front(void)
 template <typename T>
 void Vector<T>::swapv(Vector& other)
 {
-    Vector otherCopy = Vector(other);
-    other = *this;
-    other.capacity_ = this->capacity_;
-    other.allocs_ = this->allocs_;
-    *this = otherCopy;
-    this->capacity_ = otherCopy.capacity_;
-    this->allocs_ = otherCopy.allocs_;
+    swap(array_, other.array_);
+    swap(allocs_, other.allocs_);
+    swap(capacity_, other.capacity_);
+    swap(size_, other.size_);
+}
+
+template <typename T>
+void Vector<T>::reverse(void)
+{
+
 }
 //Operators
 
