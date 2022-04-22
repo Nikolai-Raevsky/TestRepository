@@ -268,50 +268,50 @@ void TestEqual1(void)
 //  std::cout << "Done...\n";
 //}
 //
-//void TestShrink1(void)
-//{
-//  std::cout << "\n********** TestShrink1 **********\n";
-//  CS170::Vector<int> a;
-//
-//  std::cout << "push_back 8 integers:\n";
-//  for (int i = 0; i < 8; i++)
-//    a.push_back(i);
-//  Print(a);
-//
-//  std::cout << "shrink:\n";
-//  a.shrink_to_fit();
-//  Print(a);
-//
-//  std::cout << "pop last 3:\n";
-//  a.pop_back();
-//  a.pop_back();
-//  a.pop_back();
-//  Print(a);
-//
-//  std::cout << "shrink:\n";
-//  a.shrink_to_fit();
-//  Print(a);
-//
-//  std::cout << "push_back one integer:\n";
-//  a.push_back(100);
-//  Print(a);
-//
-//  std::cout << "shrink:\n";
-//  a.shrink_to_fit();
-//  Print(a);
-//
-//  std::cout << "shrink:\n";
-//  a.shrink_to_fit();
-//  Print(a);
-//
-//  std::cout << "clear:\n";
-//  a.clear();
-//  Print(a);
-//
-//  std::cout << "shrink:\n";
-//  a.shrink_to_fit();
-//  Print(a);
-//}
+void TestShrink1(void)
+{
+  std::cout << "\n********** TestShrink1 **********\n";
+  CS170::Vector<int> a;
+
+  std::cout << "push_back 8 integers:\n";
+  for (int i = 0; i < 8; i++)
+    a.push_back(i);
+  Print(a);
+
+  std::cout << "shrink:\n";
+  a.shrink_to_fit();
+  Print(a);
+
+  std::cout << "pop last 3:\n";
+  a.pop_back();
+  a.pop_back();
+  a.pop_back();
+  Print(a);
+
+  std::cout << "shrink:\n";
+  a.shrink_to_fit();
+  Print(a);
+
+  std::cout << "push_back one integer:\n";
+  a.push_back(100);
+  Print(a);
+
+  std::cout << "shrink:\n";
+  a.shrink_to_fit();
+  Print(a);
+
+  std::cout << "shrink:\n";
+  a.shrink_to_fit();
+  Print(a);
+
+  std::cout << "clear:\n";
+  a.clear();
+  Print(a);
+
+  std::cout << "shrink:\n";
+  a.shrink_to_fit();
+  Print(a);
+}
 
 int main(void)
 {
@@ -319,7 +319,7 @@ int main(void)
   TestReverse1();
   TestReverse2();
   TestEqual1();
-  /*TestShrink1();
+  TestShrink1();
 
   /*TestSubscriptEx();
   /*TestInsertEx();

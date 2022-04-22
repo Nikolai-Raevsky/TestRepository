@@ -245,10 +245,16 @@ void Vector<T>::shrink_to_fit(void)
 
     T* arrayCopy_ = new T[capacity_];
 
+    for (unsigned i = 0; i < size_; i++)
+    {
+        arrayCopy_[i] = array_[i];
+    }
+
     //Store array_ values in arrayCopy_ before array_ deletion
     //Delete the memory of array_ and then assign it the pointer to the new memory?
     delete[] array_;
     array_ = arrayCopy_;
+    allocs_ += 1;
 }
 //Operators
 
