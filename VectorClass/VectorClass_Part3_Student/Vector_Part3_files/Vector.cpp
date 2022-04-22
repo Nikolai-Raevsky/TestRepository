@@ -111,6 +111,7 @@ void Vector<T>::remove(T value)
 template <typename T>
 void Vector<T>::insert(T value, unsigned position)
 {
+    check_bounds(position);
     if (size_ == capacity_)
     {
         grow();
@@ -232,6 +233,7 @@ void Vector<T>::reverse(void)
     }
 }
 
+//This function makes sure that the amount of memory allocated to array_ equals size_ and no more
 template <typename T>
 void Vector<T>::shrink_to_fit(void)
 {
@@ -240,7 +242,7 @@ void Vector<T>::shrink_to_fit(void)
         return;
     }
 
-    //Allocate new memory that matches the actual array size_
+    
     capacity_ = size_;
 
     T* arrayCopy_ = new T[capacity_];
@@ -250,8 +252,7 @@ void Vector<T>::shrink_to_fit(void)
         arrayCopy_[i] = array_[i];
     }
 
-    //Store array_ values in arrayCopy_ before array_ deletion
-    //Delete the memory of array_ and then assign it the pointer to the new memory?
+    
     delete[] array_;
     array_ = arrayCopy_;
     allocs_ += 1;
@@ -327,6 +328,7 @@ Vector<T>& Vector<T>::operator=(const Vector<T>& rhs)
     
 }
 
+//This operator overload checks if the Vectors have identical contents
 template <typename T>
 bool Vector<T>::operator==(const Vector<T>& rhs) const
 {
@@ -350,20 +352,21 @@ bool Vector<T>::operator==(const Vector<T>& rhs) const
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
-// private (I DID NOT WORK ON ANY OF THESE FUNCTIONS)
+// private )
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
+
+//This function throws an exception handler to the user to deal with inapporpriate bug placement
 template <typename T>
 void Vector<T>::check_bounds(unsigned index) const
 {
     // Don't have to check for < 0 because index is unsigned
   if (index >= size_)
   {
-    std::cout << "Attempting to access index " << index << ".";
-    std::cout << " The size of the array is " << size_ << ". Aborting...\n";
-    std::abort();
+      throw SubscriptError(index);
   }
 }
+//I think the only changes I made to this one were related to the templetization process but this one increases the number of elements array_ can store
 template <typename T>
 void Vector<T>::grow(void)
 {
