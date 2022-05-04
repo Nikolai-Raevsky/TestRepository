@@ -13,36 +13,38 @@
 
 namespace CS170
 {
-
+//A default constructor that sets the array_, size_, capacity_, and allocs_ members to 0
 Vector::Vector(void) : array_(0), size_(0), capacity_(0), allocs_(0)
 {
 }
+//A destructor that deletes array_ and sets the size_ and capacity_ to 0
 Vector::~Vector(void)
 {
     clear();
 
 }
 
+//This function checks if size_ is equal to 0 or not
 bool Vector::empty(void) const
 {
   return size_ == 0;
 }
-
+//This function is a getter for size_
 unsigned Vector::size(void) const
 {
   return size_;
 }
-
+//This function is a getter for capacity_
 unsigned Vector::capacity(void) const
 {
   return capacity_;
 }
-
+//This function is a getter for allocs_
 unsigned Vector::allocations(void) const
 {
   return allocs_;
 }
-
+//See destructor
 void Vector::clear(void)
 {
     delete[] array_;
@@ -51,19 +53,26 @@ void Vector::clear(void)
     capacity_ = 0;
     
 }
-
+//This accesses a Vector's array_ values
+// Params: index: The index of array_ the user wants to access
+// Returns: The value at array_[index]
 int Vector::operator[](unsigned index) const
 {
     check_bounds(index);
     return array_[index];
 }
-
+//This accesses a Vector's array_ values
+// Params: index: The index of array_ the user wants to access
+// Returns: The value at array_[index]
+//The big difference between this one and the last one are that the last one is specialized for const Vectors. There isn't really a difference as far as the implementation goes
 int& Vector::operator[](unsigned index)
 {
     check_bounds(index);
     return array_[index];
 }
 
+//Inserts a new array_ value at the end of the array.
+// Params: value: The value that the user wants stored in the array_'s end
 void Vector::push_back(int value)
 {
     
@@ -76,7 +85,8 @@ void Vector::push_back(int value)
     array_[size_] = value;
     size_ += 1;
 }
-
+//Inserts a new array_ value at the beginning of the array
+// Params: value: The value that the user wants stored in the array_'s beginning
 void Vector::push_front(int value)
 {
     if (size_ == capacity_)
@@ -84,12 +94,11 @@ void Vector::push_front(int value)
         grow();
     }
 
-    //I diffed the output from this implementation against the master output and the files were identical even though I'm confused about the pseudocode of this. Isn't array_[size_-1] the left index to the first element that the array goes through in the array? How does this implementation shift the elements rightwards?
-    unsigned rightIndex = size_-1;
+    //Thanks for the comments about this one! It really simplified it.
+    
     for (unsigned i = size_; i > 0; i--)
     {
-        array_[i] = array_[rightIndex];
-        rightIndex -= 1;
+        array_[i] = array_[i - 1];
     }
     array_[0] = value;
 
@@ -104,6 +113,9 @@ void Vector::push_front(int value)
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 
+//This function checks if a user specified index is actually in a Vector array_ or not
+//Params
+//  index: The index that the user wants to test.
 void Vector::check_bounds(unsigned index) const
 {
     // Don't have to check for < 0 because index is unsigned
@@ -114,7 +126,7 @@ void Vector::check_bounds(unsigned index) const
     std::abort();
   }
 }
-
+//This function increases the maximum storage capacity of the Vector array_ member. It also needs to update the number of allocs_ during each call.
 void Vector::grow(void)
 {
     // Double the capacity
