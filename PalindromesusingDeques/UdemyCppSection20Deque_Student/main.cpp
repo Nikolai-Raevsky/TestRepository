@@ -22,6 +22,9 @@ bool is_palindrome(const std::string& s)
     // Since we are learning the STL - use a deque to solve the problem.
 		// First you will need to add each character from the string to the deque!
 		std::deque<char> characters;
+
+
+        //The instructions said to use push_front, push_back, pop_front, and pop_back almost exclusively
 		
 		
     return false;
