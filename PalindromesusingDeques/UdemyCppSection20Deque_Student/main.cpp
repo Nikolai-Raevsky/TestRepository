@@ -26,11 +26,42 @@ bool is_palindrome(const std::string& s)
         for (unsigned i = 0; i < s.size(); i++)
         {
             //This one should copy 
-            characters.push_back(s[i]);
+
+
+            //Use toupper and isalpha to make sure characters are all capped 
+            if (isalpha(s[i]))
+            {
+                characters.push_back(toupper(s[i]));
+            }
+            
+        }
+        unsigned charactersSize = characters.size();
+        if (charactersSize == 1)
+        {
+            return true;
+        }
+        while (charactersSize >= 1)
+        {
+            if (charactersSize == 1)
+            {
+                return true;
+            }
+            if (characters.front() != characters.back())
+            {
+                return false;
+            }
+
+            else
+            {
+                characters.pop_front();
+                characters.pop_back();
+            }
+            charactersSize = characters.size();
+
         }
 
 
-        //The instructions said to use push_front, push_back, pop_front, and pop_back almost exclusively
+        //The instructions said to use pop_front, and pop_back, front, back, 
 		
 		
     return false;
