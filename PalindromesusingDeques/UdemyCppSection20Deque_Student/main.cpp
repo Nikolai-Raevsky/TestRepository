@@ -23,6 +23,12 @@ bool is_palindrome(const std::string& s)
 		// First you will need to add each character from the string to the deque!
 		std::deque<char> characters;
 
+        for (unsigned i = 0; i < s.size(); i++)
+        {
+            //This one should copy 
+            characters.push_back(s[i]);
+        }
+
 
         //The instructions said to use push_front, push_back, pop_front, and pop_back almost exclusively
 		
