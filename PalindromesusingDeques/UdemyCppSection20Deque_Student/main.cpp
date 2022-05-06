@@ -16,56 +16,54 @@ This is using code from udemy.com (especially the main function)
 #include <vector>
 #include <iomanip>
 
+//Description: Checks if a string is a palindrome
+//Params
+//  s: The user's passed in string
+//Returns
+//  a bool confirming if the string is a palindrome or not
+
 bool is_palindrome(const std::string& s)
 {
     // You must implement this function.
     // Since we are learning the STL - use a deque to solve the problem.
-		// First you will need to add each character from the string to the deque!
-		std::deque<char> characters;
+        // First you will need to add each character from the string to the deque!
+    std::deque<char> characters;
 
-        for (unsigned i = 0; i < s.size(); i++)
+    for (unsigned i = 0; i < s.size(); i++)
+    {
+        //This one should copy 
+
+
+        //Use toupper and isalpha to make sure characters are all capped 
+        if (isalpha(s[i]))
         {
-            //This one should copy 
-
-
-            //Use toupper and isalpha to make sure characters are all capped 
-            if (isalpha(s[i]))
-            {
-                characters.push_back(toupper(s[i]));
-            }
-            
-        }
-        unsigned charactersSize = characters.size();
-        if (charactersSize == 1)
-        {
-            return true;
-        }
-        while (charactersSize >= 1)
-        {
-            if (charactersSize == 1)
-            {
-                return true;
-            }
-            if (characters.front() != characters.back())
-            {
-                return false;
-            }
-
-            else
-            {
-                characters.pop_front();
-                characters.pop_back();
-            }
-            charactersSize = characters.size();
-
+            characters.push_back(static_cast<char>(toupper(s[i])));
         }
 
+    }
 
-        //The instructions said to use pop_front, and pop_back, front, back, 
-		
-		
-    return false;
-}
+    for (unsigned i = 0; i < characters.size() / 2; i++)
+    {
+        if (characters.front() == characters.back())
+        {
+            characters.pop_front();
+            characters.pop_back();
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+    return true;
+
+
+    //The instructions said to use pop_front, and pop_back, front, back, 
+
+
+
+};
 
 int main()
 {
