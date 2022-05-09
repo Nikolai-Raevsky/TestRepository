@@ -17,7 +17,7 @@
 #include <vector>
 
 
-//Constructors
+
 
 PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string email_, int region_, int number_) :
 	name(name_), last_name(last_name_), email(email_), region(region_), number(number_)
@@ -26,7 +26,23 @@ PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string em
 
 PhoneBook::PhoneBook(std::string filename_)
 {
+	//Open the file with filename_
 
+	//Store text from the file in the entries array
+
+	//Copy phone entry members into local variables. After the loop is over and all these variables have information, store pointers to those in the phone entries array
+
+	//Use ifstream
+	std::ifstream inputFile(filename_);
+
+	if (inputFile.is_open())
+	{
+
+	}
+
+	//Collect phoneentry members 
+
+	//Once all the phone entry information is collected add it to phoneentry vector in phonebook
 }
 
 PhoneBook::PhoneBook(const PhoneBook& copy_)
@@ -34,13 +50,13 @@ PhoneBook::PhoneBook(const PhoneBook& copy_)
 
 }
 
-//Equal operator
+
 PhoneBook& PhoneBook::operator=(const PhoneBook& rhs)
 {
 
 }
 
-//Other functions
+
 void PhoneBook::Save(std::string filename_) const
 {
 
@@ -60,11 +76,13 @@ void PhoneBook::RemoveEntriesByName(std::string subString_)
 
 PhoneBook::~PhoneBook()
 {
+
 }
 
 std::ostream& operator<<(std::ostream& os_, const PhoneBook& phonebook_)
 {
 	// TODO: insert return statement here
+	return os_;
 }
 
 
