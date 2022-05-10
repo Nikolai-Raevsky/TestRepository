@@ -26,6 +26,12 @@ PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string em
 
 PhoneBook::PhoneBook(std::string filename_)
 {
+	//Tokens
+	std::string nameToken;
+	std::string last_nameToken;
+	std::string emailToken;
+	int regionToken;
+	int numberToken;
 	//Open the file with filename_
 
 	//Store text from the file in the entries array
@@ -37,6 +43,16 @@ PhoneBook::PhoneBook(std::string filename_)
 
 	if (inputFile.is_open())
 	{
+		while (inputFile >> nameToken)
+		{
+			inputFile >> last_nameToken;
+			inputFile >> emailToken;
+			inputFile >> regionToken;
+			inputFile >> numberToken;
+
+			PhoneEntry* newEntry = new PhoneEntry(nameToken, last_nameToken, emailToken, regionToken, numberToken);
+			entries.push_back(newEntry);
+		}
 
 	}
 
