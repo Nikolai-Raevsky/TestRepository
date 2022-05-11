@@ -27,12 +27,12 @@
 
 
 
-//Hello
+/*A non - default PhoneEntry constructor. Initializes the name, last_name, email, region, and number members of PhoneEntry*/
 PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string email_, int region_, int number_) :
 	name(name_), last_name(last_name_), email(email_), region(region_), number(number_)
 {
 }
-
+//A non-default constructor for PhoneBook. Assigns the filename_'s phone entries into the entries vector
 PhoneBook::PhoneBook(std::string filename_)
 {
 	//Tokens
@@ -87,10 +87,13 @@ PhoneBook& PhoneBook::operator=(const PhoneBook& rhs)
 	return *this;
 }
 
-
+//Description: Outputs this PhoneBook to a file
+//Params:
+//	filename_: the name of the file the user wants to output to
 void PhoneBook::Save(std::string filename_) const
 {
 	std::ofstream outputFile(filename_);
+	outputFile << *this;
 	
 }
 
