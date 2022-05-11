@@ -10,7 +10,8 @@
 // 
 // 
 // MISCELLANEOUS NOTES TO HELP ME UNDERSTAND THE ASSIGNMENT BETTER:
-// Each PhoneEntry is dynamically allocated
+// Each PhoneEntry is dynamically allocated into the PhoneBook's PhoneEntry vector (entries)
+// entries is the only private member in PhoneBook (the only thing whose data we're reading and writing in this file
 // Each dynamically allocated entry (which is supposed to be each entry) gets stored into an std::vector
 // The vector contains entry pointers basically
 // Each vector element needs to be individually allocated and freed (the vector doesn't need this to get rid of the pointers because the STL creators have already implemented constructors and destructors that handle allocation and deletion)
@@ -26,7 +27,7 @@
 
 
 
-
+//Hello
 PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string email_, int region_, int number_) :
 	name(name_), last_name(last_name_), email(email_), region(region_), number(number_)
 {
@@ -89,12 +90,14 @@ PhoneBook& PhoneBook::operator=(const PhoneBook& rhs)
 
 void PhoneBook::Save(std::string filename_) const
 {
-
+	std::ofstream outputFile(filename_);
+	
 }
 
 void PhoneBook::AddEntry(const std::string& name_, const std::string& last_name_, const std::string& email_, int region_, int number_)
 {
-
+	PhoneEntry* newEntry = new PhoneEntry(name_, last_name_, email_, region_, number_);
+	entries.push_back(newEntry);
 }
 
 void PhoneBook::SortByName()
