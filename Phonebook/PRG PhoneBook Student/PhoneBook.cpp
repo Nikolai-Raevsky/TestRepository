@@ -56,7 +56,11 @@ PhoneBook::PhoneBook(std::string filename_)
 			inputFile >> last_nameToken;
 			inputFile >> emailToken;
 			inputFile >> regionToken;
+			char tempHyphen;
+			inputFile >> tempHyphen;
 			inputFile >> numberToken;
+			char tempAsterisk;
+			inputFile >> tempAsterisk;
 
 			PhoneEntry* newEntry = new PhoneEntry(nameToken, last_nameToken, emailToken, regionToken, numberToken);
 			entries.push_back(newEntry);
@@ -90,6 +94,7 @@ void PhoneBook::Save(std::string filename_) const
 
 void PhoneBook::AddEntry(const std::string& name_, const std::string& last_name_, const std::string& email_, int region_, int number_)
 {
+
 }
 
 void PhoneBook::SortByName()
@@ -116,7 +121,7 @@ std::ostream& operator<<(std::ostream& os_, const PhoneBook& phonebook_)
 	{
 		os_ << (*iter)->name << " " << (*iter)->last_name << std::endl;
 		os_ << (*iter)->email << std::endl;
-		os_ << (*iter)->region << "-" << (*iter)->number << std::endl << std::endl; //FIX THE OUTPUT STATEMENT
+		os_ << (*iter)->region << "-" << (*iter)->number << std::endl << "*" << std::endl;
 		
 		
 
