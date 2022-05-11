@@ -7,6 +7,14 @@
 //
 // Copyright © 2022 DigiPen (USA) Corporation.
 //
+// 
+// 
+// MISCELLANEOUS NOTES TO HELP ME UNDERSTAND THE ASSIGNMENT BETTER:
+// Each PhoneEntry is dynamically allocated
+// Each dynamically allocated entry (which is supposed to be each entry) gets stored into an std::vector
+// The vector contains entry pointers basically
+// Each vector element needs to be individually allocated and freed (the vector doesn't need this to get rid of the pointers because the STL creators have already implemented constructors and destructors that handle allocation and deletion)
+// In the copy constructor, each entry element in the copy_'s constructor needs to be stored in *this.entries. Not the pointers, but like the data you get when you dereference the pointers
 //--------------------------------------------------
 
 #include "PhoneBook.h"
@@ -63,13 +71,15 @@ PhoneBook::PhoneBook(std::string filename_)
 
 PhoneBook::PhoneBook(const PhoneBook& copy_)
 {
-
+	
 }
 
 
 PhoneBook& PhoneBook::operator=(const PhoneBook& rhs)
 {
 
+	//change this later
+	return *this;
 }
 
 
@@ -92,11 +102,25 @@ void PhoneBook::RemoveEntriesByName(std::string subString_)
 
 PhoneBook::~PhoneBook()
 {
+	//Functions I'll need for this: delete (entries[i])
 
+	for (auto iter = entries.begin(); iter < entries.end(); ++iter)
+	{
+		delete (*iter);
+	}
 }
 
 std::ostream& operator<<(std::ostream& os_, const PhoneBook& phonebook_)
 {
+	for (auto iter = phonebook_.entries.begin(); iter < phonebook_.entries.end(); ++iter)
+	{
+		os_ << (*iter)->name << " " << (*iter)->last_name << std::endl;
+		os_ << (*iter)->email << std::endl;
+		os_ << (*iter)->region << "-" << (*iter)->number << std::endl << std::endl; //FIX THE OUTPUT STATEMENT
+		
+		
+
+	}
 	// TODO: insert return statement here
 	return os_;
 }
