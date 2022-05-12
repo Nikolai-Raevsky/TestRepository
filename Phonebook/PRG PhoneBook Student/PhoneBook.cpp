@@ -24,8 +24,19 @@
 #include <string>
 #include <deque>
 #include <vector>
+#include <algorithm>
 
-
+//Description:
+// Determines whether entry1 is alphabetically before or after entry2
+//Params:
+//	entry1: One of the PhoneEntry pointers the user wants to compare
+//	entry2: The other Phoneentry pointer the user wants to compare
+//Returns:
+//	A bool determining if entry1 is alphabetically before entry2 or not
+bool PhoneEntryCompare(PhoneEntry* entry1, PhoneEntry* entry2)
+{
+	return (entry1->name > entry2->name);
+}
 
 /*A non - default PhoneEntry constructor. Initializes the name, last_name, email, region, and number members of PhoneEntry*/
 PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string email_, int region_, int number_) :
@@ -105,6 +116,8 @@ void PhoneBook::AddEntry(const std::string& name_, const std::string& last_name_
 
 void PhoneBook::SortByName()
 {
+	//I need a comparing function and std::sort for this one
+	std::sort(entries.begin(), entries.end(), PhoneEntryCompare);
 }
 
 void PhoneBook::RemoveEntriesByName(std::string subString_)

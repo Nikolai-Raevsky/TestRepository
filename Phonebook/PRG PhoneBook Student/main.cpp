@@ -89,7 +89,7 @@ int main(void)
 {
     Test1_LoadAndOutput();
     Test2_LoadAndSave();
-    //Test3_Sort();
+    Test3_Sort();
     //Test4_RemoveEntries();
     //Test5_TestConstructors_Assignment();
 
