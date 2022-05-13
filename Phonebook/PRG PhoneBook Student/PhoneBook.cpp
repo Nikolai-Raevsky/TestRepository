@@ -35,7 +35,7 @@
 //	A bool determining if entry1 is alphabetically before entry2 or not
 bool PhoneEntryCompare(PhoneEntry* entry1, PhoneEntry* entry2)
 {
-	return (entry1->name > entry2->name);
+	return (entry1->name < entry2->name);
 }
 
 /*A non - default PhoneEntry constructor. Initializes the name, last_name, email, region, and number members of PhoneEntry*/
@@ -122,6 +122,7 @@ void PhoneBook::SortByName()
 
 void PhoneBook::RemoveEntriesByName(std::string subString_)
 {
+
 }
 
 PhoneBook::~PhoneBook()
@@ -131,6 +132,8 @@ PhoneBook::~PhoneBook()
 	for (auto iter = entries.begin(); iter < entries.end(); ++iter)
 	{
 		delete (*iter);
+		*iter = nullptr;
+		
 	}
 }
 
