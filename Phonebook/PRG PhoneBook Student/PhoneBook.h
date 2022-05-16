@@ -35,10 +35,12 @@ public:
     void SortByName();
     void RemoveEntriesByName(std::string subString_);
     
+    
     ~PhoneBook();
 
 private:
 
     std::vector<PhoneEntry *> entries;
+    void ClearPhoneBook();
     //std::deque<PhoneEntry *> entries;
 };

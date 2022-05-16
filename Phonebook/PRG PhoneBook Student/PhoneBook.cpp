@@ -100,7 +100,11 @@ PhoneBook::PhoneBook(const PhoneBook& copy_)
 
 PhoneBook& PhoneBook::operator=(const PhoneBook& rhs)
 {
-
+	ClearPhoneBook();
+	for (auto iter = rhs.entries.begin(); iter < rhs.entries.end(); ++iter)
+	{
+		AddEntry((*iter)->name, (*iter)->last_name, (*iter)->email, (*iter)->region, (*iter)->number);
+	}
 	//change this later
 	return *this;
 }
@@ -161,18 +165,24 @@ void PhoneBook::RemoveEntriesByName(std::string subString_)
 
 
 }
+
+void PhoneBook::ClearPhoneBook()
+{
+	for (auto iter = entries.begin(); iter < entries.end(); )
+	{
+		delete (*iter);
+		*iter = nullptr;
+		iter = entries.erase(iter);
+	}
+
+}
 //Description:
 //	Deletes the memory of the PhoneEntries that are in the entries vector. 
 PhoneBook::~PhoneBook()
 {
 	//Functions I'll need for this: delete (entries[i])
-
-	for (auto iter = entries.begin(); iter < entries.end(); ++iter)
-	{
-		delete (*iter);
-		*iter = nullptr;
-		
-	}
+	ClearPhoneBook();
+	
 }
 //Description:
 //	Outputs the PhoneEntries in the entries array (all the members of each PhoneEntry) to whichever output stream us programmers or the user chooses
