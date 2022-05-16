@@ -26,24 +26,18 @@
 #include <vector>
 #include <algorithm>
 
-//Description:
-// Determines whether entry1 is alphabetically before or after entry2
-//Params:
-//	entry1: One of the PhoneEntry pointers the user wants to compare
-//	entry2: The other Phoneentry pointer the user wants to compare
-//Returns:
-//	A bool determining if entry1 is alphabetically before entry2 or not
+
 bool PhoneEntryCompare(PhoneEntry* entry1, PhoneEntry* entry2)
 {
 	return (entry1->name < entry2->name);
 }
 
-/*A non - default PhoneEntry constructor. Initializes the name, last_name, email, region, and number members of PhoneEntry*/
+
 PhoneEntry::PhoneEntry(std::string name_, std::string last_name_, std::string email_, int region_, int number_) :
 	name(name_), last_name(last_name_), email(email_), region(region_), number(number_)
 {
 }
-//A non-default constructor for PhoneBook. Assigns the filename_'s phone entries into the entries vector
+
 PhoneBook::PhoneBook(std::string filename_)
 {
 	//Tokens
@@ -52,13 +46,7 @@ PhoneBook::PhoneBook(std::string filename_)
 	std::string emailToken;
 	int regionToken;
 	int numberToken;
-	//Open the file with filename_
-
-	//Store text from the file in the entries array
-
-	//Copy phone entry members into local variables. After the loop is over and all these variables have information, store pointers to those in the phone entries array
-
-	//Use ifstream
+	
 	std::ifstream inputFile(filename_);
 
 	if (inputFile.is_open())
@@ -68,10 +56,10 @@ PhoneBook::PhoneBook(std::string filename_)
 			inputFile >> last_nameToken;
 			inputFile >> emailToken;
 			inputFile >> regionToken;
-			char tempHyphen;
+			char tempHyphen; //Temp to keep hyphen out of PhoneEntry
 			inputFile >> tempHyphen;
 			inputFile >> numberToken;
-			char tempAsterisk;
+			char tempAsterisk;//Temp to keep asterisk out of PhoneEntry
 			inputFile >> tempAsterisk;
 
 			PhoneEntry* newEntry = new PhoneEntry(nameToken, last_nameToken, emailToken, regionToken, numberToken);
@@ -80,7 +68,7 @@ PhoneBook::PhoneBook(std::string filename_)
 
 	}
 
-	//Collect phoneentry members 
+	 
 
 	//Once all the phone entry information is collected add it to phoneentry vector in phonebook
 }
