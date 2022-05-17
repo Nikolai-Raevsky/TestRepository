@@ -69,7 +69,7 @@ public:
     //  subString_ is the text that the PhoneEntry's name has that the user wants to remove. This will generally be a name, but in the driver it can be as small as a pair of characters
     void RemoveEntriesByName(std::string subString_);
     
-    //A PhoneBook Destructor
+    //A PhoneBook Destructor that deletes the PhoneEntry data from entries and erases the pointers from the vector 
     ~PhoneBook();
 
 private:
