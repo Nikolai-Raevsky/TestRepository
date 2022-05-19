@@ -12,6 +12,7 @@ using UnityEngine;
 public class ArthurController : MonoBehaviour
 {
     public float moveSpeed = .5f;
+    public float jumpModifier = .5f;
     Rigidbody2D myRB;
     // Start is called before the first frame update
     void Start()
@@ -54,12 +55,12 @@ public class ArthurController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             //transform.position = new Vector3(transform.position.x, transform.position.y + moveSpeed * Time.deltaTime, transform.position.z);
-            myRB.velocity = new Vector2(0, moveSpeed);
+            myRB.velocity = new Vector2(myRB.velocity.x, jumpModifier * Time.deltaTime);
             //Tomorrow make independent jump height variable
             Debug.Log("Space");
         }
 
-        if(Input.GetKey(KeyCode.None))
+        if (Input.GetKey(KeyCode.None))
         {
             myRB.velocity = new Vector2(0, 0);
         }
