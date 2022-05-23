@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 134248798}
   - component: {fileID: 134248797}
   - component: {fileID: 134248796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,8 +448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c3b4b8da0db384e9444bc0eb63c674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 40
-  jumpModifier: 100
+  moveSpeed: 4
+  jumpModifier: 10
 --- !u!50 &1481692055
 Rigidbody2D:
   serializedVersion: 4
