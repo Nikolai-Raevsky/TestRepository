@@ -14,7 +14,7 @@ public class ArthurController : MonoBehaviour
     public float moveSpeed = .5f;
     public float jumpModifier = .5f;
     Rigidbody2D myRB;
-    bool isGrounded;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -76,10 +76,15 @@ public class ArthurController : MonoBehaviour
             myRB.velocity = new Vector2(myRB.velocity.x, jumpModifier);
             //Tomorrow make independent jump height variable
             Debug.Log("Space");
-            isGrounded = false;
+            
         }
         
         //Stopping the momentum has utmost priority
         
     }
+   private bool isGrounded()
+    {
+        float extraHeightText = 1f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(); //Rewatch https://www.youtube.com/watch?v=c3iEl5AwUF8 later
+    }    
 }
