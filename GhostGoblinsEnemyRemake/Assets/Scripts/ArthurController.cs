@@ -2,6 +2,7 @@
 //Name: Nikolai Raevsky (nikolai.raevsky@digipen.edu)
 //Date: 3/30/2021
 //Description: PlayerControls
+//Credits: 
 //-------------------------
 
 
@@ -14,11 +15,13 @@ public class ArthurController : MonoBehaviour
     public float moveSpeed = .5f;
     public float jumpModifier = .5f;
     Rigidbody2D myRB;
+    private BoxCollider2D myCollider;
     
     // Start is called before the first frame update
     void Start()
     {
-        myRB = GetComponent<Rigidbody2D>();   
+        myRB = GetComponent<Rigidbody2D>();
+        myCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -84,7 +87,16 @@ public class ArthurController : MonoBehaviour
     }
    private bool isGrounded()
     {
-        float extraHeightText = 1f;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(); //Rewatch https://www.youtube.com/watch?v=c3iEl5AwUF8 later
+        float extraHeightText = 0.01f;
+        RaycastHit2D raycastHit = Physics2D.Raycast(myCollider.bounds.center, Vector2.down, myCollider.bounds.extents.y + extraHeightText); //Rewatch https://www.youtube.com/watch?v=c3iEl5AwUF8 later
+        Color rayColor;
+        if (raycastHit.collider != null)
+        {rayColor = Color.green;}
+        
+        else 
+        { rayColor = Color.red; }
+        Debug.DrawRay(myCollider.bounds.center, Vector2.down * (myCollider.bounds.extents.y + extraHeightText));
+        return raycastHit.collider != null;
+    
     }    
 }
