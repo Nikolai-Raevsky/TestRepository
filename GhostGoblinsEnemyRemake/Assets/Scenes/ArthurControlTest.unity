@@ -450,6 +450,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   jumpModifier: 10
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!50 &1481692055
 Rigidbody2D:
   serializedVersion: 4
