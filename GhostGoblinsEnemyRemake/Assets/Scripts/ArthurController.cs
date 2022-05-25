@@ -90,7 +90,7 @@ public class ArthurController : MonoBehaviour
    private bool isGrounded()
     {
         float extraHeightOffset = 0.01f;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(myCollider.bounds.center, myCollider.bounds.size, 0f, Vector2.down, extraHeightOffset, groundLayerMask); //Source: https://www.youtube.com/watch?v=c3iEl5AwUF8 later
+        RaycastHit2D raycastHit = Physics2D.BoxCast(myCollider.bounds.center, myCollider.bounds.size - new Vector3(.1f, 0, 0), 0f, Vector2.down, extraHeightOffset, groundLayerMask); //Source: https://www.youtube.com/watch?v=c3iEl5AwUF8 later
         Color rayColor;
         if (raycastHit.collider != null)
         {
