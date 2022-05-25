@@ -89,8 +89,8 @@ public class ArthurController : MonoBehaviour
     }
    private bool isGrounded()
     {
-        float extraHeightOffset = 0.1f;
-        RaycastHit2D raycastHit = Physics2D.Raycast(myCollider.bounds.center, Vector2.down, myCollider.bounds.extents.y + extraHeightOffset, groundLayerMask); //Source: https://www.youtube.com/watch?v=c3iEl5AwUF8 later
+        float extraHeightOffset = 0.01f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(myCollider.bounds.center, myCollider.bounds.size, 0f, Vector2.down, extraHeightOffset, groundLayerMask); //Source: https://www.youtube.com/watch?v=c3iEl5AwUF8 later
         Color rayColor;
         if (raycastHit.collider != null)
         {
@@ -101,7 +101,10 @@ public class ArthurController : MonoBehaviour
         { 
             rayColor = Color.red; 
         }
-        Debug.DrawRay(myCollider.bounds.center, Vector2.down * (myCollider.bounds.extents.y + extraHeightOffset), rayColor);
+        Debug.DrawRay(myCollider.bounds.center + new Vector3(myCollider.bounds.extents.x, 0), Vector2.down * (myCollider.bounds.extents.y + extraHeightOffset), rayColor);
+        Debug.DrawRay(myCollider.bounds.center - new Vector3(myCollider.bounds.extents.x, 0), Vector2.down * (myCollider.bounds.extents.y + extraHeightOffset), rayColor);
+        Debug.DrawRay(myCollider.bounds.center - new Vector3(myCollider.bounds.extents.x, myCollider.bounds.extents.y), Vector2.right * (2 * myCollider.bounds.extents.x + extraHeightOffset), rayColor);
+        
         Debug.Log(raycastHit.collider);
         return raycastHit.collider != null;
     
