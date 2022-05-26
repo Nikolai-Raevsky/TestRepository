@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 1084289695}
   - component: {fileID: 1084289699}
   m_Layer: 6
-  m_Name: Ground (1)
+  m_Name: Effector Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -507,14 +507,14 @@ SurfaceEffector2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084289694}
   m_Enabled: 1
-  m_UseColliderMask: 1
+  m_UseColliderMask: 0
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 1
+  m_Speed: -10
   m_SpeedVariation: 0
-  m_ForceScale: 0.1
-  m_UseContactForce: 0
+  m_ForceScale: 0.5
+  m_UseContactForce: 1
   m_UseFriction: 1
   m_UseBounce: 1
 --- !u!1001 &1266727990
@@ -526,7 +526,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4243497121358923305, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_Name
-      value: Ground (7)
+      value: TestCrate
+      objectReference: {fileID: 0}
+    - target: {fileID: 4243497121358923305, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4243497121358923309, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_RootOrder
@@ -534,11 +538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4243497121358923309, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.28
+      value: -2.95
       objectReference: {fileID: 0}
     - target: {fileID: 4243497121358923309, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.48
+      value: -1.49
       objectReference: {fileID: 0}
     - target: {fileID: 4243497121358923309, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -571,6 +575,14 @@ PrefabInstance:
     - target: {fileID: 4243497121358923309, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4243497121358923311, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4243497121358923311, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51e7cd89bcef88848a49ad0fbb0dde23, type: 3}
@@ -710,7 +722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481692051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.91, y: -2.44, z: 0}
+  m_LocalPosition: {x: 6.78, y: -2.66, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -765,7 +777,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
