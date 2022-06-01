@@ -17,7 +17,8 @@ public class ArthurController : MonoBehaviour
     Rigidbody2D myRB;
     private BoxCollider2D myCollider;
     [SerializeField] private LayerMask groundLayerMask;
-    
+    [SerializeField] private float extraHeightOffset = 0.01f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -89,7 +90,7 @@ public class ArthurController : MonoBehaviour
     }
    private bool isGrounded()
     {
-        float extraHeightOffset = 0.01f;
+        
         RaycastHit2D raycastHit = Physics2D.BoxCast(myCollider.bounds.center, myCollider.bounds.size - new Vector3(.1f, 0, 0), 0f, Vector2.down, extraHeightOffset, groundLayerMask); //Source: https://www.youtube.com/watch?v=c3iEl5AwUF8 later
         Color rayColor;
         if (raycastHit.collider != null)
