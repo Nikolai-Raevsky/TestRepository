@@ -18,6 +18,7 @@ public class ArthurController : MonoBehaviour
     private BoxCollider2D myCollider;
     [SerializeField] private LayerMask groundLayerMask;
     [SerializeField] private float extraHeightOffset = 0.01f;
+    
 
     // Start is called before the first frame update
     void Start()
