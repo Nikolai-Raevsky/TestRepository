@@ -102,6 +102,7 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  extraHeightOffset: 0.04
 --- !u!50 &5313883152262015896
 Rigidbody2D:
   serializedVersion: 4
