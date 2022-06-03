@@ -18,7 +18,7 @@ public class ArthurController : MonoBehaviour
     private BoxCollider2D myCollider;
     [SerializeField] private LayerMask groundLayerMask;
     [SerializeField] private float extraHeightOffset = 0.01f;
-    
+    private Vector2 moveDirection = new Vector2(0, 0);
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +50,7 @@ public class ArthurController : MonoBehaviour
         {
             //transform.position = new Vector3(transform.position.x + moveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
             myRB.velocity = new Vector2(moveSpeed, myRB.velocity.y);
+            moveDirection.x += 1;
             Debug.Log("right");
             
         }
@@ -64,6 +65,7 @@ public class ArthurController : MonoBehaviour
         {
             //transform.position = new Vector3(transform.position.x - moveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
             myRB.velocity = new Vector2(-moveSpeed, myRB.velocity.y);
+            moveDirection.x -= 1;
             Debug.Log("left");
             
         }
