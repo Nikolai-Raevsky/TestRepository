@@ -79,17 +79,20 @@ public class ArthurController : MonoBehaviour
         {
             myRB.velocity = new Vector2(0, myRB.velocity.y);
         }
+        //OPTION 2 TO PUT THE ASSIGNMENT OF MOVEDIRECTION TO THE OBJECT VELOCITY
         if (isGrounded() && Input.GetKey("space"))
         {
             //transform.position = new Vector3(transform.position.x, transform.position.y + moveSpeed * Time.deltaTime, transform.position.z);
             myRB.velocity = new Vector2(myRB.velocity.x, jumpModifier);
+            moveDirection.y = (1 * jumpModifier); 
             //Tomorrow make independent jump height variable
             Debug.Log("Space");
             
         }
+         else { moveDirection.y = 0; }
         
         //Stopping the momentum has utmost priority
-        
+        //OPTION 1 TO PUT THE ASSIGNMENT OF MOVEDIRECTION TO THE OBJECT VELOCITY
     }
    private bool isGrounded()
     {
